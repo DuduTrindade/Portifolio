@@ -1,5 +1,5 @@
 
-
+[](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Banner%202.png.webp)
 
 ## Introdução
 
