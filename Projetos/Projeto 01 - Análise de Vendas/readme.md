@@ -9,7 +9,7 @@ Este projeto tem como foco a análise de dados de uma empresa fictícia de varej
 
 Ao longo desta análise, utilizarei o SQL como principal ferramenta para explorar e interpretar os dados de vendas, buscando responder a perguntas estratégicas que podem orientar decisões empresariais fundamentais. Desde a identificação dos produtos mais vendidos e a avaliação do desempenho por região ou canal de vendas, até a análise das taxas de devolução e a segmentação de clientes mais valiosos, cada consulta SQL será projetada para extrair insights acionáveis. Esses insights, por sua vez, servirão como base para a implementação de ações concretas que visam melhorar a eficiência operacional, aumentar a satisfação do cliente e impulsionar o crescimento sustentável da empresa.
 
-Combinando o poder do SQL com uma abordagem analítica estruturada, este projeto não apenas demonstra a importância da análise de dados no contexto empresarial, mas também ilustra como a tecnologia pode ser utilizada para transformar dados brutos em conhecimento estratégico, capacitando organizações a tomar decisões mais informadas e assertivas. Retornar ao [início.](https://github.com/DuduTrindade/AnaliseDados/tree/main?tab=readme-ov-file#todos-os-meus-projetos)
+Combinando o poder do SQL com uma abordagem analítica estruturada, este projeto não apenas demonstra a importância da análise de dados no contexto empresarial, mas também ilustra como a tecnologia pode ser utilizada para transformar dados brutos em conhecimento estratégico, capacitando organizações a tomar decisões mais informadas e assertivas. Retornar ao [início.](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#projetos)
 
 
 ## Estrutura do Conjunto de Dados
