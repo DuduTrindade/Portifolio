@@ -1,5 +1,5 @@
 
-![](https://github.com/DuduTrindade/AnaliseDados/blob/main/imagens/IMG01.jpg)
+![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/portf%C3%B3lio%20(1).png)
 
 Olá, seja bem-vindo(a) ao meu repositório de projetos de análises de dados.
 
