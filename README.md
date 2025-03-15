@@ -1,6 +1,6 @@
 
 
-div align="center" style="display: inline-block;">
+<div align="center" style="display: inline-block;">
 	<img  width="680" src="https://github.com/DuduTrindade/Portifolio/blob/main/imagens/portf%C3%B3lio%20(1).png">
 </div>
 
