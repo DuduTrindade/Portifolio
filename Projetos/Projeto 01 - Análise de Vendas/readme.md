@@ -209,7 +209,7 @@ ORDER BY Faixa_Etaria, Total_Genero DESC;
 ~~~
 
 <div style="display: inline-block;">
-	<img width="300" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Resultado%20analise%20cliente.png">
+	<img width="310" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Resultado%20analise%20cliente.png">
 	<img width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/GRAFICO%20CLIENTES.png">
 </div> 
 <br>
