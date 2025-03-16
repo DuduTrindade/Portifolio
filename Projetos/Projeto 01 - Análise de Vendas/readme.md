@@ -70,7 +70,7 @@ Descrição: Esta tabela registra as devoluções de produtos. Segue abaixo os c
 #### Tabela de Itens
 
 <div style="display: inline-block;">
-	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20ITENS.png">
+	<img width="300" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20ITENS.png">
 </div>
 
 
@@ -86,7 +86,7 @@ Descrição: Esta tabela detalha os itens vendidos em cada transação. Segue ab
 #### Tabela de Localidades
 
 <div style="display: inline-block;">
-	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOCALIDADES.png">
+	<img width="300" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20LOCALIDADES.png">
 </div>
 
 
@@ -100,7 +100,7 @@ Descrição: Armazena informações geográficas. Segue abaixo os campos:
 #### Tabela de Lojas
 
 <div style="display: inline-block;">
-	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20LOJAS.png">
+	<img width="650" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20LOJAS.png">
 </div>
 
 
@@ -119,7 +119,7 @@ Descrição: Esta tabela contém informações detalhadas sobre as lojas da empr
 #### Tabela de Produtos
 
 <div style="display: inline-block;">
-	<img width="650" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20PRODUTOS.png">
+	<img width="650" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20PRODUTOS.png">
 </div>
 
 
@@ -137,7 +137,7 @@ Descrição: Armazena informações sobre os produtos vendidos. Segue abaixo os 
 #### Tabela de Vendas
 
 <div style="display: inline-block;">
-	<img width="300" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20VENDAS.png">
+	<img width="300" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20VENDAS.png">
 </div>
 
 
