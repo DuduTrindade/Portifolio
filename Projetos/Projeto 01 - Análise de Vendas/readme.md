@@ -54,7 +54,7 @@ Descrição: Esta tabela contém informações dos clientes. Segue abaixo os cam
 #### Tabela de Devoluções
 
 <div style="display: inline-block;">
-	<img width="500" src="https://github.com/DuduTrindade/AnaliseDados/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas%20com%20SQL/img/TABELA%20DEVOLU%C3%87%C3%95ES.png">
+	<img width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELA%20DEVOLU%C3%87%C3%95ES.png">
 </div>
 
 
