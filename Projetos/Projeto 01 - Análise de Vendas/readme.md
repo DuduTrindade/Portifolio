@@ -34,7 +34,7 @@ Nesta análise estou utilizando o Sistema de Gerenciamento de Banco de Dados (SG
 #### Tabela de Clientes
 
 <div style="display: inline-block;">
-	<img width="800" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELAS%20CLIENTES.png">
+	<img width="750" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/TABELAS%20CLIENTES.png">
 </div>
 
 
