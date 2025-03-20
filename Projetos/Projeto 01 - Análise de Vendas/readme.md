@@ -1,6 +1,10 @@
 
 ![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/AN%C3%81LISE%20DE%20VENDAS.png)
 
+<div align="left" style="display: inline-block;">
+	<img  width="850" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/AN%C3%81LISE%20DE%20VENDAS.png">
+</div>
+
 ## Introdução
 
 No cenário atual, onde os dados são frequentemente comparados ao petróleo pela sua capacidade de gerar valor e impulsionar decisões estratégicas, a análise eficiente de informações tornou-se um pilar fundamental para empresas que desejam se manter competitivas e ágeis em um mercado cada vez mais dinâmico. Dentre as diversas áreas de aplicação da análise de dados, o setor de vendas destaca-se como um dos mais críticos, pois oferece insights profundos sobre o comportamento do consumidor, tendências de mercado e oportunidades de otimização de estratégias comerciais. Nesse contexto, o SQL (Structured Query Language) emerge como uma ferramenta indispensável, permitindo a extração, manipulação e análise de grandes volumes de dados de forma rápida, precisa e escalável.
