@@ -2,7 +2,7 @@
 ![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/AN%C3%81LISE%20DE%20VENDAS.png)
 
 <div align="left" style="display: inline-block;">
-	<img  width="850" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/AN%C3%81LISE%20DE%20VENDAS.png">
+	<img  width="950" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/AN%C3%81LISE%20DE%20VENDAS.png">
 </div>
 
 ## Introdução
