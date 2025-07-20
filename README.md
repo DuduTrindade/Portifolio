@@ -12,9 +12,7 @@ A proposta é criar soluções baseadas em dados, onde cada projeto traz uma abo
 Neste espaço, você encontrará uma coleção dos meus projetos, cada um cuidadosamente documentado com explicações detalhadas e códigos comentados. O objetivo é tornar cada projeto acessível, 
 facilitando sua compreensão, reprodução e oferecendo uma oportunidade enriquecedora de aprendizado
 
-* #### [Todos os Meus Projetos](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#projetos)
-
-* #### [Análises de dados com SQL](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#sql)
+* #### [Meus Projetos](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#projetos)
 
 
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contato 
