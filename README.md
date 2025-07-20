@@ -12,7 +12,7 @@ A proposta é criar soluções baseadas em dados, onde cada projeto traz uma abo
 Neste espaço, você encontrará uma coleção dos meus projetos, cada um cuidadosamente documentado com explicações detalhadas e códigos comentados. O objetivo é tornar cada projeto acessível, 
 facilitando sua compreensão, reprodução e oferecendo uma oportunidade enriquecedora de aprendizado
 
-* #### [Meus Projetos](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#projetos)
+* #### [Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projetos%20(1).ipynb)
 
 
 ## ![]() Contato 
