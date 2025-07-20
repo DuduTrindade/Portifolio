@@ -1,5 +1,5 @@
 
-![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/Capa%20GitHub%20Portif%C3%B3lio.png)
+![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/IMG01.jpg)
 
 
 Olá, seja bem-vindo(a) ao meu Portifólio de análises de dados.
