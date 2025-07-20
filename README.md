@@ -15,7 +15,7 @@ facilitando sua compreensão, reprodução e oferecendo uma oportunidade enrique
 * #### [Meus Projetos](https://github.com/DuduTrindade/Portifolio/tree/main/Projetos#projetos)
 
 
-## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contato 
+## ![]() Contato 
 
 Sinta-se à vontade para entrar em contato comigo a qualquer momento, estarei à disposição para ajudar no que for necessário.
 
