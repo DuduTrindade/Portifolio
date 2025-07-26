@@ -1,4 +1,4 @@
-![banner.png](9196ce79-1da7-47c8-8ec0-e6cc21b981f7.png)
+![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/banner.png)
 
 <p style="text-align: justify;">
 Olá, seja bem-vindo(a) ao meu Portifólio de análises de dados.
