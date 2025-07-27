@@ -9,7 +9,7 @@ Aqui você encontrará meus principais projetos que desenvolvo para mostrar meus
 ##  📁Projetos
 
 <p style="text-align: justify;">
-Neste espaço, você encontrará uma coleção dos meus projetos, cada um cuidadosamente documentado com explicações detalhadas e códigos comentados. O objetivo é tornar cada projeto acessível, facilitando sua compreensão, reprodução e oferecendo uma oportunidade enriquecedora de aprendizado
+Neste espaço, você encontrará uma coleção dos meus projetos, cada um documentado com explicações detalhadas e códigos comentados. O objetivo é tornar cada projeto acessível, facilitando sua compreensão, reprodução e oferecendo uma oportunidade enriquecedora de aprendizado
 </p>
 
 * #### [Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projetos.ipynb)
