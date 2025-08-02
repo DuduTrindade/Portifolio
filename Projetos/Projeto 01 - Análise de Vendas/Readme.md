@@ -33,7 +33,7 @@ Por fim, a **Etapa 05 – Relatório** apresenta os resultados em formatos claro
 </p>
 
 <p style="text-align: center;">
-<img align="center" width='190' height = '190' src="6797f44d-2135-4e87-97aa-8a9ff37d1408.png"/>
+<img align="center" width='190' height = '190' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png"/>
 
 </p>
 
