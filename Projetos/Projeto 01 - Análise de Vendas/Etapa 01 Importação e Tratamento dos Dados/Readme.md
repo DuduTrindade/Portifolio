@@ -1,6 +1,6 @@
-# 📥Etapa 01 - Importação e Tratamento dos Dados
+<h1>📥Etapa 01 - Importação e Tratamento dos Dados</h1> 
 
-<h3>Importando os Dados</h3> 
+## Importando os Dados
 Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a> dos arquivos.
 
 Os arquivos são compostos pelas seguintes tabelas:
