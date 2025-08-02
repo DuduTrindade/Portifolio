@@ -2,7 +2,7 @@
 
 -- Inspecionando as Tabelas
 
-SELECT TOP (10) 
+SELECT TOP (15) 
        [ID_Cliente]
       ,[Primeiro_Nome]
       ,[Sobrenome]
