@@ -21,6 +21,8 @@ Aqui está o script de importação dos dados: <a href="https://github.com/DuduT
 
 ## Inspecionando as Tabelas Importadas
 
+Agora iremos verificar como os dados estão dispostos em cada tabela, para isso utilizarei o comando sql **SELECT** que seleciona as colunas do banco de dados.
+
 ## Tratamento dos dados
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
 
