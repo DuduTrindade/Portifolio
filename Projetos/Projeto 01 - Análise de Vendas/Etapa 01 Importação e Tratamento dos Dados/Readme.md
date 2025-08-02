@@ -1,4 +1,4 @@
-## 📥Etapa 01 - Importação e Tratamento dos Dados
+# 📥Etapa 01 - Importação e Tratamento dos Dados
 Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados.
 
 Os arquivos são compostos pelas seguintes tabelas:
@@ -15,9 +15,9 @@ Esse comando é usado para importar dados de arquivos externos (como .csv, .txt,
 Aqui está o script de importação dos dados: <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Importacao%20dos%20Dados.sql">link</a>
 
 
-### Inspecionando as Tabelas Importadas
+## Inspecionando as Tabelas Importadas
 
-### Tratamento dos dados
+## Tratamento dos dados
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
 
 - Verificação dos dados
