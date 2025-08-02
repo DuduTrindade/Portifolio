@@ -8,12 +8,13 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 
 
-**Objetivo:**  Apresentar um relatório com insights que possam apoiar a tomada de decisões.
+**Objetivo:**  Apresentar um relatório com insights que possam apoiar a tomada de decisões.
 
 ## 🛠️Tecnologias Utilizadas
-- Excel
-- SQL (SQL Server)
-- Power Bi
+
+- **Excel**
+- **SQL** (SQL Server)
+- **Power BI**
 
 ## 🗂️Etapas do Projeto
 

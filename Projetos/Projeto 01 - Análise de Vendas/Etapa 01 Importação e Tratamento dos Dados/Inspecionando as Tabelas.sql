@@ -2,8 +2,6 @@
 
 -- Inspecionando as Tabelas
 
--- Verificar dados duplicados
-
 SELECT TOP (10) 
        [ID_Cliente]
       ,[Primeiro_Nome]
