@@ -24,7 +24,7 @@ Aqui está o script de importação dos dados: <a href="https://github.com/DuduT
 A seguir, vamos examinar como os dados estão organizados em cada tabela do banco de dados. Para esta análise, usarei o comando SQL **SELECT**, que nos permite consultar e visualizar as informações contidas nas colunas de cada tabela.
 
 <div align="center" style="display: inline-block;">
-	<img  width="650" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
+	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
 </div>
 
 
