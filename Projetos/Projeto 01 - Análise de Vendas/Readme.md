@@ -21,7 +21,7 @@ Este projeto de análise de vendas é dividido em seis etapas principais:
 
 
 <div align="center" style="display: inline-block;">
-	<img  width="400" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png">
+	<img  width="150" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png">
 </div>
 
 
