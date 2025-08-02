@@ -1,11 +1,12 @@
-## 🔍Analisando Vendas de Produtos Eletrônicos
-<p style="text-align: justify;">
+# 🔍Analisando Vendas de Produtos Eletrônicos
+
+<div style="text-align: justify;">
 Este projeto tem como foco a análise de dados da empresa fictícia Nova Varejo que atua nos segmentos de eletrônicos e vestuário. Com um portfólio diversificado que inclui desde dispositivos móveis, computadores e acessórios tecnológicos de ponta até camisas, casacos e relógios, a empresa possui uma presença global, operando em múltiplos continentes por meio de canais online e lojas físicas. Seu público-alvo abrange desde consumidores individuais até pequenas e grandes empresas, o que demanda uma abordagem analítica abrangente e detalhada.
     
 ## 📝Entendimento do Negócio
 Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui designado para realizar uma análise descritiva com base nas vendas das lojas físicas e da plataforma de e-commerce da empresa, no período de janeiro/20 a junho/22. A liderança quer entender melhor o comportamento dos clientes, desempenho dos produtos e lojas em diferentes regiões, otimizar estratégias de vendas e reduzir custos.
 
-</p>
+</div>
 
 **Objetivo:**  Apresentar um relatório com insights que possam apoiar a tomada de decisões.
 
