@@ -12,10 +12,10 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 ## 🛠️Tecnologias Utilizadas
 
-<div align="center" style="display: inline-block;">
-	- <img  width="170" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Excel.png">**Excel**
-	- **SQL** (SQL Server)
-	- **Power BI**
+<div align="left" style="display: inline-block;">
+	<img  width="50" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Excel.png">**Excel**
+	<img  width="50" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Excel.png">**SQL** (SQL Server)
+	<img  width="50" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Excel.png">**Power BI**
 </div>
 
 ## 🗂️Etapas do Projeto
