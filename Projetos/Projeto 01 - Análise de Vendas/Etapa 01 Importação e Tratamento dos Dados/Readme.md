@@ -69,3 +69,4 @@ Agora iremos verificar como os dados estão dispostos em cada tabela do banco de
 - Remoção de duplicatas
 - Padronização de formatos (datas)
 - Identificação dos valores ausentes
+- Correção de erros e inconsistências
