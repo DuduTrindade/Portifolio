@@ -19,9 +19,10 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 Este projeto de análise de vendas é dividido em seis etapas principais:
 
 
-<img align="center" width='200' height = '300' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png"/>
 
-
+<div align="center" style="display: inline-block;">
+	<img  width="400" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png">
+</div>
 
 
 
