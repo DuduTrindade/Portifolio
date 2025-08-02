@@ -1,8 +1,8 @@
-Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
+Data_Devolucao;ID_Loja;SKU;Qtd_Devolvida;Motivo_Devolucao
 18/01/2020;309;HL45;1;Produto com defeito
 18/01/2020;306;HL43;1;Produto com defeito
 21/01/2020;41;HL67;1;Produto com defeito
-22/01/2020;306;HL44;1;Não informado
+22/01/2020;306;HL44;1;Nao informado
 02/02/2020;309;HL45;1;Produto com defeito
 15/02/2020;2;HL45;1;Produto com defeito
 19/02/2020;308;HL44;1;Produto com defeito
@@ -22,7 +22,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/04/2020;307;HL44;1;Produto com defeito
 10/04/2020;261;HL56;1;Produto com defeito
 15/04/2020;306;HL45;1;Arrependimento
-16/04/2020;199;HL70;1;Não informado
+16/04/2020;199;HL70;1;Nao informado
 20/04/2020;306;HL43;1;Produto com defeito
 21/04/2020;12;HL45;1;Produto com defeito
 25/04/2020;191;HL55;1;Produto com defeito
@@ -43,9 +43,9 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 30/05/2020;291;HL47;1;Produto com defeito
 05/06/2020;310;HL46;1;Produto com defeito
 07/06/2020;170;HL64;1;Produto com defeito
-20/06/2020;307;HL68;1;Não informado
+20/06/2020;307;HL68;1;Nao informado
 24/06/2020;307;HL53;1;Arrependimento
-03/07/2020;199;HL87;1;Não informado
+03/07/2020;199;HL87;1;Nao informado
 11/07/2020;275;HL94;1;Produto com defeito
 22/07/2020;231;HL90;1;Produto com defeito
 14/08/2020;183;HL89;1;Produto com defeito
@@ -125,7 +125,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 31/05/2021;183;HL84;1;Produto com defeito
 10/06/2021;205;HL75;1;Produto com defeito
 12/06/2021;307;HL91;1;Produto com defeito
-13/06/2021;307;HL86;1;Não informado
+13/06/2021;307;HL86;1;Nao informado
 15/06/2021;308;HL59;1;Produto com defeito
 19/06/2021;200;HL57;1;Produto com defeito
 21/06/2021;111;HL83;1;Produto com defeito
@@ -168,7 +168,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 26/07/2021;284;HL215;1;Produto com defeito
 28/07/2021;154;HL89;1;Produto com defeito
 28/07/2021;3;HL172;1;Produto com defeito
-29/07/2021;306;HL152;1;Não informado
+29/07/2021;306;HL152;1;Nao informado
 29/07/2021;309;HL167;1;Produto com defeito
 29/07/2021;270;HL174;1;Produto com defeito
 29/07/2021;308;HL167;1;Produto com defeito
@@ -181,8 +181,8 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 02/08/2021;144;HL164;1;Produto com defeito
 02/08/2021;127;HL164;1;Produto com defeito
 02/08/2021;284;HL226;1;Produto com defeito
-03/08/2021;306;HL8;1;Não informado
-03/08/2021;307;HL224;1;Não informado
+03/08/2021;306;HL8;1;Nao informado
+03/08/2021;307;HL224;1;Nao informado
 03/08/2021;144;HL227;1;Produto com defeito
 04/08/2021;200;HL165;1;Produto com defeito
 05/08/2021;17;HL171;1;Produto com defeito
@@ -225,12 +225,12 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 15/08/2021;200;HL215;1;Produto com defeito
 15/08/2021;154;HL216;1;Produto com defeito
 15/08/2021;296;HL223;1;Produto com defeito
-15/08/2021;170;HL8;1;Troca Indisponível
+15/08/2021;170;HL8;1;Troca Indispon vel
 15/08/2021;307;HL165;1;Arrependimento
 15/08/2021;45;HL225;1;Produto com defeito
 15/08/2021;100;HL7;1;Produto com defeito
 16/08/2021;73;HL75;1;Produto com defeito
-16/08/2021;199;HL172;1;Não informado
+16/08/2021;199;HL172;1;Nao informado
 16/08/2021;199;HL165;1;Produto com defeito
 17/08/2021;310;HL5;1;Produto com defeito
 17/08/2021;243;HL226;1;Produto com defeito
@@ -243,7 +243,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 19/08/2021;199;HL6;1;Produto com defeito
 20/08/2021;162;HL216;1;Produto com defeito
 20/08/2021;110;HL5;1;Produto com defeito
-20/08/2021;109;HL8;1;Troca Indisponível
+20/08/2021;109;HL8;1;Troca Indispon vel
 20/08/2021;91;HL216;1;Produto com defeito
 20/08/2021;267;HL217;1;Produto com defeito
 21/08/2021;120;HL1;1;Produto com defeito
@@ -262,14 +262,14 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 24/08/2021;10;HL167;1;Produto com defeito
 24/08/2021;310;HL167;1;Produto com defeito
 25/08/2021;309;HL2;1;Produto com defeito
-25/08/2021;215;HL9;1;Troca Indisponível
+25/08/2021;215;HL9;1;Troca Indispon vel
 25/08/2021;306;HL252;1;Produto com defeito
-25/08/2021;199;HL174;1;Não informado
+25/08/2021;199;HL174;1;Nao informado
 25/08/2021;27;HL216;1;Produto com defeito
 25/08/2021;9;HL227;1;Produto com defeito
 26/08/2021;117;HL163;1;Produto com defeito
 26/08/2021;257;HL78;1;Produto com defeito
-26/08/2021;1;HL7;1;Troca Indisponível
+26/08/2021;1;HL7;1;Troca Indispon vel
 26/08/2021;89;HL154;1;Produto com defeito
 27/08/2021;281;HL164;1;Produto com defeito
 27/08/2021;308;HL164;1;Produto com defeito
@@ -283,12 +283,12 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 29/08/2021;307;HL216;1;Arrependimento
 30/08/2021;199;HL164;1;Produto com defeito
 30/08/2021;174;HL167;2;Produto com defeito
-30/08/2021;281;HL153;1;Troca Indisponível
+30/08/2021;281;HL153;1;Troca Indispon vel
 30/08/2021;307;HL169;1;Produto com defeito
 30/08/2021;252;HL215;1;Produto com defeito
 30/08/2021;200;HL226;1;Produto com defeito
 30/08/2021;309;HL166;1;Produto com defeito
-30/08/2021;307;HL216;1;Não informado
+30/08/2021;307;HL216;1;Nao informado
 30/08/2021;200;HL217;1;Produto com defeito
 31/08/2021;275;HL167;1;Produto com defeito
 31/08/2021;308;HL255;1;Produto com defeito
@@ -341,7 +341,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 12/09/2021;69;HL1;1;Produto com defeito
 12/09/2021;310;HL223;1;Produto com defeito
 13/09/2021;11;HL76;1;Produto com defeito
-13/09/2021;127;HL161;1;Troca Indisponível
+13/09/2021;127;HL161;1;Troca Indispon vel
 13/09/2021;25;HL164;1;Produto com defeito
 13/09/2021;194;HL164;1;Produto com defeito
 13/09/2021;200;HL165;1;Produto com defeito
@@ -384,7 +384,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 23/09/2021;277;HL178;1;Produto com defeito
 23/09/2021;27;HL228;1;Produto com defeito
 23/09/2021;199;HL248;1;Arrependimento
-24/09/2021;136;HL9;1;Troca Indisponível
+24/09/2021;136;HL9;1;Troca Indispon vel
 24/09/2021;310;HL222;1;Produto com defeito
 24/09/2021;76;HL161;1;Produto com defeito
 24/09/2021;251;HL2;1;Produto com defeito
@@ -440,7 +440,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 06/10/2021;240;HL165;1;Produto com defeito
 06/10/2021;288;HL175;1;Produto com defeito
 07/10/2021;225;HL225;1;Produto com defeito
-07/10/2021;31;HL10;1;Troca Indisponível
+07/10/2021;31;HL10;1;Troca Indispon vel
 08/10/2021;281;HL223;1;Produto com defeito
 08/10/2021;200;HL164;1;Produto com defeito
 08/10/2021;169;HL167;1;Produto com defeito
@@ -450,12 +450,12 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/10/2021;287;HL6;1;Produto com defeito
 09/10/2021;173;HL8;1;Produto com defeito
 09/10/2021;169;HL217;1;Produto com defeito
-09/10/2021;193;HL10;1;Troca Indisponível
+09/10/2021;193;HL10;1;Troca Indispon vel
 09/10/2021;265;HL164;1;Produto com defeito
-09/10/2021;310;HL153;1;Troca Indisponível
+09/10/2021;310;HL153;1;Troca Indispon vel
 09/10/2021;299;HL167;1;Produto com defeito
 09/10/2021;53;HL216;1;Produto com defeito
-10/10/2021;211;HL9;1;Troca Indisponível
+10/10/2021;211;HL9;1;Troca Indispon vel
 10/10/2021;306;HL153;1;Produto com defeito
 10/10/2021;200;HL224;1;Produto com defeito
 10/10/2021;306;HL165;1;Produto com defeito
@@ -467,13 +467,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 11/10/2021;300;HL215;1;Produto com defeito
 11/10/2021;200;HL287;1;Produto com defeito
 11/10/2021;307;HL217;1;Produto com defeito
-12/10/2021;128;HL163;1;Troca Indisponível
+12/10/2021;128;HL163;1;Troca Indispon vel
 12/10/2021;200;HL224;1;Produto com defeito
 12/10/2021;310;HL226;1;Produto com defeito
 12/10/2021;306;HL77;1;Produto com defeito
 12/10/2021;124;HL1;1;Produto com defeito
 12/10/2021;93;HL2;1;Produto com defeito
-13/10/2021;310;HL6;1;Troca Indisponível
+13/10/2021;310;HL6;1;Troca Indispon vel
 13/10/2021;192;HL92;1;Produto com defeito
 13/10/2021;92;HL227;1;Produto com defeito
 14/10/2021;108;HL268;1;Produto com defeito
@@ -483,7 +483,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 15/10/2021;199;HL73;1;Arrependimento
 16/10/2021;294;HL166;1;Produto com defeito
 16/10/2021;309;HL172;1;Produto com defeito
-16/10/2021;308;HL176;1;Troca Indisponível
+16/10/2021;308;HL176;1;Troca Indispon vel
 16/10/2021;309;HL91;1;Produto com defeito
 17/10/2021;309;HL167;1;Produto com defeito
 17/10/2021;128;HL217;1;Produto com defeito
@@ -496,9 +496,9 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 20/10/2021;302;HL154;1;Produto com defeito
 20/10/2021;179;HL167;1;Produto com defeito
 20/10/2021;308;HL222;1;Produto com defeito
-20/10/2021;98;HL153;1;Troca Indisponível
+20/10/2021;98;HL153;1;Troca Indispon vel
 20/10/2021;70;HL165;1;Produto com defeito
-21/10/2021;46;HL6;1;Troca Indisponível
+21/10/2021;46;HL6;1;Troca Indispon vel
 21/10/2021;219;HL169;1;Produto com defeito
 21/10/2021;177;HL2;1;Produto com defeito
 21/10/2021;199;HL224;1;Produto com defeito
@@ -517,13 +517,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 25/10/2021;243;HL227;1;Produto com defeito
 25/10/2021;310;HL293;1;Produto com defeito
 25/10/2021;307;HL164;1;Arrependimento
-25/10/2021;269;HL168;1;Troca Indisponível
+25/10/2021;269;HL168;1;Troca Indispon vel
 25/10/2021;15;HL172;1;Produto com defeito
 26/10/2021;309;HL95;1;Produto com defeito
 26/10/2021;309;HL215;1;Produto com defeito
 26/10/2021;300;HL216;1;Produto com defeito
 26/10/2021;244;HL217;1;Produto com defeito
-26/10/2021;127;HL175;1;Troca Indisponível
+26/10/2021;127;HL175;1;Troca Indispon vel
 26/10/2021;140;HL165;1;Produto com defeito
 26/10/2021;8;HL228;1;Produto com defeito
 27/10/2021;63;HL5;1;Produto com defeito
@@ -594,7 +594,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 10/11/2021;286;HL172;1;Produto com defeito
 11/11/2021;213;HL5;1;Produto com defeito
 12/11/2021;307;HL167;1;Produto com defeito
-12/11/2021;306;HL293;1;Não informado
+12/11/2021;306;HL293;1;Nao informado
 12/11/2021;175;HL164;1;Produto com defeito
 12/11/2021;282;HL222;1;Produto com defeito
 12/11/2021;16;HL228;1;Produto com defeito
@@ -627,7 +627,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 18/11/2021;178;HL228;1;Produto com defeito
 18/11/2021;85;HL5;1;Produto com defeito
 18/11/2021;309;HL216;1;Produto com defeito
-18/11/2021;306;HL270;1;Não informado
+18/11/2021;306;HL270;1;Nao informado
 18/11/2021;309;HL271;1;Produto com defeito
 19/11/2021;310;HL5;1;Produto com defeito
 19/11/2021;48;HL89;1;Produto com defeito
@@ -638,7 +638,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 19/11/2021;200;HL1;1;Produto com defeito
 19/11/2021;307;HL269;1;Arrependimento
 20/11/2021;237;HL168;1;Produto com defeito
-20/11/2021;134;HL152;1;Troca Indisponível
+20/11/2021;134;HL152;1;Troca Indispon vel
 20/11/2021;98;HL225;1;Produto com defeito
 20/11/2021;307;HL216;1;Produto com defeito
 20/11/2021;116;HL174;1;Produto com defeito
@@ -655,7 +655,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 23/11/2021;307;HL166;1;Produto com defeito
 23/11/2021;200;HL2;1;Produto com defeito
 23/11/2021;310;HL163;1;Produto com defeito
-23/11/2021;199;HL1;1;Não informado
+23/11/2021;199;HL1;1;Nao informado
 24/11/2021;200;HL5;1;Produto com defeito
 24/11/2021;91;HL215;1;Produto com defeito
 24/11/2021;297;HL223;1;Produto com defeito
@@ -674,7 +674,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 28/11/2021;112;HL217;1;Produto com defeito
 28/11/2021;310;HL164;1;Produto com defeito
 28/11/2021;309;HL2;1;Produto com defeito
-28/11/2021;199;HL276;1;Não informado
+28/11/2021;199;HL276;1;Nao informado
 28/11/2021;25;HL164;1;Produto com defeito
 28/11/2021;207;HL165;1;Produto com defeito
 29/11/2021;235;HL222;1;Produto com defeito
@@ -682,15 +682,15 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 29/11/2021;259;HL166;1;Produto com defeito
 30/11/2021;310;HL163;1;Produto com defeito
 30/11/2021;294;HL1;1;Produto com defeito
-30/11/2021;307;HL222;1;Não informado
-30/11/2021;233;HL163;1;Troca Indisponível
+30/11/2021;307;HL222;1;Nao informado
+30/11/2021;233;HL163;1;Troca Indispon vel
 30/11/2021;306;HL293;1;Produto com defeito
 01/12/2021;145;HL2;1;Produto com defeito
 01/12/2021;308;HL222;1;Produto com defeito
 01/12/2021;217;HL5;1;Produto com defeito
 01/12/2021;306;HL273;1;Arrependimento
-01/12/2021;308;HL6;1;Troca Indisponível
-01/12/2021;307;HL164;1;Não informado
+01/12/2021;308;HL6;1;Troca Indispon vel
+01/12/2021;307;HL164;1;Nao informado
 01/12/2021;58;HL1;1;Produto com defeito
 01/12/2021;114;HL227;1;Produto com defeito
 02/12/2021;66;HL161;1;Produto com defeito
@@ -706,7 +706,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 04/12/2021;200;HL216;1;Produto com defeito
 05/12/2021;308;HL1;1;Produto com defeito
 05/12/2021;200;HL215;1;Produto com defeito
-05/12/2021;199;HL165;1;Não informado
+05/12/2021;199;HL165;1;Nao informado
 05/12/2021;215;HL93;1;Produto com defeito
 05/12/2021;259;HL164;1;Produto com defeito
 05/12/2021;177;HL1;1;Produto com defeito
@@ -718,14 +718,14 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 07/12/2021;306;HL154;1;Arrependimento
 07/12/2021;84;HL215;1;Produto com defeito
 07/12/2021;240;HL227;1;Produto com defeito
-07/12/2021;58;HL161;1;Troca Indisponível
+07/12/2021;58;HL161;1;Troca Indispon vel
 07/12/2021;152;HL5;1;Produto com defeito
 07/12/2021;40;HL282;1;Produto com defeito
 07/12/2021;199;HL251;1;Produto com defeito
 07/12/2021;179;HL285;1;Produto com defeito
 08/12/2021;212;HL1;1;Produto com defeito
 08/12/2021;58;HL177;1;Produto com defeito
-08/12/2021;306;HL264;1;Não informado
+08/12/2021;306;HL264;1;Nao informado
 08/12/2021;150;HL152;1;Produto com defeito
 09/12/2021;199;HL6;1;Produto com defeito
 09/12/2021;264;HL167;1;Produto com defeito
@@ -761,7 +761,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 15/12/2021;309;HL78;1;Produto com defeito
 15/12/2021;87;HL165;1;Produto com defeito
 15/12/2021;119;HL264;1;Produto com defeito
-15/12/2021;310;HL176;1;Troca Indisponível
+15/12/2021;310;HL176;1;Troca Indispon vel
 15/12/2021;199;HL215;1;Produto com defeito
 15/12/2021;84;HL225;1;Produto com defeito
 15/12/2021;117;HL222;1;Produto com defeito
@@ -772,7 +772,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 16/12/2021;308;HL93;1;Produto com defeito
 16/12/2021;299;HL171;1;Produto com defeito
 17/12/2021;118;HL161;1;Produto com defeito
-17/12/2021;307;HL226;1;Não informado
+17/12/2021;307;HL226;1;Nao informado
 17/12/2021;244;HL5;1;Produto com defeito
 17/12/2021;215;HL270;1;Produto com defeito
 17/12/2021;156;HL215;1;Produto com defeito
@@ -795,7 +795,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 22/12/2021;131;HL93;1;Produto com defeito
 23/12/2021;15;HL2;1;Produto com defeito
 23/12/2021;310;HL164;1;Produto com defeito
-23/12/2021;293;HL175;1;Troca Indisponível
+23/12/2021;293;HL175;1;Troca Indispon vel
 23/12/2021;35;HL2;1;Produto com defeito
 23/12/2021;307;HL171;1;Arrependimento
 24/12/2021;188;HL167;1;Produto com defeito
@@ -815,13 +815,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 25/12/2021;263;HL8;1;Produto com defeito
 25/12/2021;188;HL217;1;Produto com defeito
 25/12/2021;190;HL9;1;Produto com defeito
-26/12/2021;125;HL9;1;Troca Indisponível
+26/12/2021;125;HL9;1;Troca Indispon vel
 26/12/2021;308;HL166;1;Produto com defeito
 26/12/2021;236;HL1;1;Produto com defeito
 26/12/2021;302;HL215;1;Produto com defeito
 26/12/2021;200;HL166;1;Produto com defeito
 26/12/2021;163;HL94;1;Produto com defeito
-26/12/2021;307;HL215;1;Não informado
+26/12/2021;307;HL215;1;Nao informado
 27/12/2021;199;HL215;1;Produto com defeito
 27/12/2021;200;HL166;1;Produto com defeito
 27/12/2021;115;HL167;1;Produto com defeito
@@ -851,7 +851,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 01/01/2022;33;HL215;1;Produto com defeito
 01/01/2022;193;HL164;1;Produto com defeito
 01/01/2022;156;HL166;2;Produto com defeito
-01/01/2022;306;HL215;1;Não informado
+01/01/2022;306;HL215;1;Nao informado
 01/01/2022;16;HL172;1;Produto com defeito
 02/01/2022;125;HL224;1;Produto com defeito
 02/01/2022;42;HL2;1;Produto com defeito
@@ -874,7 +874,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 05/01/2022;277;HL167;1;Produto com defeito
 06/01/2022;199;HL166;1;Produto com defeito
 06/01/2022;308;HL173;1;Produto com defeito
-06/01/2022;184;HL6;1;Troca Indisponível
+06/01/2022;184;HL6;1;Troca Indispon vel
 06/01/2022;126;HL93;1;Produto com defeito
 07/01/2022;302;HL5;1;Produto com defeito
 07/01/2022;165;HL177;1;Produto com defeito
@@ -889,7 +889,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/01/2022;109;HL1;1;Produto com defeito
 10/01/2022;219;HL5;1;Produto com defeito
 10/01/2022;187;HL264;1;Produto com defeito
-10/01/2022;132;HL152;1;Troca Indisponível
+10/01/2022;132;HL152;1;Troca Indispon vel
 10/01/2022;39;HL223;1;Produto com defeito
 10/01/2022;209;HL225;1;Produto com defeito
 10/01/2022;48;HL2;1;Produto com defeito
@@ -904,7 +904,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 11/01/2022;41;HL164;1;Produto com defeito
 11/01/2022;139;HL171;1;Produto com defeito
 11/01/2022;310;HL263;1;Produto com defeito
-11/01/2022;94;HL153;1;Troca Indisponível
+11/01/2022;94;HL153;1;Troca Indispon vel
 12/01/2022;292;HL171;1;Produto com defeito
 12/01/2022;199;HL224;1;Produto com defeito
 12/01/2022;142;HL160;1;Produto com defeito
@@ -922,11 +922,11 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 15/01/2022;307;HL225;1;Produto com defeito
 15/01/2022;221;HL217;1;Produto com defeito
 15/01/2022;38;HL77;1;Produto com defeito
-15/01/2022;306;HL175;1;Não informado
+15/01/2022;306;HL175;1;Nao informado
 15/01/2022;286;HL216;1;Produto com defeito
 15/01/2022;310;HL165;1;Produto com defeito
 16/01/2022;58;HL227;1;Produto com defeito
-16/01/2022;307;HL275;1;Não informado
+16/01/2022;307;HL275;1;Nao informado
 17/01/2022;157;HL1;1;Produto com defeito
 17/01/2022;283;HL5;1;Produto com defeito
 17/01/2022;308;HL215;1;Produto com defeito
@@ -945,11 +945,11 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 18/01/2022;45;HL164;1;Produto com defeito
 18/01/2022;306;HL216;1;Arrependimento
 19/01/2022;306;HL165;1;Arrependimento
-19/01/2022;307;HL1;1;Não informado
+19/01/2022;307;HL1;1;Nao informado
 19/01/2022;233;HL228;1;Produto com defeito
-19/01/2022;310;HL162;1;Troca Indisponível
+19/01/2022;310;HL162;1;Troca Indispon vel
 19/01/2022;111;HL226;1;Produto com defeito
-20/01/2022;250;HL8;1;Troca Indisponível
+20/01/2022;250;HL8;1;Troca Indispon vel
 20/01/2022;200;HL171;1;Produto com defeito
 20/01/2022;33;HL225;1;Produto com defeito
 20/01/2022;268;HL172;1;Produto com defeito
@@ -1022,7 +1022,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 05/02/2022;200;HL228;1;Produto com defeito
 05/02/2022;306;HL1;1;Produto com defeito
 05/02/2022;284;HL165;1;Produto com defeito
-05/02/2022;310;HL168;1;Troca Indisponível
+05/02/2022;310;HL168;1;Troca Indispon vel
 05/02/2022;77;HL222;1;Produto com defeito
 05/02/2022;73;HL165;1;Produto com defeito
 05/02/2022;200;HL291;1;Produto com defeito
@@ -1054,13 +1054,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/02/2022;115;HL7;1;Produto com defeito
 10/02/2022;111;HL6;1;Produto com defeito
 10/02/2022;180;HL168;1;Produto com defeito
-11/02/2022;252;HL163;1;Troca Indisponível
+11/02/2022;252;HL163;1;Troca Indispon vel
 11/02/2022;132;HL164;1;Produto com defeito
 11/02/2022;94;HL165;2;Produto com defeito
 11/02/2022;234;HL216;1;Produto com defeito
 11/02/2022;278;HL75;1;Produto com defeito
 11/02/2022;29;HL226;1;Produto com defeito
-12/02/2022;306;HL164;1;Não informado
+12/02/2022;306;HL164;1;Nao informado
 12/02/2022;23;HL164;1;Produto com defeito
 12/02/2022;207;HL167;1;Produto com defeito
 12/02/2022;1;HL172;1;Produto com defeito
@@ -1071,13 +1071,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 13/02/2022;96;HL216;1;Produto com defeito
 13/02/2022;103;HL1;1;Produto com defeito
 13/02/2022;257;HL215;1;Produto com defeito
-14/02/2022;255;HL8;1;Troca Indisponível
+14/02/2022;255;HL8;1;Troca Indispon vel
 14/02/2022;159;HL217;1;Produto com defeito
 14/02/2022;211;HL222;1;Produto com defeito
 14/02/2022;73;HL78;1;Produto com defeito
-14/02/2022;199;HL164;1;Não informado
+14/02/2022;199;HL164;1;Nao informado
 14/02/2022;21;HL167;1;Produto com defeito
-15/02/2022;310;HL6;1;Troca Indisponível
+15/02/2022;310;HL6;1;Troca Indispon vel
 15/02/2022;45;HL223;1;Produto com defeito
 15/02/2022;200;HL228;1;Produto com defeito
 15/02/2022;200;HL164;1;Produto com defeito
@@ -1099,11 +1099,11 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 19/02/2022;58;HL224;1;Produto com defeito
 19/02/2022;306;HL74;1;Produto com defeito
 19/02/2022;224;HL270;1;Produto com defeito
-20/02/2022;306;HL1;1;Não informado
+20/02/2022;306;HL1;1;Nao informado
 20/02/2022;199;HL86;1;Produto com defeito
 20/02/2022;179;HL260;1;Produto com defeito
 20/02/2022;309;HL215;1;Produto com defeito
-20/02/2022;288;HL8;1;Troca Indisponível
+20/02/2022;288;HL8;1;Troca Indispon vel
 20/02/2022;306;HL164;1;Arrependimento
 20/02/2022;309;HL217;1;Produto com defeito
 20/02/2022;306;HL172;1;Produto com defeito
@@ -1138,7 +1138,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 26/02/2022;200;HL227;1;Produto com defeito
 26/02/2022;41;HL164;1;Produto com defeito
 26/02/2022;84;HL167;1;Produto com defeito
-27/02/2022;103;HL10;1;Troca Indisponível
+27/02/2022;103;HL10;1;Troca Indispon vel
 27/02/2022;254;HL215;1;Produto com defeito
 27/02/2022;255;HL225;1;Produto com defeito
 27/02/2022;308;HL216;1;Produto com defeito
@@ -1151,7 +1151,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 28/02/2022;13;HL165;1;Produto com defeito
 28/02/2022;148;HL223;1;Produto com defeito
 28/02/2022;49;HL166;1;Produto com defeito
-28/02/2022;257;HL169;1;Troca Indisponível
+28/02/2022;257;HL169;1;Troca Indispon vel
 28/02/2022;307;HL226;1;Produto com defeito
 01/03/2022;169;HL164;2;Produto com defeito
 01/03/2022;52;HL222;1;Produto com defeito
@@ -1188,7 +1188,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 07/03/2022;200;HL178;1;Produto com defeito
 07/03/2022;307;HL222;1;Produto com defeito
 07/03/2022;200;HL262;1;Produto com defeito
-07/03/2022;308;HL163;1;Troca Indisponível
+07/03/2022;308;HL163;1;Troca Indispon vel
 07/03/2022;214;HL1;1;Produto com defeito
 08/03/2022;307;HL177;1;Produto com defeito
 08/03/2022;33;HL225;1;Produto com defeito
@@ -1198,7 +1198,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 08/03/2022;306;HL293;1;Produto com defeito
 09/03/2022;19;HL73;1;Produto com defeito
 09/03/2022;301;HL159;1;Produto com defeito
-09/03/2022;306;HL1;1;Não informado
+09/03/2022;306;HL1;1;Nao informado
 09/03/2022;200;HL215;1;Produto com defeito
 09/03/2022;297;HL224;1;Produto com defeito
 09/03/2022;28;HL223;1;Produto com defeito
@@ -1211,14 +1211,14 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 12/03/2022;200;HL164;1;Produto com defeito
 12/03/2022;14;HL9;1;Produto com defeito
 12/03/2022;230;HL264;1;Produto com defeito
-12/03/2022;307;HL166;1;Não informado
+12/03/2022;307;HL166;1;Nao informado
 12/03/2022;199;HL77;1;Produto com defeito
-13/03/2022;185;HL169;1;Troca Indisponível
+13/03/2022;185;HL169;1;Troca Indispon vel
 13/03/2022;308;HL228;1;Produto com defeito
 13/03/2022;22;HL167;2;Produto com defeito
 13/03/2022;200;HL73;1;Produto com defeito
 13/03/2022;178;HL76;1;Produto com defeito
-14/03/2022;5;HL9;1;Troca Indisponível
+14/03/2022;5;HL9;1;Troca Indispon vel
 14/03/2022;309;HL164;1;Produto com defeito
 14/03/2022;307;HL216;1;Produto com defeito
 14/03/2022;288;HL217;1;Produto com defeito
@@ -1229,7 +1229,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 16/03/2022;308;HL225;1;Produto com defeito
 16/03/2022;220;HL258;1;Produto com defeito
 16/03/2022;82;HL274;1;Produto com defeito
-16/03/2022;257;HL176;1;Troca Indisponível
+16/03/2022;257;HL176;1;Troca Indispon vel
 16/03/2022;206;HL224;1;Produto com defeito
 17/03/2022;199;HL167;1;Arrependimento
 17/03/2022;63;HL222;1;Produto com defeito
@@ -1261,7 +1261,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 21/03/2022;306;HL260;1;Arrependimento
 21/03/2022;304;HL268;1;Produto com defeito
 22/03/2022;288;HL165;1;Produto com defeito
-22/03/2022;306;HL225;1;Não informado
+22/03/2022;306;HL225;1;Nao informado
 22/03/2022;299;HL5;1;Produto com defeito
 22/03/2022;309;HL167;1;Produto com defeito
 22/03/2022;306;HL172;1;Produto com defeito
@@ -1281,7 +1281,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 27/03/2022;284;HL166;1;Produto com defeito
 27/03/2022;310;HL6;1;Produto com defeito
 27/03/2022;22;HL164;1;Produto com defeito
-27/03/2022;268;HL159;1;Troca Indisponível
+27/03/2022;268;HL159;1;Troca Indispon vel
 27/03/2022;199;HL164;1;Produto com defeito
 27/03/2022;259;HL224;1;Produto com defeito
 27/03/2022;100;HL1;1;Produto com defeito
@@ -1293,7 +1293,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 28/03/2022;195;HL160;1;Produto com defeito
 28/03/2022;310;HL163;1;Produto com defeito
 28/03/2022;199;HL6;1;Produto com defeito
-29/03/2022;199;HL5;1;Não informado
+29/03/2022;199;HL5;1;Nao informado
 29/03/2022;146;HL162;1;Produto com defeito
 29/03/2022;306;HL215;1;Arrependimento
 29/03/2022;283;HL162;1;Produto com defeito
@@ -1321,7 +1321,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 02/04/2022;306;HL167;1;Arrependimento
 03/04/2022;308;HL164;1;Produto com defeito
 03/04/2022;199;HL178;1;Produto com defeito
-03/04/2022;199;HL173;1;Não informado
+03/04/2022;199;HL173;1;Nao informado
 03/04/2022;8;HL10;1;Produto com defeito
 03/04/2022;307;HL223;1;Produto com defeito
 03/04/2022;49;HL251;1;Produto com defeito
@@ -1342,17 +1342,17 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 06/04/2022;189;HL1;1;Produto com defeito
 06/04/2022;205;HL6;2;Produto com defeito
 06/04/2022;291;HL261;1;Produto com defeito
-06/04/2022;199;HL292;1;Não informado
+06/04/2022;199;HL292;1;Nao informado
 07/04/2022;308;HL1;1;Produto com defeito
 07/04/2022;300;HL167;1;Produto com defeito
 07/04/2022;159;HL215;1;Produto com defeito
 07/04/2022;148;HL217;1;Produto com defeito
 07/04/2022;68;HL264;1;Produto com defeito
-08/04/2022;303;HL163;1;Troca Indisponível
+08/04/2022;303;HL163;1;Troca Indispon vel
 08/04/2022;220;HL227;1;Produto com defeito
 08/04/2022;301;HL2;1;Produto com defeito
 08/04/2022;281;HL175;1;Produto com defeito
-08/04/2022;306;HL2;1;Não informado
+08/04/2022;306;HL2;1;Nao informado
 09/04/2022;121;HL5;1;Produto com defeito
 09/04/2022;306;HL226;1;Produto com defeito
 10/04/2022;300;HL215;1;Produto com defeito
@@ -1387,20 +1387,20 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 15/04/2022;310;HL177;1;Produto com defeito
 15/04/2022;140;HL164;1;Produto com defeito
 15/04/2022;200;HL175;1;Produto com defeito
-15/04/2022;215;HL176;1;Troca Indisponível
+15/04/2022;215;HL176;1;Troca Indispon vel
 15/04/2022;307;HL167;1;Produto com defeito
 16/04/2022;277;HL166;1;Produto com defeito
 16/04/2022;103;HL224;1;Produto com defeito
 16/04/2022;199;HL268;1;Produto com defeito
 16/04/2022;12;HL216;1;Produto com defeito
-17/04/2022;307;HL226;1;Não informado
+17/04/2022;307;HL226;1;Nao informado
 17/04/2022;308;HL159;1;Produto com defeito
 17/04/2022;199;HL292;1;Produto com defeito
 17/04/2022;199;HL252;1;Produto com defeito
 17/04/2022;192;HL254;1;Produto com defeito
 18/04/2022;277;HL92;1;Produto com defeito
 18/04/2022;83;HL248;1;Produto com defeito
-18/04/2022;200;HL153;1;Troca Indisponível
+18/04/2022;200;HL153;1;Troca Indispon vel
 18/04/2022;306;HL166;1;Arrependimento
 18/04/2022;237;HL166;1;Produto com defeito
 18/04/2022;204;HL264;1;Produto com defeito
@@ -1421,7 +1421,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 22/04/2022;14;HL271;1;Produto com defeito
 23/04/2022;140;HL171;1;Produto com defeito
 23/04/2022;309;HL2;1;Produto com defeito
-23/04/2022;200;HL7;1;Troca Indisponível
+23/04/2022;200;HL7;1;Troca Indispon vel
 23/04/2022;243;HL167;1;Produto com defeito
 23/04/2022;142;HL5;1;Produto com defeito
 23/04/2022;43;HL154;1;Produto com defeito
@@ -1441,19 +1441,19 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 25/04/2022;34;HL217;1;Produto com defeito
 25/04/2022;212;HL166;1;Produto com defeito
 25/04/2022;307;HL225;1;Produto com defeito
-25/04/2022;299;HL168;1;Troca Indisponível
+25/04/2022;299;HL168;1;Troca Indispon vel
 26/04/2022;308;HL5;1;Produto com defeito
 26/04/2022;105;HL167;1;Produto com defeito
 26/04/2022;230;HL165;1;Produto com defeito
 26/04/2022;200;HL167;1;Produto com defeito
 26/04/2022;179;HL167;1;Produto com defeito
-26/04/2022;190;HL175;1;Troca Indisponível
+26/04/2022;190;HL175;1;Troca Indispon vel
 27/04/2022;89;HL167;1;Produto com defeito
 27/04/2022;308;HL216;1;Produto com defeito
 27/04/2022;108;HL2;1;Produto com defeito
 27/04/2022;200;HL216;1;Produto com defeito
 27/04/2022;309;HL2;1;Produto com defeito
-27/04/2022;306;HL1;1;Não informado
+27/04/2022;306;HL1;1;Nao informado
 27/04/2022;296;HL267;1;Produto com defeito
 28/04/2022;310;HL76;1;Produto com defeito
 28/04/2022;284;HL215;1;Produto com defeito
@@ -1490,10 +1490,10 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 05/05/2022;200;HL170;1;Produto com defeito
 05/05/2022;254;HL167;1;Produto com defeito
 05/05/2022;200;HL170;1;Produto com defeito
-05/05/2022;48;HL6;1;Troca Indisponível
+05/05/2022;48;HL6;1;Troca Indispon vel
 05/05/2022;8;HL228;1;Produto com defeito
-05/05/2022;307;HL167;1;Não informado
-05/05/2022;199;HL174;1;Não informado
+05/05/2022;307;HL167;1;Nao informado
+05/05/2022;199;HL174;1;Nao informado
 06/05/2022;53;HL2;1;Produto com defeito
 06/05/2022;309;HL164;1;Produto com defeito
 06/05/2022;102;HL154;1;Produto com defeito
@@ -1517,7 +1517,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/05/2022;37;HL215;1;Produto com defeito
 09/05/2022;200;HL224;1;Produto com defeito
 10/05/2022;287;HL265;1;Produto com defeito
-10/05/2022;307;HL93;1;Não informado
+10/05/2022;307;HL93;1;Nao informado
 10/05/2022;207;HL167;1;Produto com defeito
 10/05/2022;99;HL165;1;Produto com defeito
 10/05/2022;84;HL224;1;Produto com defeito
@@ -1538,20 +1538,20 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 14/05/2022;310;HL170;1;Produto com defeito
 14/05/2022;89;HL172;1;Produto com defeito
 14/05/2022;264;HL223;1;Produto com defeito
-14/05/2022;199;HL267;1;Não informado
+14/05/2022;199;HL267;1;Nao informado
 14/05/2022;200;HL164;1;Produto com defeito
 15/05/2022;199;HL167;1;Produto com defeito
 15/05/2022;286;HL176;1;Produto com defeito
 15/05/2022;309;HL1;1;Produto com defeito
-15/05/2022;237;HL10;1;Troca Indisponível
-15/05/2022;306;HL172;1;Não informado
+15/05/2022;237;HL10;1;Troca Indispon vel
+15/05/2022;306;HL172;1;Nao informado
 15/05/2022;200;HL1;1;Produto com defeito
 16/05/2022;200;HL256;1;Produto com defeito
 16/05/2022;233;HL167;1;Produto com defeito
 16/05/2022;49;HL224;1;Produto com defeito
 16/05/2022;227;HL154;1;Produto com defeito
 16/05/2022;240;HL1;1;Produto com defeito
-16/05/2022;199;HL174;1;Não informado
+16/05/2022;199;HL174;1;Nao informado
 16/05/2022;283;HL175;1;Produto com defeito
 17/05/2022;308;HL165;1;Produto com defeito
 17/05/2022;32;HL164;1;Produto com defeito
@@ -1578,12 +1578,12 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 22/05/2022;306;HL165;1;Arrependimento
 22/05/2022;309;HL174;1;Produto com defeito
 22/05/2022;308;HL2;1;Produto com defeito
-23/05/2022;199;HL74;1;Não informado
+23/05/2022;199;HL74;1;Nao informado
 23/05/2022;117;HL293;1;Produto com defeito
 23/05/2022;296;HL261;1;Produto com defeito
 23/05/2022;308;HL264;1;Produto com defeito
 23/05/2022;153;HL259;1;Produto com defeito
-24/05/2022;308;HL152;1;Troca Indisponível
+24/05/2022;308;HL152;1;Troca Indispon vel
 24/05/2022;192;HL78;1;Produto com defeito
 24/05/2022;307;HL215;1;Produto com defeito
 24/05/2022;139;HL260;1;Produto com defeito
@@ -1593,8 +1593,8 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 25/05/2022;225;HL161;1;Produto com defeito
 25/05/2022;309;HL154;1;Produto com defeito
 25/05/2022;13;HL2;1;Produto com defeito
-25/05/2022;200;HL6;1;Troca Indisponível
-25/05/2022;306;HL175;1;Não informado
+25/05/2022;200;HL6;1;Troca Indispon vel
+25/05/2022;306;HL175;1;Nao informado
 25/05/2022;238;HL251;1;Produto com defeito
 26/05/2022;53;HL215;1;Produto com defeito
 26/05/2022;307;HL215;1;Arrependimento
@@ -1602,13 +1602,13 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 26/05/2022;50;HL226;1;Produto com defeito
 26/05/2022;276;HL166;1;Produto com defeito
 26/05/2022;308;HL5;1;Produto com defeito
-26/05/2022;200;HL10;1;Troca Indisponível
+26/05/2022;200;HL10;1;Troca Indispon vel
 26/05/2022;64;HL217;1;Produto com defeito
 27/05/2022;135;HL1;1;Produto com defeito
 27/05/2022;290;HL215;1;Produto com defeito
 27/05/2022;38;HL225;1;Produto com defeito
 27/05/2022;108;HL8;1;Produto com defeito
-28/05/2022;260;HL7;1;Troca Indisponível
+28/05/2022;260;HL7;1;Troca Indispon vel
 28/05/2022;212;HL164;1;Produto com defeito
 28/05/2022;199;HL86;1;Produto com defeito
 28/05/2022;306;HL227;1;Arrependimento
@@ -1617,7 +1617,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 28/05/2022;310;HL216;1;Produto com defeito
 29/05/2022;199;HL78;1;Produto com defeito
 29/05/2022;309;HL1;1;Produto com defeito
-29/05/2022;307;HL1;1;Não informado
+29/05/2022;307;HL1;1;Nao informado
 29/05/2022;217;HL5;1;Produto com defeito
 29/05/2022;114;HL90;1;Produto com defeito
 29/05/2022;160;HL152;1;Produto com defeito
@@ -1636,7 +1636,7 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 30/05/2022;196;HL217;1;Produto com defeito
 31/05/2022;31;HL215;1;Produto com defeito
 31/05/2022;80;HL77;1;Produto com defeito
-31/05/2022;199;HL222;1;Não informado
+31/05/2022;199;HL222;1;Nao informado
 31/05/2022;236;HL223;1;Produto com defeito
 31/05/2022;128;HL255;1;Produto com defeito
 31/05/2022;199;HL171;1;Arrependimento
@@ -1689,12 +1689,12 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 09/06/2022;200;HL215;1;Produto com defeito
 09/06/2022;54;HL94;1;Produto com defeito
 09/06/2022;276;HL158;1;Produto com defeito
-10/06/2022;199;HL154;1;Não informado
+10/06/2022;199;HL154;1;Nao informado
 10/06/2022;307;HL164;1;Arrependimento
 10/06/2022;15;HL268;1;Produto com defeito
 10/06/2022;170;HL164;1;Produto com defeito
 11/06/2022;178;HL166;1;Produto com defeito
-11/06/2022;306;HL6;1;Não informado
+11/06/2022;306;HL6;1;Nao informado
 11/06/2022;96;HL172;1;Produto com defeito
 11/06/2022;305;HL172;1;Produto com defeito
 11/06/2022;308;HL216;1;Produto com defeito
@@ -1715,8 +1715,8 @@ Data Devolução;ID Loja;SKU;Qtd Devolvida;Motivo Devolução
 14/06/2022;44;HL215;1;Produto com defeito
 14/06/2022;307;HL178;1;Arrependimento
 14/06/2022;194;HL1;1;Produto com defeito
-14/06/2022;199;HL164;1;Não informado
-15/06/2022;306;HL6;1;Não informado
+14/06/2022;199;HL164;1;Nao informado
+15/06/2022;306;HL6;1;Nao informado
 15/06/2022;167;HL5;1;Produto com defeito
 15/06/2022;200;HL216;1;Produto com defeito
 15/06/2022;13;HL162;1;Produto com defeito
