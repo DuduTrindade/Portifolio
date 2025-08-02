@@ -20,10 +20,10 @@ Esse comando é usado para importar dados de arquivos externos (como .csv, .txt,
 Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Importacao%20dos%20Dados.sql">Link</a> do script de importação dos dados:
 
 
-## Inspecionando a Estrututa das Tabelas Importadas
+## Verificando a Estrututa das Tabelas 
 
  Para esta análise, usarei o comando SQL **SELECT**, que nos permite consultar e visualizar as informações contidas nas colunas de cada tabela. A seguir, vamos examinar como os dados estão organizados em cada tabela do banco de dados.
- 
+
 
 #### Tabela Clientes
 <div align="center" style="display: inline-block;">
@@ -67,5 +67,5 @@ Agora iremos verificar como os dados estão dispostos em cada tabela do banco de
 
 
 - Remoção de duplicatas
-- Padronização de formatos (datas, unidades de medida)
-- Tratamento de valores ausentes
+- Padronização de formatos (datas)
+- Identificação dos valores ausentes
