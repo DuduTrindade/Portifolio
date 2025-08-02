@@ -18,6 +18,12 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 Este projeto de análise de vendas é dividido em seis etapas principais:
 
+<div style="text-align: center;">
+<img align="center" width='200' height = '300' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png"/>
+
+</div>
+
+
 
 <p style="text-align: justify;">
 
@@ -32,10 +38,6 @@ Já a **Etapa 04 – Análise Descritiva** utiliza ferramentas estatísticas e v
 Por fim, a **Etapa 05 – Relatório** apresenta os resultados em formatos claros e objetivos, como dashboards, apresentações ou documentos, permitindo que os tomadores de decisão utilizem os insights obtidos de forma prática.
 </p>
 
-<p style="text-align: center;">
-<img align="center" width='200' height = '300' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png"/>
-
-</p>
 
 
 
