@@ -16,164 +16,166 @@ Para importar os dados dos arquivos CSV para dentro das tabelas do banco, utiliz
 
 Esse comando é usado para importar dados de arquivos externos (como .csv, .txt, etc.) diretamente para uma tabela do banco de dados de forma rápida e eficiente.
 
+<div align="center" style="display: inline-block;">
+	~~~sql
+	-- 1 Passo: Criação do banco de dados
+	CREATE DATABASE Vendas_Nova_Varejo COLLATE Latin1_General_CI_AS;
 
-~~~sql
--- 1 Passo: Criação do banco de dados
-CREATE DATABASE Vendas_Nova_Varejo COLLATE Latin1_General_CI_AS;
+	USE Vendas_Nova_Varejo;
 
-USE Vendas_Nova_Varejo;
+	-- 2 Passo: Criação das tabelas e Importação dos arquivos csv 
 
--- 2 Passo: Criação das tabelas e Importação dos arquivos csv 
+	--- Tabela Clientes
+	CREATE TABLE Clientes(
+	     ID_Cliente         SMALLINT 
+	    ,Primeiro_Nome      NVARCHAR(30) 
+	    ,Sobrenome          NVARCHAR(30) 
+	    ,Email              NVARCHAR(40) 
+	    ,Genero             NCHAR(1) CHECK(Genero IN('M', 'F')) 
+	    ,Data_Nascimento    DATE 
+	    ,Estado_Civil       NCHAR(1) CHECK(Estado_Civil IN('C', 'S')) 
+	    ,Num_Filhos         TINYINT 
+	    ,Nivel_Escolar      NVARCHAR(40) 
+	    ,Documento          NVARCHAR(20) 
+	    ,Id_Localidade      TINYINT 
+	);
 
---- Tabela Clientes
-CREATE TABLE Clientes(
-     ID_Cliente         SMALLINT 
-    ,Primeiro_Nome      NVARCHAR(30) 
-    ,Sobrenome          NVARCHAR(30) 
-    ,Email              NVARCHAR(40) 
-    ,Genero             NCHAR(1) CHECK(Genero IN('M', 'F')) 
-    ,Data_Nascimento    DATE 
-    ,Estado_Civil       NCHAR(1) CHECK(Estado_Civil IN('C', 'S')) 
-    ,Num_Filhos         TINYINT 
-    ,Nivel_Escolar      NVARCHAR(40) 
-    ,Documento          NVARCHAR(20) 
-    ,Id_Localidade      TINYINT 
-);
+	BULK INSERT Clientes
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Clientes.csv'
+	WITH (
+	    FORMAT = 'CSV',              -- A partir do SQL Server 2022 (opcional)
+	    FIRSTROW = 2,                -- Ignora o cabeçalho
+	    FIELDTERMINATOR = ';',       -- Delimitador de colunas
+	    ROWTERMINATOR = '\n',        -- Delimitador de linhas
+	    CODEPAGE = '65001',          -- Suporte a UTF-8
+	    TABLOCK
+	);
 
-BULK INSERT Clientes
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Clientes.csv'
-WITH (
-    FORMAT = 'CSV',              -- A partir do SQL Server 2022 (opcional)
-    FIRSTROW = 2,                -- Ignora o cabeçalho
-    FIELDTERMINATOR = ';',       -- Delimitador de colunas
-    ROWTERMINATOR = '\n',        -- Delimitador de linhas
-    CODEPAGE = '65001',          -- Suporte a UTF-8
-    TABLOCK
-);
+	-- Tabela Devolução
+	CREATE TABLE Devolucoes(
+	     Data_Devolucao     DATE 
+	    ,Id_Loja            SMALLINT    
+	    ,SKU                NVARCHAR(10) 
+	    ,Qtde_Devolvida     SMALLINT 
+	    ,Motivo_Devolucao   NVARCHAR(50)     
+	);
 
--- Tabela Devolução
-CREATE TABLE Devolucoes(
-     Data_Devolucao     DATE 
-    ,Id_Loja            SMALLINT    
-    ,SKU                NVARCHAR(10) 
-    ,Qtde_Devolvida     SMALLINT 
-    ,Motivo_Devolucao   NVARCHAR(50)     
-);
+	BULK INSERT Devolucoes
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Devolucoes.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
 
-BULK INSERT Devolucoes
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Devolucoes.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
+	-- Tabela Itens
+	CREATE TABLE Itens(
+	     Id_Venda               NVARCHAR(10)
+	    ,Ordem_Compra           TINYINT
+	    ,Data_Venda             DATE
+	    ,SKU                    NVARCHAR(5)
+	    ,ID_Cliente             SMALLINT
+	    ,Quantidade_Vendida     TINYINT
+	     PRIMARY KEY(Id_Venda,Ordem_Compra)
+	);
 
--- Tabela Itens
-CREATE TABLE Itens(
-     Id_Venda               NVARCHAR(10)
-    ,Ordem_Compra           TINYINT
-    ,Data_Venda             DATE
-    ,SKU                    NVARCHAR(5)
-    ,ID_Cliente             SMALLINT
-    ,Quantidade_Vendida     TINYINT
-     PRIMARY KEY(Id_Venda,Ordem_Compra)
-);
+	BULK INSERT Itens
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Itens.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
 
-BULK INSERT Itens
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Itens.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
+	-- Tabela Localidades
+	CREATE TABLE Localidades(
+	     ID_Localidade   TINYINT 
+	    ,Pais            NVARCHAR(30)
+	    ,Continente      NVARCHAR(30)
+	);
 
--- Tabela Localidades
-CREATE TABLE Localidades(
-     ID_Localidade   TINYINT 
-    ,Pais            NVARCHAR(30)
-    ,Continente      NVARCHAR(30)
-);
+	BULK INSERT Localidades
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Localidades.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
 
-BULK INSERT Localidades
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Localidades.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
+	-- Tabela Lojas
+	CREATE TABLE Lojas(
+	     ID_Loja                    SMALLINT 
+	    ,Nome_Loja                  NVARCHAR(40)
+	    ,Quantidade_Colaboradores   SMALLINT
+	    ,Tipo                       NVARCHAR(20)
+	    ,id_Localidade              TINYINT
+	    ,Gerente_Loja               NVARCHAR(20)
+	    ,Documento_Gerente          NVARCHAR(20)
+	);
 
--- Tabela Lojas
-CREATE TABLE Lojas(
-     ID_Loja                    SMALLINT 
-    ,Nome_Loja                  NVARCHAR(40)
-    ,Quantidade_Colaboradores   SMALLINT
-    ,Tipo                       NVARCHAR(20)
-    ,id_Localidade              TINYINT
-    ,Gerente_Loja               NVARCHAR(20)
-    ,Documento_Gerente          NVARCHAR(20)
-);
+	BULK INSERT Lojas
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Lojas.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
 
-BULK INSERT Lojas
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Lojas.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
+	-- Tabela Produtos
+	CREATE TABLE Produtos(
+	    SKU               NVARCHAR(5) 
+	   ,Produto           NVARCHAR(60)
+	   ,Marca             NVARCHAR(30)
+	   ,Tipo_Produto      NVARCHAR(30)    
+	   ,Preco_Unitario    DECIMAL(10,2)
+	   ,Custo_Unitario    DECIMAL(10,2)
+	   ,Observacao        NVARCHAR(100)
+	);
 
--- Tabela Produtos
-CREATE TABLE Produtos(
-    SKU               NVARCHAR(5) 
-   ,Produto           NVARCHAR(60)
-   ,Marca             NVARCHAR(30)
-   ,Tipo_Produto      NVARCHAR(30)    
-   ,Preco_Unitario    DECIMAL(10,2)
-   ,Custo_Unitario    DECIMAL(10,2)
-   ,Observacao        NVARCHAR(100)
-);
+	BULK INSERT Produtos
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Produtos.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
 
-BULK INSERT Produtos
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Produtos.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
+	-- Tabela Vendas
+	CREATE TABLE Vendas(
+	     Id_Venda      NVARCHAR(10) 
+	    ,Data_Venda    DATE
+	    ,ID_Cliente    SMALLINT
+	    ,ID_Loja       SMALLINT
+	);
 
--- Tabela Vendas
-CREATE TABLE Vendas(
-     Id_Venda      NVARCHAR(10) 
-    ,Data_Venda    DATE
-    ,ID_Cliente    SMALLINT
-    ,ID_Loja       SMALLINT
-);
+	BULK INSERT Vendas
+	FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Vendas.csv'
+	WITH (
+	    FORMAT = 'CSV',              
+	    FIRSTROW = 2,                
+	    FIELDTERMINATOR = ';',       
+	    ROWTERMINATOR = '\n',        
+	    CODEPAGE = '65001',          
+	    TABLOCK
+	);
+	~~~
+</div>
 
-BULK INSERT Vendas
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Vendas.csv'
-WITH (
-    FORMAT = 'CSV',              
-    FIRSTROW = 2,                
-    FIELDTERMINATOR = ';',       
-    ROWTERMINATOR = '\n',        
-    CODEPAGE = '65001',          
-    TABLOCK
-);
-~~~
 
 
 ## Exploração Inicial dos dados
