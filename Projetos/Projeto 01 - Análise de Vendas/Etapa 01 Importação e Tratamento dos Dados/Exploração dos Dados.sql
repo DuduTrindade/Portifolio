@@ -4,7 +4,7 @@
 
 -- ========= Tabela Clientes
 
--- 1.Verificação da estrutura (colunas, tipos de dados)
+-- 1.Verificação da estrutura da tabela
 SELECT TOP (1000) [ID_Cliente]
       ,[Primeiro_Nome]
       ,[Sobrenome]
@@ -17,16 +17,6 @@ SELECT TOP (1000) [ID_Cliente]
       ,[Documento]
       ,[Id_Localidade]
   FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
-
-
-
-
-EXEC sp_help Clientes;
-
-
-
-
-
 
 --2.Identificação de valores ausentes (missing data)
 

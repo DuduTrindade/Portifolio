@@ -71,9 +71,7 @@ Descrição dos campos da tabela:
 - **Documento**: CPF ou RG
 - **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
 
-
-<br><br>
-
+<br>
 
 *2.Identificação de valores ausentes (missing data)*
 
