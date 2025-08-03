@@ -56,7 +56,7 @@ Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proje
 </div>
 
 #### Tabela Vendas
-<hr>
+
 <div align="center" style="display: inline-block;">
 	<img  width="400" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c7.png">
 </div>
@@ -67,7 +67,7 @@ Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proje
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
 
 
-- Remoção de duplicatas
+- Identificação de duplicatas
 - Padronização de formatos (datas)
-- Identificação dos valores ausentes
+- Identificação dos valores ausentes (nulos)
 - Correção de erros e inconsistências
