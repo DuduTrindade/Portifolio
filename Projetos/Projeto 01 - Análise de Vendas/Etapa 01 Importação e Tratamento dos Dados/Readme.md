@@ -55,7 +55,7 @@ Descrição dos campos da tabela:
 - **Sobrenome**: Sobrenome do cliente.
 - **Email**: Endereço de e-mail.
 - **Genero**: M(Masculino) ou F(Feminino).
-- **Data_Nascimento**: Data de nascimento no formato DD/MM/AAAA.
+- **Data_Nascimento**: Data de nascimento no formato AAAA/MM/AA.
 - **Estado_Civil**:	C(Casado) e S(Solteiro).
 - **Num_Filhos**: Número de filhos.
 - **Nivel_Escolar**: Escolaridade (ex: "Superior Completo", "Ensino Médio Incompleto").
