@@ -29,7 +29,11 @@ A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma
 
 - 1.Verificação da estrutura (colunas, tipos de dados).
 
-- 2.Identificação de valores ausentes (missing data), duplicatas e outliers.
+- 2.Identificação de valores ausentes (missing data), 
+
+- 3.Detecteção duplicatas 
+
+- 4.Padronização de datas, textos (uppercase/lowercase)
 
 ## Limpeza dos dados
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
