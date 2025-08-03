@@ -37,7 +37,7 @@ WHERE
     Id_Localidade   IS NULL;
 
 
-
+-- 3.Detecteção duplicatas
 
 WITH CTE_Duplicatas AS(
 	SELECT 
