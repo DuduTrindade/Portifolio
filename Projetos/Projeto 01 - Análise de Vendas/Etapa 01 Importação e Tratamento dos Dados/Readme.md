@@ -29,9 +29,9 @@ A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma
 
 Passos a serem executados:
 
-- 1.Verificação da estrutura (colunas, tipos de dados).
+- 1.Verificação da estrutura (colunas).
 
-- 2.Identificação de valores ausentes (missing data), 
+- 2.Identificação de valores ausentes (missing data). 
 
 - 3.Detecteção duplicatas 
 
@@ -41,11 +41,13 @@ Passos a serem executados:
  
  ### Tabela Clientes
 
- *Verificação da estrutura das tabelas*
+ *1.Verificação da estrutura (colunas)*
 
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
 </div>
+
+*2.Identificação de valores ausentes (missing data)*
 
 ## **Tabela Devoluções**
 
