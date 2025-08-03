@@ -18,6 +18,22 @@ SELECT TOP (1000) [ID_Cliente]
       ,[Id_Localidade]
   FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
 
+
+
+
+SELECT 
+    COLUMN_NAME AS 'Nome do Campo',
+    DATA_TYPE AS 'Tipo de Dado'
+FROM 
+    INFORMATION_SCHEMA.COLUMNS
+WHERE 
+    TABLE_NAME = 'Clientes' 
+    AND TABLE_SCHEMA = 'dbo';
+
+
+
+
+
 --2.Identificação de valores ausentes (missing data)
 
 SELECT
