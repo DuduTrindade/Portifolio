@@ -47,17 +47,18 @@ Passos a serem executados:
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
 </div>
 
+<br>
 Descrição dos campos da tabela:
 - **ID_Cliente**: Identificador único do cliente
 - **Primeiro_Nome**: Nome do cliente.
 - **Sobrenome**: Sobrenome do cliente.
 - **Email**: Endereço de e-mail.
-- **Genero**: Gênero:M(Masculino) ou F(Feminino).
+- **Genero**: M(Masculino) ou F(Feminino).
 - **Data_Nascimento**: Data de nascimento no formato DD/MM/AAAA.
-- **Estado_Civil**:	Estado civil:C(Casado),S(Solteiro).
+- **Estado_Civil**:	C(Casado) e S(Solteiro).
 - **Num_Filhos**: Número de filhos.
 - **Nivel_Escolar**: Escolaridade (ex: "Superior Completo", "Ensino Médio Incompleto").
-- **Documento**: Possivelmente CPF ou RG
+- **Documento**: CPF ou RG
 - **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
 
 <br><br>
