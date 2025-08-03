@@ -1,5 +1,44 @@
 -- Etapa 01: Importação e Tratamento dos Dados
 
+-- Exploração dos Dados
+
+-- ========= Tabela Clientes
+
+-- 1.Verificação da estrutura (colunas, tipos de dados)
+SELECT TOP (1000) [ID_Cliente]
+      ,[Primeiro_Nome]
+      ,[Sobrenome]
+      ,[Email]
+      ,[Genero]
+      ,[Data_Nascimento]
+      ,[Estado_Civil]
+      ,[Num_Filhos]
+      ,[Nivel_Escolar]
+      ,[Documento]
+      ,[Id_Localidade]
+  FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
+
+--2.Identificação de valores ausentes (missing data)
+
+SELECT
+    *
+FROM Clientes
+WHERE 
+    ID_Cliente      IS NULL OR
+    Primeiro_Nome   IS NULL OR
+    Sobrenome       IS NULL OR
+    Email           IS NULL OR
+    Genero          IS NULL OR
+    Data_Nascimento IS NULL OR
+    Estado_Civil    IS NULL OR
+    Num_Filhos      IS NULL OR
+    Nivel_Escolar   IS NULL OR
+    Documento       IS NULL OR
+    Id_Localidade   IS NULL;
+
+
+
+
 WITH CTE_Duplicatas AS(
 	SELECT 
 		*
@@ -22,21 +61,7 @@ WHERE Rn > 1;
 -- Verificar valores nulos
 
 
-SELECT
-    *
-FROM Clientes
-WHERE 
-    ID_Cliente      IS NULL OR
-    Primeiro_Nome   IS NULL OR
-    Sobrenome       IS NULL OR
-    Email           IS NULL OR
-    Genero          IS NULL OR
-    Data_Nascimento IS NULL OR
-    Estado_Civil    IS NULL OR
-    Num_Filhos      IS NULL OR
-    Nivel_Escolar   IS NULL OR
-    Documento       IS NULL OR
-    Id_Localidade   IS NULL;
+
 
 
 -- Remover Espaços vazios
