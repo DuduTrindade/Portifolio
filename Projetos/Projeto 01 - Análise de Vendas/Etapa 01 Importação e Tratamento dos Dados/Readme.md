@@ -41,7 +41,7 @@ Passos a serem executados:
  
  ### Tabela Clientes
 
- *1.Verificação da estrutura (colunas)*
+ *1.Verificação da estrutura da tabela*
 
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
@@ -51,24 +51,29 @@ Passos a serem executados:
 
 Descrição dos campos da tabela:
 - **ID_Cliente**: Identificador único do cliente
-- **Primeiro_Nome**: Nome do cliente.
-- **Sobrenome**: Sobrenome do cliente.
-- **Email**: Endereço de e-mail do cliente.
-- **Genero**: M(Masculino) ou F(Feminino).
-- **Data_Nascimento**: Data de nascimento no formato AAAA/MM/AA.
-- **Estado_Civil**:	C(Casado) e S(Solteiro).
-- **Num_Filhos**: Número de filhos.
-- **Nivel_Escolar**: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
 
+- **Primeiro_Nome**: Nome do cliente.
+
+- **Sobrenome**: Sobrenome do cliente.
+
+- **Email**: Endereço de e-mail do cliente.
+
+- **Genero**: M(Masculino) ou F(Feminino).
+
+- **Data_Nascimento**: Data de nascimento no formato AAAA/MM/AA.
+
+- **Estado_Civil**:	C(Casado) e S(Solteiro).
+
+- **Num_Filhos**: Número de filhos.
+
+- **Nivel_Escolar**: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
 
 - **Documento**: CPF ou RG
 - **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
 
 Para verificar o tipo de dado de cada campo utilizarei o comando *EXCEC SP_HELP* do SQL Server para obter informações detalhadas sobre a estrutura de uma tabela.
 
-<div align="center" style="display: inline-block;">
-	<img  width="650" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes.png">
-</div>
+
 
 
 <br><br>

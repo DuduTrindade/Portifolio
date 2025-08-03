@@ -21,14 +21,8 @@ SELECT TOP (1000) [ID_Cliente]
 
 
 
-SELECT 
-    COLUMN_NAME AS 'Nome do Campo',
-    DATA_TYPE AS 'Tipo de Dado'
-FROM 
-    INFORMATION_SCHEMA.COLUMNS
-WHERE 
-    TABLE_NAME = 'Clientes' 
-    AND TABLE_SCHEMA = 'dbo';
+EXEC sp_help Clientes;
+
 
 
 
