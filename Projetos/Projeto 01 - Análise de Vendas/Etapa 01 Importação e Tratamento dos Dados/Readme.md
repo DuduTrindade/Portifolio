@@ -82,7 +82,7 @@ Descrição dos campos da tabela:
 <br>
 ✅ A tabela Clientes não possui campos com valores nulos.
 
-<br><br>
+<br>
 
 *3.Detecteção duplicatas*
 
