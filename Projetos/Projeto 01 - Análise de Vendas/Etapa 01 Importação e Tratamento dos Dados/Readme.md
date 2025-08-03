@@ -16,8 +16,16 @@ Para importar os dados dos arquivos CSV para dentro das tabelas do banco, utiliz
 
 Esse comando é usado para importar dados de arquivos externos (como .csv, .txt, etc.) diretamente para uma tabela do banco de dados de forma rápida e eficiente.
 
+
+Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Importacao%20dos%20Dados.sql">Link</a> do script de importação dos dados:
+
+<div align="center" style="display: inline-block;">
+	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_import.png">
+</div>
+
 ~~~sql
 -- 1 Passo: Criação do banco de dados
+
 CREATE DATABASE Vendas_Nova_Varejo COLLATE Latin1_General_CI_AS;
 
 USE Vendas_Nova_Varejo;
@@ -71,6 +79,7 @@ WITH (
 );
 
 -- Tabela Itens
+
 CREATE TABLE Itens(
      Id_Venda               NVARCHAR(10)
     ,Ordem_Compra           TINYINT
@@ -154,7 +163,9 @@ WITH (
     TABLOCK
 );
 
+
 -- Tabela Vendas
+
 CREATE TABLE Vendas(
      Id_Venda      NVARCHAR(10) 
     ,Data_Venda    DATE
@@ -172,25 +183,17 @@ WITH (
     CODEPAGE = '65001',          
     TABLOCK
 );
-~~~
 
 
 
 
 ## Exploração Inicial dos dados
 
-- 1.Verificação da estrutura (colunas, tipos de dados).
-
-- 2.Identificação de valores ausentes (missing data), duplicatas e outliers.
-
-## Limpeza dos dados
+## Tratamento dos dados
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
 
 
-- Tratamento de dados ausentes: Remoção ou preenchimento (imputação por média, mediana ou algoritmos).
-
-- Correção de inconsistências: Padronização de datas, textos (uppercase/lowercase), unidades de medida.
-
-- Remoção de duplicatas e dados irrelevantes.
-
-- Filtragem de outliers (quando necessário).
+- Identificação de duplicatas
+- Padronização de formatos (datas)
+- Identificação dos valores ausentes (nulos)
+- Correção de erros e inconsistências
