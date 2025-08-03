@@ -16,7 +16,7 @@ Para importar os dados dos arquivos CSV para dentro das tabelas do banco, utiliz
 
 Esse comando é usado para importar dados de arquivos externos (como .csv, .txt, etc.) diretamente para uma tabela do banco de dados de forma rápida e eficiente.
 
-<div align="center" style="display: inline-block;">
+<div style="font-family: Arial, sans-serif;">	
 	~~~sql
 	-- 1 Passo: Criação do banco de dados
 	CREATE DATABASE Vendas_Nova_Varejo COLLATE Latin1_General_CI_AS;
