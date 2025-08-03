@@ -37,7 +37,7 @@ Passos a serem executados:
 
 - 4.Padronização de datas, textos (uppercase/lowercase)
 
-### Tabela Clientes
+### 
  
 
 **Verificação da estrutura das tabelas**
