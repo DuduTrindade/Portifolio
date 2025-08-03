@@ -12,7 +12,7 @@ USE Vendas_Nova_Varejo;
 
 --- Tabela Clientes
 CREATE TABLE Clientes(
-     ID_Cliente         SMALLINT PRIMARY KEY
+     ID_Cliente         SMALLINT 
     ,Primeiro_Nome      NVARCHAR(30) 
     ,Sobrenome          NVARCHAR(30) 
     ,Email              NVARCHAR(40) 
@@ -86,7 +86,7 @@ WITH (
 -- Tabela Localidades
 
 CREATE TABLE Localidades(
-     ID_Localidade   TINYINT PRIMARY KEY
+     ID_Localidade   TINYINT 
     ,Pais            NVARCHAR(30)
     ,Continente      NVARCHAR(30)
 );
@@ -104,7 +104,7 @@ WITH (
 
 -- Tabela Lojas
 CREATE TABLE Lojas(
-     ID_Loja                    SMALLINT PRIMARY KEY
+     ID_Loja                    SMALLINT 
     ,Nome_Loja                  NVARCHAR(40)
     ,Quantidade_Colaboradores   SMALLINT
     ,Tipo                       NVARCHAR(20)
@@ -128,7 +128,7 @@ WITH (
 -- Tabela Produtos
 
 CREATE TABLE Produtos(
-    SKU               NVARCHAR(5) PRIMARY KEY
+    SKU               NVARCHAR(5) 
    ,Produto           NVARCHAR(60)
    ,Marca             NVARCHAR(30)
    ,Tipo_Produto      NVARCHAR(30)    
@@ -152,7 +152,7 @@ WITH (
 -- Tabela Vendas
 
 CREATE TABLE Vendas(
-     Id_Venda      NVARCHAR(10) PRIMARY KEY
+     Id_Venda      NVARCHAR(10) 
     ,Data_Venda    DATE
     ,ID_Cliente    SMALLINT
     ,ID_Loja       SMALLINT
