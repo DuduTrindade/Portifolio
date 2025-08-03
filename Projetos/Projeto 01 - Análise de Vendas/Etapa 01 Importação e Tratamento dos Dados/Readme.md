@@ -178,9 +178,9 @@ WITH (
 
 ## Exploração Inicial dos dados
 
-- 1. Verificação da estrutura (colunas, tipos de dados).
-- 2. Identificação de valores ausentes (missing data), duplicatas e outliers.
-- 3. 
+- 1.Verificação da estrutura (colunas, tipos de dados).
+
+- 2.Identificação de valores ausentes (missing data), duplicatas e outliers.
 
 ## Limpeza dos dados
 Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
