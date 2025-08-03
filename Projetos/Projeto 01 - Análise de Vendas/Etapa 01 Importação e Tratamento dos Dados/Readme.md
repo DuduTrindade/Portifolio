@@ -46,6 +46,7 @@ Passos a serem executados:
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
 </div>
+<br><br>
 
 *2.Identificação de valores ausentes (missing data)*
 
