@@ -71,10 +71,6 @@ Descrição dos campos da tabela:
 - **Documento**: CPF ou RG
 - **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
 
-Para verificar o tipo de dado de cada campo utilizarei o comando *EXCEC SP_HELP* do SQL Server para obter informações detalhadas sobre a estrutura de uma tabela.
-
-
-
 
 <br><br>
 
