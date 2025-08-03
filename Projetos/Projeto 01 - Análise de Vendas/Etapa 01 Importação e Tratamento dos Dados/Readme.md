@@ -58,9 +58,17 @@ Descrição dos campos da tabela:
 - **Data_Nascimento**: Data de nascimento no formato AAAA/MM/AA.
 - **Estado_Civil**:	C(Casado) e S(Solteiro).
 - **Num_Filhos**: Número de filhos.
-- **Nivel_Escolar**: Escolaridade (ex: "Superior Completo", "Ensino Médio Incompleto").
+- **Nivel_Escolar**: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
+Ensino Médio Incompleto
+
+
+
+
 - **Documento**: CPF ou RG
 - **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
+
+Para verificar o tipo de dado de cada campo utilizarei o comando *EXCEC SP_HELP* do SQL Server para obter informações detalhadas sobre a estrutura de uma tabela.
+
 
 <br><br>
 
