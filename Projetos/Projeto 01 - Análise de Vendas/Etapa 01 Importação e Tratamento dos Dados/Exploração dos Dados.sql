@@ -64,7 +64,7 @@ WHERE
     Id_Localidade   IS NULL;
 
 
--- 3.Detecteção duplicatas
+--Detecteção duplicatas
 
 WITH CTE_Duplicatas AS(
 	SELECT 
@@ -78,16 +78,6 @@ SELECT
 	*
 FROM CTE_Duplicatas
 WHERE Rn > 1;
-
-
-
-
-
-
-
-
--- Verificar valores nulos
-
 
 
 
@@ -107,15 +97,3 @@ UPDATE Clientes
 
 
 
--- Validação dos tipos dos dados
-
-SELECT 
-    column_name AS 'Nome da Coluna',
-    data_type AS 'Tipo de Dado'
-FROM 
-    information_schema.columns
-WHERE 
-    table_name = 'Clientes'
-    AND table_schema NOT IN ('information_schema', 'pg_catalog')
-ORDER BY 
-    ordinal_position;
