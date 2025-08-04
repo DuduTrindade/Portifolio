@@ -29,7 +29,7 @@ A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma
 
 Passos a serem executados:
 
-- 1.Verificação da estrutura 
+- 1.Verificação dos dados 
 
 - 2.Identificação de valores ausentes (missing data). 
 
@@ -41,7 +41,7 @@ Passos a serem executados:
  
  ### Tabela Clientes
 
- ***1.Verificação da estrutura da tabela***
+ ***1.Verificação dos dados da tabela***
  ##
 
 <div align="center" style="display: inline-block;">
@@ -50,27 +50,7 @@ Passos a serem executados:
 
 <br>
 
-Descrição dos campos da tabela:
-- *ID_Cliente*: Identificador único do cliente
 
-- *Primeiro_Nome*: Nome do cliente.
-
-- *Sobrenome*: Sobrenome do cliente.
-
-- *Email*: Endereço de e-mail do cliente.
-
-- *Genero*: M(Masculino) ou F(Feminino).
-
-- *Data_Nascimento*: Data de nascimento no formato AAAA/MM/AA.
-
-- *Estado_Civil*:	C(Casado) e S(Solteiro).
-
-- *Num_Filhos*: Número de filhos.
-
-- *Nivel_Escolar*: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
-
-- *Documento*: CPF ou RG
-- *Id_Localidade*: Código numérico que pode representar cidade, estado ou região
 
 <br>
 
@@ -88,7 +68,7 @@ Descrição dos campos da tabela:
 <br><br>
 
 ***3.Detecteção duplicatas***
-_____________________________________________________________________________________________________________________________________________
+##
 
 <div align="center" style="display: inline-block;">
 	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_duplicado.png">
