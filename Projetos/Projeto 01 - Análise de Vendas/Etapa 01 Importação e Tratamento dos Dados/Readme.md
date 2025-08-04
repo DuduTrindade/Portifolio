@@ -37,6 +37,7 @@ Passos a serem executados:
 
 - 4.Padronização de datas, textos (uppercase/lowercase)
 
+- 5.Total de Registros
 
  
  ### Tabela Clientes
@@ -50,7 +51,7 @@ Passos a serem executados:
 
 <br>
 
-
+Analisando a tabela podemos observar que as colunas **Primeiro_nome** e **Sobrenome** estão com todos os caracteres em maiúsculo, ou seja, formato do dado errado. Para modificar os registros somente com os primeiros caracteres em maiúsculo, usarei o camando ***UPDATE*** que atualiza todos os registros da tabela clientes.
 
 <br>
 
