@@ -67,8 +67,7 @@ Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos 
 
 <br>
 
-Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*.
-##
+Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
 
 <div align="center" style="display: inline-block;">
 	<img  width="550" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_nulo.png">
