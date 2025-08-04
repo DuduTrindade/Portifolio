@@ -58,11 +58,11 @@ Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes,
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_nome_sobrenome_update.png">
 </div>
+
 <br>
 
-A coluna *Data_Nascimento* também apresenta um formato incorreto, exibindo as datas no padrão AAAA-MM-DD (ano, mês, dia).
-
-Para padronizar conforme o convencional no Brasil, utilizaremos o comando UPDATE para alterar o formato para DD-MM-AAAA (dia, mês, ano).
+A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
+Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos a função **CONVERT** quando necessário, mantendo o armazenamento original.
 
 
 <br>
