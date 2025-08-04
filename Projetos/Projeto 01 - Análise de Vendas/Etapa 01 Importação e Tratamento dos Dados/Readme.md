@@ -53,6 +53,13 @@ Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* es
 
 Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
 
+<div align="center" style="display: inline-block;">
+	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_nome_sobrenome_update.png">
+</div>
+
+<br>
+
+
 
 <br>
 
