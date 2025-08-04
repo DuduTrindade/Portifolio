@@ -40,10 +40,8 @@ Passos a serem executados:
 - 5.Total de Registros
 
  
- ### Tabela Clientes
+ ## Tabela Clientes
 
- ***1.Verificação dos dados da tabela***
- ##
 
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
@@ -51,7 +49,10 @@ Passos a serem executados:
 
 <br>
 
-Analisando a tabela podemos observar que as colunas **Primeiro_nome** e **Sobrenome** estão com todos os caracteres em maiúsculo, ou seja, formato do dado errado. Para modificar os registros somente com os primeiros caracteres em maiúsculo, usarei o camando ***UPDATE*** que atualiza todos os registros da tabela clientes.
+Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* estão com todos os caracteres em letras maiúsculas, o que não corresponde ao formato padrão desejado.
+
+Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
+
 
 <br>
 
