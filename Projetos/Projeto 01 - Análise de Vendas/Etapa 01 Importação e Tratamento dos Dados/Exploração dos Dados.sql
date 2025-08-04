@@ -4,7 +4,7 @@
 
 -- ========= Tabela Clientes
 
--- 1.Verificação da estrutura da tabela
+-- Verificação da estrutura da tabela
 SELECT TOP (1000) [ID_Cliente]
       ,[Primeiro_Nome]
       ,[Sobrenome]
@@ -18,7 +18,27 @@ SELECT TOP (1000) [ID_Cliente]
       ,[Id_Localidade]
   FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
 
---2.Identificação de valores ausentes (missing data)
+
+
+
+-- Padronização do formato campos: Primeiro_Nome e Sobrenome
+
+BEGIN TRANSACTION;
+
+UPDATE Clientes
+	SET Primeiro_Nome = UPPER(LEFT(Primeiro_Nome, 1)) + LOWER(SUBSTRING(Primeiro_Nome, 2, LEN(Primeiro_Nome)))
+
+UPDATE Clientes
+	SET Sobrenome = UPPER(LEFT(Sobrenome, 1)) + LOWER(SUBSTRING(Sobrenome, 2, LEN(Sobrenome)))
+
+COMMIT;
+
+
+SELECT * FROM Clientes;
+
+
+
+--Identificação de valores ausentes (missing data)
 
 SELECT
     *
