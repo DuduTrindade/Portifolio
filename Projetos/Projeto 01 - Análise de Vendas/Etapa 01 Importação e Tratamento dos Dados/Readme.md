@@ -80,7 +80,8 @@ Descrição dos campos da tabela:
 </div>
 
 <br>
-✅ A tabela Clientes não possui campos com valores nulos.
+
+✅ A tabela Clientes não possui campos com **valores nulos**.
 
 <br><br>
 
@@ -91,6 +92,9 @@ Descrição dos campos da tabela:
 </div>
 
 <br>
+
+✅ A tabela Clientes não possui campos com **valores duplicados**.
+
 4.Padronização de datas, textos (uppercase/lowercase)
 
 
