@@ -81,7 +81,7 @@ Descrição dos campos da tabela:
 
 <br>
 
-✅ A tabela Clientes não possui campos com **valores nulos**.
+***Resultado***: A tabela Clientes não possui campos com *valores nulos*.
 
 <br><br>
 
