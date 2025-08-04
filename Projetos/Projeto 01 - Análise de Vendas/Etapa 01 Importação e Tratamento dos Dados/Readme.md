@@ -25,7 +25,7 @@ Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proje
 
 
 ## Exploração Inicial dos dados
-A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma etapa fundamental no tratamento de dados, onde investigamos o conjunto de dados para entender suas características, identificar problemas e obter insights iniciais.
+A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma etapa fundamental no tratamento de dados, onde investigamos o conjunto de dados para entender suas características, identificar problemas, limpar e tratar os dados
 
 Passos a serem executados:
 
