@@ -29,18 +29,16 @@ A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma
 
 Passos a serem executados:
 
-- 1.Verificação dos dados 
+- ✅Verificação dos dados 
 
-- 2.Identificação de valores ausentes (missing data). 
+- ✅Identificação de valores ausentes (missing data). 
 
-- 3.Detecteção duplicatas 
+- ✅Detecteção duplicatas 
 
-- 4.Padronização de datas, textos (uppercase/lowercase)
+- ✅Padronização de datas, textos (uppercase/lowercase)
 
 - 5.Total de Registros
 
- 
-Nesta etapa não trataremos sobre o tipo de dado. Esse assunto será abordado na **Etapa 02 – Modelagem dos Dados**.
 
  ## Tabela Clientes
 
@@ -77,9 +75,9 @@ Outra validação que devemos fazer na tabela clientes é de *Identificação de
 
 ***Resultado***: A tabela Clientes não possui campos com *valores nulos*.
 
-<br><br>
+<br>
 
-Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção duplicatas*.
+Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
 
 <div align="center" style="display: inline-block;">
 	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_duplicado.png">
