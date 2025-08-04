@@ -42,7 +42,8 @@ WHERE
 WITH CTE_Duplicatas AS(
 	SELECT 
 		*
-		,ROW_NUMBER() OVER(PARTITION BY ID_Cliente, Primeiro_Nome, Sobrenome, Email, Data_Nascimento									
+		,ROW_NUMBER() OVER(PARTITION BY ID_Cliente, Primeiro_Nome, Sobrenome, Email, Data_Nascimento, Estado_Civil,
+                            Num_filhos, Nivel_Escolar, Documento, Id_Localidade
 						   ORDER BY ID_Cliente) AS Rn
 	FROM Clientes
 )

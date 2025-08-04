@@ -29,7 +29,7 @@ A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma
 
 Passos a serem executados:
 
-- 1.Verificação da estrutura (colunas, tipos de dados).
+- 1.Verificação da estrutura 
 
 - 2.Identificação de valores ausentes (missing data). 
 
@@ -50,26 +50,26 @@ Passos a serem executados:
 <br>
 
 Descrição dos campos da tabela:
-- **ID_Cliente**: Identificador único do cliente
+- *ID_Cliente*: Identificador único do cliente
 
-- **Primeiro_Nome**: Nome do cliente.
+- *Primeiro_Nome*: Nome do cliente.
 
-- **Sobrenome**: Sobrenome do cliente.
+- *Sobrenome*: Sobrenome do cliente.
 
-- **Email**: Endereço de e-mail do cliente.
+- *Email*: Endereço de e-mail do cliente.
 
-- **Genero**: M(Masculino) ou F(Feminino).
+- *Genero*: M(Masculino) ou F(Feminino).
 
-- **Data_Nascimento**: Data de nascimento no formato AAAA/MM/AA.
+- *Data_Nascimento*: Data de nascimento no formato AAAA/MM/AA.
 
-- **Estado_Civil**:	C(Casado) e S(Solteiro).
+- *Estado_Civil*:	C(Casado) e S(Solteiro).
 
-- **Num_Filhos**: Número de filhos.
+- *Num_Filhos*: Número de filhos.
 
-- **Nivel_Escolar**: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
+- *Nivel_Escolar*: Escolaridade (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
 
-- **Documento**: CPF ou RG
-- **Id_Localidade**: Código numérico que pode representar cidade, estado ou região
+- *Documento*: CPF ou RG
+- *Id_Localidade*: Código numérico que pode representar cidade, estado ou região
 
 <br>
 
