@@ -19,8 +19,6 @@ SELECT TOP (1000) [ID_Cliente]
   FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
 
 
-
-
 -- Padronização do formato campos: Primeiro_Nome e Sobrenome
 
 BEGIN TRANSACTION;
@@ -33,8 +31,17 @@ UPDATE Clientes
 
 COMMIT;
 
-
 SELECT * FROM Clientes;
+
+
+-- Conversão campo data de nascimento
+SELECT
+    Data_Nascimento,
+    CONVERT(VARCHAR, Data_Nascimento, 105) AS data_convertida,
+    FORMAT(Data_Nascimento, 'dd-MM-yyyy') AS data_formatada
+FROM Clientes
+
+
 
 
 

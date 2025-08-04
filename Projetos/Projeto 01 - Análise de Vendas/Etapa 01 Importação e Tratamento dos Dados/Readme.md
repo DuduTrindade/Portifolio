@@ -67,7 +67,7 @@ Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos 
 
 <br>
 
-***2.Identificação de valores ausentes (missing data)***
+Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*.
 ##
 
 <div align="center" style="display: inline-block;">
