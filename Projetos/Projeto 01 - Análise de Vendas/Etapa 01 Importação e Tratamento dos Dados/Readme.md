@@ -10,8 +10,8 @@ Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dad
 - Garantir a qualidade dos dados através de tratamentos adequados
 
 **Tecnologias utilizadas:**
-- 🛢️ SQL Server (SGBDR)
-- 📋 T-SQL (para scripts de importação e tratamento)
+- 🛢️ `SQL Server` (SGBDR)
+- 📋 `T-SQL` (para scripts de importação e tratamento)
 
 **Escopo do projeto:**
 - 7 tabelas relacionadas ao processo de vendas
@@ -237,11 +237,28 @@ Técnicas aplicadas:
 
 **Descrição:** Armazena informações cadastrais dos clientes da empresa.
 
+<div align="center" style="display: inline-block;">
+	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
+</div>
+
+<br>
+
 **Estrutura principal:**
-- `Cliente_ID` (INT): Identificador único
-- `Primeiro_nome` (VARCHAR): Nome do cliente
-- `Sobrenome` (VARCHAR): Sobrenome do cliente
-- `Data_Nascimento` (DATE): Data de nascimento
+- `Cliente_ID`: Identificador único do cliente
+- `Primeiro_nome`: Nome do cliente
+- `Sobrenome`: Sobrenome do cliente
+- `Email`:Endereço de e-mail do cliente
+- `Genero`:M(Masculino) ou F(Feminino).
+- `Data_Nascimento`: Data de nascimento no formato AAAA/MM/AA
+- `Estado_Civil`:C(Casado), S(Solteiro)
+- `Num_Filhos`:Número de filhos.
+- `Nivel_Escolar`:(Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
+- `Documento`:Possivelmente CPF ou RG
+- `Id_Localidade`:Código numérico que pode representar cidade, estado ou região
+
+
+
+
 
 **Problemas identificados:**
 - Nomes e sobrenomes em CAIXA ALTA
@@ -262,9 +279,7 @@ SET Primeiro_nome = CONCAT(
 ~~~
 
 
-<div align="center" style="display: inline-block;">
-	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
-</div>
+
 
 <br>
 
