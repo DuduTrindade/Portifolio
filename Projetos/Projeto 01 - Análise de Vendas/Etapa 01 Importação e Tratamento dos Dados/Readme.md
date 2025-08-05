@@ -274,9 +274,6 @@ SELECT TOP (15)
 - `Id_Localidade`:Código numérico que pode representar cidade, estado ou região
 
 
-
-
-
 **Problemas identificados:**
 - Nomes e sobrenomes em CAIXA ALTA
 - Formato de data não localizado
@@ -285,36 +282,28 @@ SELECT TOP (15)
 **Soluções implementadas:**
 
 1. Normalização de nomes:
- ~~~sql
-UPDATE Clientes
-SET Primeiro_nome = CONCAT(
-    UPPER(LEFT(Primeiro_nome, 1)),
-    LOWER(SUBSTRING(Primeiro_nome, 2, LEN(Primeiro_nome)))
-)
-
-
-~~~
-
-
-
-
-<br>
 
 Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* estão com todos os caracteres em letras maiúsculas, o que não corresponde ao formato padrão desejado.
 
 Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
+ ~~~sql
+BEGIN TRANSACTION;
 
-<div align="center" style="display: inline-block;">
-	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_nome_sobrenome_update.png">
-</div>
+UPDATE Clientes
+	SET Primeiro_Nome = UPPER(LEFT(Primeiro_Nome, 1)) + LOWER(SUBSTRING(Primeiro_Nome, 2, LEN(Primeiro_Nome)))
 
-<br>
+UPDATE Clientes
+	SET Sobrenome = UPPER(LEFT(Sobrenome, 1)) + LOWER(SUBSTRING(Sobrenome, 2, LEN(Sobrenome)))
+
+COMMIT;
+~~~
+
+2. Padronização campo data_nascimento
 
 A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
 Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos a função **CONVERT** quando necessário, mantendo o armazenamento original.
 
-
-<br>
+3. Identificação de campos nulos
 
 Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
 
