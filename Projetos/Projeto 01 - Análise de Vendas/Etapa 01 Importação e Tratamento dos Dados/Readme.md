@@ -85,7 +85,6 @@ CREATE TABLE Itens(
     ,SKU                    NVARCHAR(5)
     ,ID_Cliente             SMALLINT
     ,Quantidade_Vendida     TINYINT
-     PRIMARY KEY(Id_Venda,Ordem_Compra)
 );
 
 CREATE TABLE Localidades(
@@ -219,20 +218,48 @@ WITH (
 ## Exploração Inicial dos dados
 A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma etapa fundamental no tratamento de dados, onde investigamos o conjunto de dados para entender suas características, identificar problemas e preparação para modelagem dos dados.
 
-Passos a serem executados:
+Técnicas aplicadas:
 
-- ✅Verificação dos dados 
+✅ Verificação de estrutura e tipos de dados
 
-- ✅Identificação de valores ausentes (missing data). 
+🔍 Identificação de valores ausentes (NULL)
 
-- ✅Detecteção duplicatas 
+🧹 Detecção e tratamento de duplicatas
 
-- ✅Padronização de datas, textos (uppercase/lowercase)
+📐 Padronização de formatos (datas, textos)
 
-- ✅Limpeza de Espaços e Caracteres Inválidos
+🚨 Identificação de outliers e inconsistências
 
 
  ## Tabela Clientes
+
+### 5.2 Tabela Clientes
+
+**Descrição:** Armazena informações cadastrais dos clientes da empresa.
+
+**Estrutura principal:**
+- `Cliente_ID` (INT): Identificador único
+- `Primeiro_nome` (VARCHAR): Nome do cliente
+- `Sobrenome` (VARCHAR): Sobrenome do cliente
+- `Data_Nascimento` (DATE): Data de nascimento
+
+**Problemas identificados:**
+- Nomes e sobrenomes em CAIXA ALTA
+- Formato de data não localizado
+- Possíveis valores nulos ou duplicados
+
+**Soluções implementadas:**
+
+1. Normalização de nomes:
+ ~~~sql
+UPDATE Clientes
+SET Primeiro_nome = CONCAT(
+    UPPER(LEFT(Primeiro_nome, 1)),
+    LOWER(SUBSTRING(Primeiro_nome, 2, LEN(Primeiro_nome)))
+)
+
+
+~~~
 
 
 <div align="center" style="display: inline-block;">
