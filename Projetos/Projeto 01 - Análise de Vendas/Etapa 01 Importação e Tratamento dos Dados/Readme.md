@@ -340,21 +340,40 @@ WHERE
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_nulos.png">
 </div>
+<br>
 
 **Resultado**: A tabela Clientes não possui campos com *valores nulos*.
 
+4. Verificação de Duplicatas
 
 Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
 
+~~~sql
+--Detecteção duplicatas
+
+WITH CTE_Duplicatas AS(
+	SELECT 
+		*
+		,ROW_NUMBER() OVER(PARTITION BY ID_Cliente, Primeiro_Nome, Sobrenome, Email, Data_Nascimento, Estado_Civil,
+                            Num_filhos, Nivel_Escolar, Documento, Id_Localidade
+						   ORDER BY ID_Cliente) AS Rn
+	FROM Clientes
+)
+SELECT
+	*
+FROM CTE_Duplicatas
+WHERE Rn > 1;
+~~~
+
 <div align="center" style="display: inline-block;">
-	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes_duplicado.png">
+	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_nulos.png">
 </div>
 
 <br>
 
-***Resultado***: A tabela Clientes não possui campos com *valores duplicados*.
+**Resultado**: A tabela Clientes não possui campos com *valores duplicados*.
 
-Limpeza de Espaços e Caracteres Inválidos
+
 
 
 
