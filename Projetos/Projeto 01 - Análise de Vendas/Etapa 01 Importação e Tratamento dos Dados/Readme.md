@@ -139,7 +139,7 @@ Para cada tabela, executei um comando similar a:
 
 ~~~sql
 BULK INSERT Clientes
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Clientes.csv'
+FROM 'C:\caminho\Clientes.csv'
 WITH (
     FORMAT = 'CSV',              -- A partir do SQL Server 2022 (opcional)
     FIRSTROW = 2,                -- Ignora o cabeçalho
@@ -150,7 +150,7 @@ WITH (
 );
 
 BULK INSERT Devolucoes
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Devolucoes.csv'
+FROM 'C:\caminho\Devolucoes.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
@@ -161,7 +161,7 @@ WITH (
 );
 
 BULK INSERT Itens
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Itens.csv'
+FROM 'C:\caminho\Itens.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
@@ -172,7 +172,7 @@ WITH (
 );
 
 BULK INSERT Localidades
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Localidades.csv'
+FROM 'C:\caminho\Localidades.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
@@ -183,7 +183,7 @@ WITH (
 );
 
 BULK INSERT Lojas
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Lojas.csv'
+FROM 'C:\caminho\Lojas.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
@@ -194,7 +194,7 @@ WITH (
 );
 
 BULK INSERT Produtos
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Produtos.csv'
+FROM 'C:\caminho\Produtos.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
@@ -205,7 +205,7 @@ WITH (
 );
 
 BULK INSERT Vendas
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Vendas.csv'
+FROM 'C:\caminho\Vendas.csv'
 WITH (
     FORMAT = 'CSV',              
     FIRSTROW = 2,                
