@@ -20,21 +20,11 @@ Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dad
 
 ## 2. Fontes de Dados
 
-Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e fornecidos em formato CSV, contendo:
+Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e fornecidos em formato CSV.
 
 **Estrutura de arquivos:**
 
-<div align="center" style="display: inline-block;">
-Projeto 01 - Análise de Vendas/
-└── dados/
-├── Clientes.csv
-├── Devolucoes.csv
-├── Itens.csv
-├── Localidades.csv
-├── Lojas.csv
-├── Produtos.csv
-└── Vendas.csv
-</div>
+
 
 <div align="center" style="display: inline-block;">
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb.png">
@@ -43,12 +33,16 @@ Projeto 01 - Análise de Vendas/
 
 **Metadados das tabelas:**
 
-| Tabela       | Registros| Descrição                     | Chave Primária   |
-|--------------|----------|-------------------------------|------------------|
-| Clientes     | 1.5k     | Cadastro de clientes          | Cliente_ID       |
-| Devoluções   | 200      | Registro de devoluções        | Devolucao_ID     |
-| [...]        | [...]    | [...]                        | [...]           |
-
+| Tabela       | Registros| Descrição                     											 | 
+|--------------|----------|--------------------------------------------------------------------------|
+| Clientes     | 1.5k     | Contém informações cadastrais e demográficas detalhadas de cada clientes.|
+| Devoluções   | 200      | Registra as devoluções dos produtos.
+|Itens		   |		  |Detalha os itens vendidos em cada venda.
+|Localidades   |		  |Armazena informações geográficas das lojas.			
+|Lojas		   |		  |Contém informações sobre as lojas.
+|Produtos	   |          |Armazena informações sobre os produtos vendidos.
+|Vendas        |          |Registra as vendas realizadas.
+       
 
 ## 3. Criação do Banco de Dados
 
