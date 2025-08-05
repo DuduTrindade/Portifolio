@@ -1,11 +1,10 @@
-# 📊 Análise de Vendas - Importação e Tratamento de Dados
+# 📊 Etapa 01 - Importação e Tratamento de Dados
 
 ## 1. Introdução e Contexto
 
-Este projeto faz parte de uma análise completa de dados de vendas de uma rede varejista. Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dados que serão utilizados nas análises subsequentes.
+Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dados que serão utilizados nas análises subsequentes.
 
 **Objetivos principais:**
-- Estruturar um banco de dados relacional no SQL Server
 - Importar dados de múltiplas fontes CSV
 - Realizar análise exploratória (EDA) completa
 - Garantir a qualidade dos dados através de tratamentos adequados
