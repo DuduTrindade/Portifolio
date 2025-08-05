@@ -25,23 +25,15 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 **Estrutura de arquivos:**
 
 
-
-<div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb.png">
-</div>
-
-
-**Metadados das tabelas:**
-
-| Tabela       | Registros| Descrição                     											 | 
-|--------------|----------|--------------------------------------------------------------------------|
-| Clientes     | 1.5k     | Contém informações cadastrais e demográficas detalhadas de cada clientes.|
-| Devoluções   | 200      | Registra as devoluções dos produtos.
-|Itens		   |		  |Detalha os itens vendidos em cada venda.
-|Localidades   |		  |Armazena informações geográficas das lojas.			
-|Lojas		   |		  |Contém informações sobre as lojas.
-|Produtos	   |          |Armazena informações sobre os produtos vendidos.
-|Vendas        |          |Registra as vendas realizadas.
+| Tabela     | Registros| Descrição                     										   | 
+|------------|----------|--------------------------------------------------------------------------|
+|Clientes    | 18148    |Contém informações cadastrais e demográficas detalhadas de cada clientes. |
+|Devoluções  | 1809     |Registra as devoluções dos produtos.
+|Itens		 | 56046	|Detalha os itens vendidos em cada venda.
+|Localidades | 34		|Armazena informações geográficas das lojas.			
+|Lojas		 | 306	    |Contém informações sobre as lojas.
+|Produtos	 | 293      |Armazena informações sobre os produtos vendidos.
+|Vendas      | 25164    |Registra as vendas realizadas.
        
 
 ## 3. Criação do Banco de Dados
