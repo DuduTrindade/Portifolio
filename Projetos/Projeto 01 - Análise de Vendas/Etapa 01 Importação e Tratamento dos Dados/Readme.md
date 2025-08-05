@@ -124,9 +124,99 @@ CREATE TABLE Vendas(
     ,ID_Cliente    SMALLINT
     ,ID_Loja       SMALLINT
 );
+~~~
 
+## 4. Importação dos Dados
+
+### 4.1 Método de Importação
+Utilizei o comando `BULK INSERT` do SQL Server por ser:
+- Eficiente para grandes volumes de dados
+- Permite controle preciso sobre o formato dos arquivos
+- Execução rápida comparada a métodos alternativos
+
+### 4.2 Processo de Carga
+Para cada tabela, executei um comando similar a:
+
+~~~sql
+BULK INSERT Clientes
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Clientes.csv'
+WITH (
+    FORMAT = 'CSV',              -- A partir do SQL Server 2022 (opcional)
+    FIRSTROW = 2,                -- Ignora o cabeçalho
+    FIELDTERMINATOR = ';',       -- Delimitador de colunas
+    ROWTERMINATOR = '\n',        -- Delimitador de linhas
+    CODEPAGE = '65001',          -- Suporte a UTF-8
+    TABLOCK
+);
+
+BULK INSERT Devolucoes
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Devolucoes.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
+
+BULK INSERT Itens
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Itens.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
+
+BULK INSERT Localidades
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Localidades.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
+
+BULK INSERT Lojas
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Lojas.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
+
+BULK INSERT Produtos
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Produtos.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
+
+BULK INSERT Vendas
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Vendas.csv'
+WITH (
+    FORMAT = 'CSV',              
+    FIRSTROW = 2,                
+    FIELDTERMINATOR = ';',       
+    ROWTERMINATOR = '\n',        
+    CODEPAGE = '65001',          
+    TABLOCK
+);
 
 ~~~
+
 O primeiro passo antes da importação dos dados é a criação do banco de dados no SQL Server. Para este projeto, o banco foi nomeado como Vendas_Nova_Varejo. Em seguida, prosseguimos com a criação das tabelas utilizando o comando **CREATE TABLE** nome_tabela, onde cada tabela é estruturada de acordo com os dados a serem importados.
 
 Para importar os dados dos arquivos CSV para dentro das tabelas do banco, utilizarei o comando **BULK INSERT**.
