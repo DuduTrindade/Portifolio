@@ -1,12 +1,38 @@
-<h1>📥Importação dos Dados</h1> 
+# 📊 Análise de Vendas - Importação e Tratamento de Dados
 
-Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a> dos arquivos.
+## 1. Introdução e Contexto
 
-Os arquivos são compostos pelas seguintes tabelas:
+Este projeto faz parte de uma análise completa de dados de vendas de uma rede varejista. Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dados que serão utilizados nas análises subsequentes.
+
+**Objetivos principais:**
+- Estruturar um banco de dados relacional no SQL Server
+- Importar dados de múltiplas fontes CSV
+- Realizar análise exploratória (EDA) completa
+- Garantir a qualidade dos dados através de tratamentos adequados
+
+**Tecnologias utilizadas:**
+- 🛢️ SQL Server (SGBDR)
+- 📋 T-SQL (para scripts de importação e tratamento)
+
+**Escopo do projeto:**
+- 7 tabelas relacionadas ao processo de vendas
+- Dados históricos de 3 anos
+- Processo completo de ETL (Extract, Transform, Load)
+
+## 2. Fontes de Dados
+
+Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e fornecidos em formato CSV, contendo:
+
+**Estrutura de arquivos:**
 
 <div align="center" style="display: inline-block;">
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb.png">
 </div>
+
+Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a> dos arquivos.
+
+
+
 
 
 
