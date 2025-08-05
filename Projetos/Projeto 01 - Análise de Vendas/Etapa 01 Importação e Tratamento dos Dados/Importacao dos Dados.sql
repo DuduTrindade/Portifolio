@@ -26,7 +26,7 @@ CREATE TABLE Clientes(
 );
 
 BULK INSERT Clientes
-FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\dados\Clientes.csv'
+FROM 'C:\Users\Edutr\OneDrive\Área de Trabalho\Projeto Vendas\dados\Clientes.csv'
 WITH (
     FORMAT = 'CSV',              -- A partir do SQL Server 2022 (opcional)
     FIRSTROW = 2,                -- Ignora o cabeçalho
