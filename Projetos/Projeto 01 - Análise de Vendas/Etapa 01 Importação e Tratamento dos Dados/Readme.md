@@ -28,6 +28,17 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb.png">
 </div>
 
+
+**Metadados das tabelas:**
+
+| Tabela       | Registros| Descrição                     | Chave Primária   |
+|--------------|----------|-------------------------------|------------------|
+| Clientes     | 1.5k     | Cadastro de clientes          | Cliente_ID       |
+| Devoluções   | 200      | Registro de devoluções        | Devolucao_ID     |
+| [...]        | [...]    | [...]                        | [...]           |
+
+
+
 Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a> dos arquivos.
 
 
