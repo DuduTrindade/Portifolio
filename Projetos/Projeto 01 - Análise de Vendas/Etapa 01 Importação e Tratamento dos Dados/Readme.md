@@ -356,14 +356,3 @@ Limpeza de Espaços e Caracteres Inválidos
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c7.png">
 </div>
 
-## Limpeza dos dados
-Agora iremos verificar como os dados estão dispostos em cada tabela do banco de dados. Trataremos os seguintes pontos:
-
-
-- Tratamento de dados ausentes: Remoção ou preenchimento (imputação por média, mediana ou algoritmos).
-
-- Correção de inconsistências: Padronização de datas, textos (uppercase/lowercase), unidades de medida.
-
-- Remoção de duplicatas e dados irrelevantes.
-
-- Filtragem de outliers (quando necessário).
