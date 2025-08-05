@@ -19,7 +19,7 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 ## 🗂️Etapas do Projeto
 
-Este projeto de análise de vendas é dividido em seis etapas principais:
+Este projeto de análise de vendas é dividido em 5 etapas principais:
 
 
 
