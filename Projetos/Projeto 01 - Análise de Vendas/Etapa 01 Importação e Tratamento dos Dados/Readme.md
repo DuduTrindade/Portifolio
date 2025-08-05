@@ -38,12 +38,23 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 | [...]        | [...]    | [...]                        | [...]           |
 
 
+## 3. Criação do Banco de Dados
 
-Os dados que utilizaremos estão dispostos em formato de arquivos csv extraídos do sistema da empresa. Esses dados serão importados para dentro do SQL Server, aonde realizarei toda a parte de tratamento e limpeza dos dados. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a> dos arquivos.
+### 3.1 Modelagem Inicial
+Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio:
 
+~~~sql
+CREATE DATABASE Vendas_Nova_Varejo COLLATE Latin1_General_CI_AS;
+GO
 
+USE Vendas_Nova_Varejo;
+GO
 
+~~~
 
+### 3.2 Scripts de Criação de Tabelas
+
+Para cada tabela, criei a estrutura com os tipos de dados apropriados:
 
 
 O primeiro passo antes da importação dos dados é a criação do banco de dados no SQL Server. Para este projeto, o banco foi nomeado como Vendas_Nova_Varejo. Em seguida, prosseguimos com a criação das tabelas utilizando o comando **CREATE TABLE** nome_tabela, onde cada tabela é estruturada de acordo com os dados a serem importados.
