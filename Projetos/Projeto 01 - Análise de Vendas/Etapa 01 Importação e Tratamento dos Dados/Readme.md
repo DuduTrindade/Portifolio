@@ -55,8 +55,78 @@ GO
 ### 3.2 Scripts de Criação de Tabelas
 
 Para cada tabela, criei a estrutura com os tipos de dados apropriados:
+~~~sql
+--- Tabela Clientes
+CREATE TABLE Clientes(
+     ID_Cliente         SMALLINT 
+    ,Primeiro_Nome      NVARCHAR(30) 
+    ,Sobrenome          NVARCHAR(30) 
+    ,Email              NVARCHAR(40) 
+    ,Genero             NCHAR(1) CHECK(Genero IN('M', 'F')) 
+    ,Data_Nascimento    DATE 
+    ,Estado_Civil       NCHAR(1) CHECK(Estado_Civil IN('C', 'S')) 
+    ,Num_Filhos         TINYINT 
+    ,Nivel_Escolar      NVARCHAR(40) 
+    ,Documento          NVARCHAR(20) 
+    ,Id_Localidade      TINYINT 
+);
+
+-- Tabela Devolução
+CREATE TABLE Devolucoes(
+     Data_Devolucao     DATE 
+    ,Id_Loja            SMALLINT    
+    ,SKU                NVARCHAR(10) 
+    ,Qtde_Devolvida     SMALLINT 
+    ,Motivo_Devolucao   NVARCHAR(50)     
+);
+
+CREATE TABLE Itens(
+     Id_Venda               NVARCHAR(10)
+    ,Ordem_Compra           TINYINT
+    ,Data_Venda             DATE
+    ,SKU                    NVARCHAR(5)
+    ,ID_Cliente             SMALLINT
+    ,Quantidade_Vendida     TINYINT
+     PRIMARY KEY(Id_Venda,Ordem_Compra)
+);
+
+CREATE TABLE Localidades(
+     ID_Localidade   TINYINT 
+    ,Pais            NVARCHAR(30)
+    ,Continente      NVARCHAR(30)
+);
+
+-- Tabela Lojas
+CREATE TABLE Lojas(
+     ID_Loja                    SMALLINT 
+    ,Nome_Loja                  NVARCHAR(40)
+    ,Quantidade_Colaboradores   SMALLINT
+    ,Tipo                       NVARCHAR(20)
+    ,id_Localidade              TINYINT
+    ,Gerente_Loja               NVARCHAR(20)
+    ,Documento_Gerente          NVARCHAR(20)
+);
+
+CREATE TABLE Produtos(
+    SKU               NVARCHAR(5) 
+   ,Produto           NVARCHAR(60)
+   ,Marca             NVARCHAR(30)
+   ,Tipo_Produto      NVARCHAR(30)    
+   ,Preco_Unitario    DECIMAL(10,2)
+   ,Custo_Unitario    DECIMAL(10,2)
+   ,Observacao        NVARCHAR(100)
+);
 
 
+CREATE TABLE Vendas(
+     Id_Venda      NVARCHAR(10) 
+    ,Data_Venda    DATE
+    ,ID_Cliente    SMALLINT
+    ,ID_Loja       SMALLINT
+);
+
+
+~~~
 O primeiro passo antes da importação dos dados é a criação do banco de dados no SQL Server. Para este projeto, o banco foi nomeado como Vendas_Nova_Varejo. Em seguida, prosseguimos com a criação das tabelas utilizando o comando **CREATE TABLE** nome_tabela, onde cada tabela é estruturada de acordo com os dados a serem importados.
 
 Para importar os dados dos arquivos CSV para dentro das tabelas do banco, utilizarei o comando **BULK INSERT**.
