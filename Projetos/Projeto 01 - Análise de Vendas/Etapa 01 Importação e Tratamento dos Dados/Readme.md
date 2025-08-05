@@ -236,9 +236,26 @@ Técnicas aplicadas:
 ### 5.2 Tabela Clientes
 
 **Descrição:** Armazena informações cadastrais dos clientes da empresa.
+~~~sql
+-- Verificação da estrutura da tabela
+SELECT TOP (15) 
+	   [ID_Cliente]
+      ,[Primeiro_Nome]
+      ,[Sobrenome]
+      ,[Email]
+      ,[Genero]
+      ,[Data_Nascimento]
+      ,[Estado_Civil]
+      ,[Num_Filhos]
+      ,[Nivel_Escolar]
+      ,[Documento]
+      ,[Id_Localidade]
+  FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
+~~~
+
 
 <div align="center" style="display: inline-block;">
-	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c1.png">
+	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb_clientes.png">
 </div>
 
 <br>
