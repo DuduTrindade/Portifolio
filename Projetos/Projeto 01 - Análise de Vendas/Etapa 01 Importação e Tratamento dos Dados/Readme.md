@@ -215,7 +215,7 @@ WITH (
 ~~~
 
 
-## Exploração Inicial dos dados
+## 5. Exploração Inicial dos dados
 A **Análise Exploratória de Dados (EDA** - *Exploratory Data Analysis*) é uma etapa fundamental no tratamento de dados, onde investigamos o conjunto de dados para entender suas características, identificar problemas e preparação para modelagem dos dados.
 
 Técnicas aplicadas:
@@ -231,9 +231,7 @@ Técnicas aplicadas:
 🚨 Identificação de outliers e inconsistências
 
 
- ## Tabela Clientes
-
-### 5.2 Tabela Clientes
+ ## 5.1 Tabela Clientes
 
 **Descrição:** Armazena informações cadastrais dos clientes da empresa.
 ~~~sql
@@ -281,7 +279,7 @@ SELECT TOP (15)
 
 **Soluções implementadas:**
 
-1. Normalização de nomes:
+1. Normalização de nomes
 
 Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* estão com todos os caracteres em letras maiúsculas, o que não corresponde ao formato padrão desejado.
 
@@ -372,9 +370,6 @@ WHERE Rn > 1;
 <br>
 
 **Resultado**: A tabela Clientes não possui campos com *valores duplicados*.
-
-
-
 
 
 ## **Tabela Devoluções**
