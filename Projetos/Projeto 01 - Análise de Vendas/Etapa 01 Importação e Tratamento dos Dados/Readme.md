@@ -24,6 +24,16 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 
 **Estrutura de arquivos:**
 
+Projeto 01 - Análise de Vendas/
+└── dados/
+├── Clientes.csv
+├── Devolucoes.csv
+├── Itens.csv
+├── Localidades.csv
+├── Lojas.csv
+├── Produtos.csv
+└── Vendas.csv
+
 <div align="center" style="display: inline-block;">
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tb.png">
 </div>
