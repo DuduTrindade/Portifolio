@@ -13,9 +13,9 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 ## 🛠️Tecnologias Utilizadas
 
 
-- **Excel**
-- **SQL** (SQL Server)
-- **Power BI**
+- **`Excel`**
+- **`SQL`** (SQL Server)
+- **`Power BI`**
 
 ## 🗂️Etapas do Projeto
 
