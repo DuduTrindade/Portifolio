@@ -296,6 +296,8 @@ UPDATE Clientes
 	SET Sobrenome = UPPER(LEFT(Sobrenome, 1)) + LOWER(SUBSTRING(Sobrenome, 2, LEN(Sobrenome)))
 
 COMMIT;
+
+SELECT TOP 15 * FROM Clientes
 ~~~
 
 2. Padronização campo data_nascimento
