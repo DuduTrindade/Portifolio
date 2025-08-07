@@ -300,8 +300,8 @@ COMMIT;
 
 2. Padronização campo data_nascimento
 
-A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
-Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções **CONVERT ou FORMAT** quando necessário, mantendo o armazenamento original.
+>A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
+>Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções **CONVERT ou FORMAT** quando necessário, mantendo o armazenamento original.
 
 ~~~sql
 -- Conversão campo data de nascimento
@@ -312,15 +312,16 @@ SELECT TOP 15
 FROM Clientes
 
 ~~~
+
 <div align="center" style="display: inline-block;">
-    <img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_DataNas.png">
+    <img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_DataNas.png">
 </div>
 <br>
 
 
 3. Identificação de campos nulos
 
-Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
+>Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
 
 ~~~sql
 --Identificação de valores ausentes (missing data)
@@ -351,7 +352,7 @@ WHERE
 
 4. Verificação de Duplicatas
 
-Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
+>Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
 
 ~~~sql
 --Detecteção duplicatas
