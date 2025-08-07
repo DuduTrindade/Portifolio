@@ -236,7 +236,7 @@ Técnicas aplicadas:
 **Descrição:** Armazena informações cadastrais dos clientes da empresa.
 ~~~sql
 -- Verificação da estrutura da tabela
-SELECT TOP (15) 
+SELECT TOP (20) 
 	   [ID_Cliente]
       ,[Primeiro_Nome]
       ,[Sobrenome]
@@ -272,12 +272,12 @@ SELECT TOP (15)
 - `Id_Localidade`:Código numérico que pode representar cidade, estado ou região
 
 
-**Problemas identificados:**
-- Nomes e sobrenomes em CAIXA ALTA
-- Formato de data não localizado
-- Possíveis valores nulos ou duplicados
+**Problemas Encontrados:**
+- ❌Nomes e sobrenomes em CAIXA ALTA
+- ❌Formato de data não localizado
+- ❌Possíveis valores nulos ou duplicados
 
-**Soluções implementadas:**
+**Ações Tomadas::**
 
 1. Normalização de nomes
 
@@ -370,6 +370,8 @@ WHERE Rn > 1;
 <br>
 
 **Resultado**: A tabela Clientes não possui campos com *valores duplicados*.
+
+## Resultado final da Tabela Clientes
 
 
 ## **Tabela Devoluções**

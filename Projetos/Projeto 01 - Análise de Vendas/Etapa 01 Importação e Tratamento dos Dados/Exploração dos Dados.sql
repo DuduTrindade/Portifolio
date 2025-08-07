@@ -42,9 +42,6 @@ SELECT
 FROM Clientes
 
 
-
-
-
 --Identificação de valores ausentes (missing data)
 
 SELECT
@@ -80,20 +77,8 @@ FROM CTE_Duplicatas
 WHERE Rn > 1;
 
 
+-- Tabela Devoluções
 
-
--- Remover Espaços vazios
-
-BEGIN TRANSACTION;
-
-UPDATE Clientes
-    SET Primeiro_Nome   = TRIM(Primeiro_Nome),
-        Sobrenome       = TRIM(Sobrenome),     
-        Email           = TRIM(Email),          
-        Genero          = TRIM(Genero),         
-        Estado_Civil    = TRIM(Estado_Civil),      
-        Nivel_Escolar   = TRIM(Nivel_Escolar),  
-        Documento       = TRIM(Documento);
 
 
 
