@@ -287,7 +287,8 @@ Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes,
 ````
 
 <div style="background: #f8f8f8; border-left: 4px solid #0366d6; padding: 12px; margin: 12px 0;">
-  <strong>📌 Dica:</strong> Este é um box de destaque personalizado com HTML.
+  <strong>📌 Dica:</strong> Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* estão com todos os caracteres em letras maiúsculas, o que não corresponde ao formato padrão desejado.
+Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
 </div>
 
  ~~~sql
