@@ -301,11 +301,11 @@ COMMIT;
 2. Padronização campo data_nascimento
 
 A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
-Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos a função **CONVERT** quando necessário, mantendo o armazenamento original.
+Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções **CONVERT ou FORMAT** quando necessário, mantendo o armazenamento original.
 
 ~~~sql
 -- Conversão campo data de nascimento
-SELECT
+SELECT TOP 15
     Data_Nascimento,
     CONVERT(VARCHAR, Data_Nascimento, 105) AS data_convertida,
     FORMAT(Data_Nascimento, 'dd-MM-yyyy') AS data_formatada
