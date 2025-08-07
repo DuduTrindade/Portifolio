@@ -274,7 +274,7 @@ SELECT TOP (20)
 
 **Problemas Encontrados:**
 - ❌Nomes e sobrenomes em CAIXA ALTA
-- ❌Formato de data não localizado
+- ❌Formato de data padrão americano
 - ❌Possíveis valores nulos ou duplicados
 
 **Ações Tomadas::**
@@ -300,14 +300,14 @@ COMMIT;
 SELECT TOP 15 * FROM Clientes
 ~~~
 <div align="center" style="display: inline-block;">
-    <img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_maiusculo.png">
+    <img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_maiusculo.png">
 </div>
 
 <br>
 
 2. Padronização campo data_nascimento
 
->A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para Permitir operações e cálculos com datas sem conversões.
+>A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para permitir operações e cálculos com datas sem conversões.
 >Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções **CONVERT ou FORMAT** quando necessário, mantendo o armazenamento original.
 
 ~~~sql
@@ -355,7 +355,8 @@ WHERE
 </div>
 <br>
 
-**Resultado**: A tabela Clientes não possui campos com *valores nulos*.
+**Resultado**: ✅A tabela Clientes não possui campos com *valores nulos*.
+<br>
 
 4. Verificação de Duplicatas
 
@@ -384,7 +385,8 @@ WHERE Rn > 1;
 
 <br>
 
-**Resultado**: A tabela Clientes não possui campos com *valores duplicados*.
+**Resultado**: ✅A tabela Clientes não possui campos com *valores duplicados*.
+<br>
 
 ## Resultado final da Tabela Clientes
 
