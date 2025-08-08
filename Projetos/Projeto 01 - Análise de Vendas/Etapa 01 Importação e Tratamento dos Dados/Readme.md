@@ -233,7 +233,6 @@ Técnicas aplicadas:
 
  ## 5.1 Tabela Clientes
 
-**Descrição:** Armazena informações cadastrais dos clientes da empresa.
 ~~~sql
 -- Verificação da estrutura da tabela
 SELECT TOP (20) 
@@ -388,7 +387,6 @@ WHERE Rn > 1;
 **Resultado**: ✅A tabela Clientes não possui campos com *valores duplicados*.
 <br>
 
-## Resultado final da Tabela Clientes
 
 
 ## **Tabela Devoluções**
