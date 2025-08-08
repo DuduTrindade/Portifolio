@@ -361,7 +361,7 @@ WHERE
 
 >Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
 
-~~~sql
+```sql
 --Detecteção duplicatas
 
 WITH CTE_Duplicatas AS(
@@ -376,7 +376,7 @@ SELECT
 	*
 FROM CTE_Duplicatas
 WHERE Rn > 1;
-~~~
+```
 
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_nulos.png">
@@ -401,6 +401,12 @@ WHERE Rn > 1;
 - `SKU`: Código do produto devolvido
 - `Qtd_Devolvida`: Quantidade de itens devolvidos (geralmente 1, mas há casos de 2).
 - `Motivo_Devolucao`:  Razão da devolução, como Produto com defeito (mais frequente), Arrependimento (cliente não quis mais o produto), Nao informado (motivo não especificado), Troca Indisponível (quando a troca não pôde ser realizada).
+
+
+
+
+
+
 
 
 ## **Tabela Itens**
