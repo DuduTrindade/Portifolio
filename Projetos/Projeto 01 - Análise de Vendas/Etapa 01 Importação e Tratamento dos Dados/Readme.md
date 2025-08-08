@@ -320,9 +320,9 @@ FROM Clientes
 ~~~
 
 <div align="center" style="display: inline-block;">
-    <img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_DataNas.png">
+    <img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_DataNas.png">
 </div>
-<br><br>
+<br>
 
 
 3. Identificação de campos nulos
@@ -382,10 +382,10 @@ WHERE Rn > 1;
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_nulos.png">
 </div>
 
-<br><br>
+<br>
 
 **Resultado**: ✅A tabela Clientes não possui campos com *valores duplicados*.
-<br>
+<br><br>
 
 
 
