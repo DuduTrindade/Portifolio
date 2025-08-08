@@ -395,6 +395,12 @@ WHERE Rn > 1;
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
 </div>
 
+**Informações dos campos da tabela:**
+- `Data_Devolucao`: Data em que a devolução foi realizada
+- `ID_Loja`: Identificador único da loja onde a devolução foi feita.
+- `SKU`: Código do produto devolvido
+- `Qtd_Devolvida`: Quantidade de itens devolvidos (geralmente 1, mas há casos de 2).
+- `Motivo_Devolucao`:  Razão da devolução, como Produto com defeito (mais frequente), Arrependimento (cliente não quis mais o produto), Nao informado (motivo não especificado), Troca Indisponível (quando a troca não pôde ser realizada).
 
 
 ## **Tabela Itens**
@@ -402,12 +408,6 @@ WHERE Rn > 1;
 	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
 </div>
 
-**Informações dos campos da tabela:**
-- `Data_Devolucao`: Data em que a devolução foi realizada
-- `ID_Loja`: Identificador único da loja onde a devolução foi feita.
-- `SKU`: Código do produto devolvido
-- `Qtd_Devolvida`: Quantidade de itens devolvidos (geralmente 1, mas há casos de 2).
-- `Motivo_Devolucao`:  Razão da devolução, como Produto com defeito (mais frequente), Arrependimento (cliente não quis mais o produto), Nao informado (motivo não especificado), Troca Indisponível (quando a troca não pôde ser realizada).
 
 
 ## **Tabela Localidades**
