@@ -257,13 +257,13 @@ SELECT TOP (20)
 
 <br>
 
-**Estrutura principal:**
+**Informações dos campos da tabela:**
 - `Cliente_ID`: Identificador único do cliente
 - `Primeiro_nome`: Nome do cliente
 - `Sobrenome`: Sobrenome do cliente
 - `Email`:Endereço de e-mail do cliente
 - `Genero`:M(Masculino) ou F(Feminino).
-- `Data_Nascimento`: Data de nascimento no formato AAAA/MM/AA
+- `Data_Nascimento`: Data de nascimento no formatoAAAA/MM/AA
 - `Estado_Civil`:C(Casado), S(Solteiro)
 - `Num_Filhos`:Número de filhos.
 - `Nivel_Escolar`:(Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
@@ -392,13 +392,23 @@ WHERE Rn > 1;
 ## **Tabela Devoluções**
 
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c2.png">
+	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
 </div>
+
+
 
 ## **Tabela Itens**
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c3.png">
+	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
 </div>
+
+**Informações dos campos da tabela:**
+- `Data_Devolucao`: Data em que a devolução foi realizada
+- `ID_Loja`: Identificador único da loja onde a devolução foi feita.
+- `SKU`: Código do produto devolvido
+- `Qtd_Devolvida`: Quantidade de itens devolvidos (geralmente 1, mas há casos de 2).
+- `Motivo_Devolucao`:  Razão da devolução, como Produto com defeito (mais frequente), Arrependimento (cliente não quis mais o produto), Nao informado (motivo não especificado), Troca Indisponível (quando a troca não pôde ser realizada).
+
 
 ## **Tabela Localidades**
 <div align="center" style="display: inline-block;">
