@@ -79,6 +79,12 @@ WHERE Rn > 1;
 
 -- Tabela Devoluções
 
+SELECT TOP (15) [Data_Devolucao]
+      ,[Id_Loja]
+      ,[SKU]
+      ,[Qtde_Devolvida]
+      ,[Motivo_Devolucao]
+  FROM [Vendas_Nova_Varejo].[dbo].[Devolucoes]
 
 
 
