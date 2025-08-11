@@ -1,3 +1,23 @@
+# Código Databricks para corrigir caminhos antes de exportar
+html_content = """
+<script>
+// Corrige caminhos automaticamente
+document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('a, link, script, img');
+  links.forEach(el => {
+    if (el.href && el.href.startsWith('/files')) {
+      el.href = '.' + el.href;
+    }
+    if (el.src && el.src.startsWith('/files')) {
+      el.src = '.' + el.src;
+    }
+  });
+});
+</script>
+"""
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
