@@ -230,7 +230,21 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/TABELA_LOJAS.png">
 </div>
+
 <br>
+
+**Informações dos campos da tabela:**
+
+- `ID_Loja`:	Identificador numérico único
+- `Nome_Loja`:	Nome da loja (inclui localização e número quando há múltiplas lojas na mesma cidade)
+- `Quantidade_Colaboradores`:	Número de funcionários
+- `Tipo	Física`: Online ou Reseller
+- `Id_Localidade`:	Identificador numérico único de cada localidade
+- `Gerente_Loja`:	Nome do gerente (sobrenome, nome)
+- `Documento_Gerente`:	Número de documento do gerente
+
+<br>
+
 **Problemas Encontrados:**
 
 - 🆗✅Detecção de campos nulos
