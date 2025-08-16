@@ -189,11 +189,13 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 
 **Problemas Encontrados:**
-- ❌Detecção de campos nulos
-- ❌Possíveis valores nulos ou duplicados
+
+- 🆗✅Detecção de campos nulos
+- 🆗✅Possíveis valores nulos ou duplicados
+- 🆗✅Formato dos Dados
 
 **Ações Tomadas::**
-
+Nenhuma ação necessária, os dados estão tratados e limpos.
 
 
 
