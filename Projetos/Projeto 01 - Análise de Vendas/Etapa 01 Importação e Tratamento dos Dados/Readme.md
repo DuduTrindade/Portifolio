@@ -238,7 +238,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 - `ID_Loja`:	Identificador numérico único
 - `Nome_Loja`:	Nome da loja (inclui localização e número quando há múltiplas lojas na mesma cidade)
 - `Quantidade_Colaboradores`:	Número de funcionários
-- `Tipo	Física`: Online ou Reseller
+- `Tipo`:	Física, Online ou Reseller
 - `Id_Localidade`:	Identificador numérico único de cada localidade
 - `Gerente_Loja`:	Nome do gerente (sobrenome, nome)
 - `Documento_Gerente`:	Número de documento do gerente
