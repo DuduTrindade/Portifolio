@@ -20,7 +20,8 @@ Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dad
 
 ## 2. Fontes de Dados
 
-Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e fornecidos em formato CSV.
+Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e fornecidos em formato CSV. Aqui está o <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/dados">Link</a>
+dos arquivos utilizados neste projeto.
 
 **Estrutura de arquivos:**
 
