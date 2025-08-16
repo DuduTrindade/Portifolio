@@ -44,6 +44,13 @@ Aqui está o <a href= "https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 - Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio:
 - Para cada tabela, criei a estrutura com os tipos de dados apropriados.
 
+### 3.1 Método de Importação dos Dados
+Utilizei o comando `BULK INSERT` do SQL Server por ser:
+- Eficiente para grandes volumes de dados
+- Permite controle preciso sobre o formato dos arquivos
+- Execução rápida comparada a métodos alternativos
+
+
 ### 3.1 Modelagem Inicial
 Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio:
 
