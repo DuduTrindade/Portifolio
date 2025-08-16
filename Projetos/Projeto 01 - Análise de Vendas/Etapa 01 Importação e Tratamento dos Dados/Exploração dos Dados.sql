@@ -5,7 +5,7 @@
 -- ========= Tabela Clientes
 
 -- Verificação da estrutura da tabela
-SELECT TOP (1000) [ID_Cliente]
+SELECT TOP (10) [ID_Cliente]
       ,[Primeiro_Nome]
       ,[Sobrenome]
       ,[Email]
@@ -16,7 +16,7 @@ SELECT TOP (1000) [ID_Cliente]
       ,[Nivel_Escolar]
       ,[Documento]
       ,[Id_Localidade]
-  FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
+  FROM [Vendas_Nova_Varejo].[dbo].[Clientes];
 
 
 -- Padronização do formato campos: Primeiro_Nome e Sobrenome

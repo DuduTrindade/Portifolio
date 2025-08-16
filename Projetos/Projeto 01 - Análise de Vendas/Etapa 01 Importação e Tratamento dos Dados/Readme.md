@@ -11,7 +11,7 @@ Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dad
 
 **Tecnologias utilizadas:**
 - 🛢️ `SQL Server` (SGBDR)
-- 📋 `T-SQL` (para scripts de importação e tratamento)
+- 📋 Linguagem `T-SQL` (para scripts de importação e tratamento)
 
 **Escopo do projeto:**
 - 7 tabelas relacionadas ao processo de vendas
