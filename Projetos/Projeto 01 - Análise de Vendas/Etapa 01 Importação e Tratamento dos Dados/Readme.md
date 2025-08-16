@@ -124,7 +124,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 
 <div align="center" style="display: inline-block;">
-    <img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_DataNas.png">
+    <img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_clientes_conversaoData.png">
 </div>
 <br>
 
@@ -133,25 +133,6 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 >Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
 
-~~~sql
---Identificação de valores ausentes (missing data)
-
-SELECT
-    *
-FROM Clientes
-WHERE 
-    ID_Cliente      IS NULL OR
-    Primeiro_Nome   IS NULL OR
-    Sobrenome       IS NULL OR
-    Email           IS NULL OR
-    Genero          IS NULL OR
-    Data_Nascimento IS NULL OR
-    Estado_Civil    IS NULL OR
-    Num_Filhos      IS NULL OR
-    Nivel_Escolar   IS NULL OR
-    Documento       IS NULL OR
-    Id_Localidade   IS NULL;
-~~~
 
 <div align="center" style="display: inline-block;">
 	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes_nulos.png">

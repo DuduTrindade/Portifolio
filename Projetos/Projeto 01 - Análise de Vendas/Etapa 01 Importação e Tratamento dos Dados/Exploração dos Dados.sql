@@ -86,6 +86,8 @@ FROM CTE_Duplicatas
 WHERE Rn > 1;
 
 
+
+
 -- Tabela Devoluções
 
 SELECT TOP (15) [Data_Devolucao]
