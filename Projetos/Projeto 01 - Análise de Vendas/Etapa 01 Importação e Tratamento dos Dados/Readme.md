@@ -45,9 +45,9 @@ Principais Etapas Realizadas:
 
 - 1. Estrutura do Banco:
 
--✔ Criei o banco Vendas_Nova_Varejo no SQL Server
--✔ Desenvolvi um modelo relacional alinhado ao negócio
--✔ Defini tipos de dados apropriados para cada campo
+- ✔ Criei o banco Vendas_Nova_Varejo no SQL Server
+- ✔ Desenvolvi um modelo relacional alinhado ao negócio
+- ✔ Defini tipos de dados apropriados para cada campo
 
 - 2. Método de Importação
 Utilizei BULK INSERT por oferecer:
