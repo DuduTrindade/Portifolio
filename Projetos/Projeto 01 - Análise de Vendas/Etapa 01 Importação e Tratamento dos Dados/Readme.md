@@ -178,6 +178,16 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_itens.png">
 </div>
 
+**Informações dos campos da tabela:**
+`Id_Venda`:	Identificador único da venda (ex SO45079)
+`Ordem_Compra`:	Número da ordem de compra
+`Data_Venda`:	Data da venda no formato DD/MM/AAAA
+`SKU`: Código do produto vendido (ex HL45, HL59)
+`ID_Cliente`:	Identificador do cliente
+`Qtd_Vendida`:	Quantidade vendida
+
+
+
 **Problemas Encontrados:**
 - ❌Detecção de campos nulos
 - ❌Possíveis valores nulos ou duplicados
