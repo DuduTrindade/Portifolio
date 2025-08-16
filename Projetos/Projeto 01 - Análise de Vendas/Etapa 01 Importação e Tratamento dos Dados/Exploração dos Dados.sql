@@ -19,6 +19,8 @@ SELECT TOP (10) [ID_Cliente]
   FROM [Vendas_Nova_Varejo].[dbo].[Clientes];
 
 
+
+
 -- Padronização do formato campos: Primeiro_Nome e Sobrenome
 
 BEGIN TRANSACTION;
@@ -31,7 +33,7 @@ UPDATE Clientes
 
 COMMIT;
 
-SELECT TOP 15 * FROM Clientes;
+SELECT TOP 10 * FROM Clientes;
 
 
 -- Conversão campo data de nascimento
