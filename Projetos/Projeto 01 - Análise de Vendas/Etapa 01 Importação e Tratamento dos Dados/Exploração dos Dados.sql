@@ -114,15 +114,23 @@ WHERE
     [Motivo_Devolucao]IS NULL;
 
 
+
+
+
+
 --Detecteção duplicatas
+WITH CTE_Duplicados_Devolucoes AS(
+SELECT
+    *,
+    ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
+                      ORDER BY Data_Devolucao) AS RN
+FROM Devolucoes
+)
 
 SELECT
-    Data_Devolucao, Id_Loja, SKU, Qtde_Devolvida, Motivo_Devolucao,
-    COUNT(*)
-FROM Devolucoes
-GROUP BY 
-    Data_Devolucao, Id_Loja, SKU, Qtde_Devolvida, Motivo_Devolucao
-HAVING COUNT(*) >1;
+    *
+FROM CTE_Duplicados_Devolucoes
+WHERE RN > 1;
 
 
 SELECT
