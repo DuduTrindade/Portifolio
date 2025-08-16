@@ -45,15 +45,15 @@ Principais Etapas Realizadas:
 
 - 1. Estrutura do Banco:
 
-- ✔ Criei o banco Vendas_Nova_Varejo no SQL Server
-- ✔ Desenvolvi um modelo relacional alinhado ao negócio
-- ✔ Defini tipos de dados apropriados para cada campo
+	- ✔ Criei o banco Vendas_Nova_Varejo no SQL Server
+	- ✔ Desenvolvi um modelo relacional alinhado ao negócio
+	- ✔ Defini tipos de dados apropriados para cada campo
 
 - 2. Método de Importação
 Utilizei BULK INSERT por oferecer:
-- Alta eficiência com grandes volumes
-- Controle preciso sobre formatos
-- Performance superior a métodos alternativos
+	- Alta eficiência com grandes volumes
+	- Controle preciso sobre formatos
+	- Performance superior a métodos alternativos
 
 ### 3.1 Método de Importação dos Dados
 Utilizei o comando `BULK INSERT` do SQL Server por ser:
