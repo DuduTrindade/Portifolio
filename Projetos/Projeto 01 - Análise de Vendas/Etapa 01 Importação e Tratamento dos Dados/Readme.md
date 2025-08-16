@@ -130,7 +130,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 
 
-## **Tabela Devoluções**
+## 4.2 **Tabela Devoluções**
 
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_devolucoes.png">
@@ -174,7 +174,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 </div>
 
 
-## **Tabela Itens**
+## 4.3 **Tabela Itens**
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_itens.png">
 </div>
@@ -204,7 +204,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 
 
 
-## **Tabela Localidades**
+## 4.4 **Tabela Localidades**
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_localidades.png">
 </div>
@@ -226,7 +226,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 **Ações Tomadas:** <br>
 Nenhuma ação necessária, os dados estão tratados e limpos.
 
-## **Tabela Lojas**
+## 4.5 **Tabela Lojas**
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/TABELA_LOJAS.png">
 </div>
@@ -254,7 +254,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 **Ações Tomadas:** <br>
 Nenhuma ação necessária, os dados estão tratados e limpos.
 
-## **Tabela Produtos**
+## 4.6 **Tabela Produtos**
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_produtos.png">
 </div>
@@ -279,17 +279,35 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 **Ações Tomadas:** <br>
 Nenhuma ação necessária, os dados estão tratados e limpos.
 
-## **Tabela Vendas**
+## 4.7 **Tabela Vendas**
 <div align="center" style="display: inline-block;">
-	<img  width="900" src="">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_vendas.png">
 </div>
 
-📊 Conclusão da Etapa
+<br>
 
-Todos os dados brutos foram carregados no SQL Server com sucesso utilizando BULK INSERT.
+**Informações dos campos da tabela:**
+- `Id_Venda`:	Identificador único da venda (ex SO45079)
+- `Data_Venda`:	Data da venda no formato DD/MM/AAAA
+- `ID_Cliente`:	Identificador do cliente
+- `ID_Loja`:	Identificador da loja
 
-A qualidade dos dados foi avaliada através de EDA (valores nulos, duplicados, inconsistências).
+**Problemas Encontrados:**
 
-Foram aplicadas ações corretivas pontuais (ex.: exclusão de duplicatas, normalização de nomes, padronização de formatos).
+- 🆗✅Detecção de campos nulos
+- 🆗✅Possíveis valores nulos ou duplicados
+- 🆗✅Formato dos Dados
 
-O dataset resultante encontra-se padronizado, limpo e confiável, pronto para a Etapa 02 – Modelagem dos Dados.
+**Ações Tomadas:** <br>
+Nenhuma ação necessária, os dados estão tratados e limpos.
+
+
+## 📊 5. Conclusão da Etapa
+
+- Todos os dados brutos foram carregados no SQL Server com sucesso utilizando `BULK INSERT`.
+
+- A qualidade dos dados foi avaliada através de `EDA` (valores nulos, duplicados, inconsistências).
+
+- Foram aplicadas ações corretivas pontuais (ex.: exclusão de duplicatas, normalização de nomes, padronização de formatos).
+
+- O dataset resultante encontra-se padronizado, limpo e confiável, pronto para a Etapa 02 – Modelagem dos Dados.
