@@ -43,13 +43,12 @@ Aqui está o <a href= "https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 Principais Etapas Realizadas:
 
-- Estrutura do Banco:
-
+- 1. Estrutura do Banco:
 	✔Criei o banco Vendas_Nova_Varejo no SQL Server <br>
 	✔Desenvolvi um modelo relacional alinhado ao negócio <br>
 	✔Defini tipos de dados apropriados para cada campo <br>
 
-- Método de Importação
+- 2. Método de Importação
 Utilizei `BULK` INSERT por oferecer:
 	- Alta eficiência com grandes volumes
 	- Controle preciso sobre formatos
