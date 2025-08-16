@@ -99,7 +99,6 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 **Problemas Encontrados:**
 - ❌Nomes e sobrenomes em CAIXA ALTA
 - ❌Formato de data padrão americano
-- ❌Possíveis valores nulos ou duplicados
 
 **Ações Tomadas:**
 
@@ -129,34 +128,6 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 <br>
 
 
-3. Identificação de campos nulos
-
->Outra validação que devemos fazer na tabela clientes é de *Identificação de valores ausentes (missing data)*, ou seja, verificar se a tabela possui algum campo com valores nulos.
-
-
-<div align="center" style="display: inline-block;">
-	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_clientes_campos_nulos.png">
-</div>
-<br>
-
-**Resultado**: ✅A tabela Clientes não possui campos com *valores nulos*.
-<br><br>
-
-4. Verificação de Duplicatas
-
->Dados duplicados podem distorcer nossas análises, por isso devemos realizar *Detecteção de duplicatas*.
-
-
-<div align="center" style="display: inline-block;">
-	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_clientes_duplicatas.png">
-</div>
-
-<br>
-
-**Resultado**: ✅A tabela Clientes não possui campos com *valores duplicados*.
-<br><br>
-
-
 
 ## **Tabela Devoluções**
 
@@ -178,7 +149,12 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 **Ações Tomadas:**
 
-1. Verificação de duplicatas
+1. Verificação de Dados Duplicados
+
+<div align="center" style="display: inline-block;">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_devolucoes_duplicatas.png">
+</div>
+
 
 
 
