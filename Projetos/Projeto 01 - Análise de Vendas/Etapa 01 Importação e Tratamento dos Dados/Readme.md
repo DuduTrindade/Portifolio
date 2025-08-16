@@ -256,8 +256,28 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 
 ## **Tabela Produtos**
 <div align="center" style="display: inline-block;">
-	<img  width="900" src="">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_produtos.png">
 </div>
+
+<br>
+
+**Informações dos campos da tabela:**
+- `SKU`:	Código identificador único
+- `Produto`:	Nome completo do produto
+- `Marca`:	Fabricante
+- `Tipo_Produto`:	Categoria principal
+- `Preco_Unitario`:	Preço de venda do produto
+- `Custo_Unitario`:	Custo do produto para a empresa
+- `Observacao`:	Comentários adicionais (vazio na maioria dos casos)
+
+**Problemas Encontrados:**
+
+- 🆗✅Detecção de campos nulos
+- 🆗✅Possíveis valores nulos ou duplicados
+- 🆗✅Formato dos Dados
+
+**Ações Tomadas:** <br>
+Nenhuma ação necessária, os dados estão tratados e limpos.
 
 ## **Tabela Vendas**
 <div align="center" style="display: inline-block;">
