@@ -2,7 +2,7 @@
 
 -- Exploração dos Dados
 
--- ========= Tabela Clientes
+-- ================== Tabela Clientes ================================
 
 -- Verificação da estrutura da tabela
 SELECT TOP (10) [ID_Cliente]
@@ -86,9 +86,7 @@ FROM CTE_Duplicatas
 WHERE Rn > 1;
 
 
-
-
--- Tabela Devoluções
+-- ================== Tabela Devoluções ================================
 
 SELECT TOP (15) 
        [Data_Devolucao]
@@ -115,22 +113,20 @@ WHERE
 
 
 
-
-
-
 --Detecteção duplicatas
 WITH CTE_Duplicados_Devolucoes AS(
-SELECT
-    *,
-    ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
-                      ORDER BY Data_Devolucao) AS RN
-FROM Devolucoes
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
+                          ORDER BY Data_Devolucao) AS RN
+    FROM Devolucoes
 )
 
 SELECT
     *
 FROM CTE_Duplicados_Devolucoes
 WHERE RN > 1;
+
 
 -- Selecionando
 SELECT
@@ -144,15 +140,46 @@ WHERE
     Motivo_Devolucao = 'Produto com defeito'
 
 
-
 -- Apagando
 WITH CTE_Duplicados_Devolucoes AS(
-SELECT
-    *,
-    ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
-                      ORDER BY Data_Devolucao) AS RN
-FROM Devolucoes
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
+                          ORDER BY Data_Devolucao) AS RN
+    FROM Devolucoes
 )
 
 DELETE FROM CTE_Duplicados_Devolucoes
 WHERE RN > 1;
+
+
+-- ================== Tabela Itens ================================
+
+SELECT TOP (15) 
+       [Id_Venda]
+      ,[Ordem_Compra]
+      ,[Data_Venda]
+      ,[SKU]
+      ,[ID_Cliente]
+      ,[Quantidade_Vendida]
+  FROM [Vendas_Nova_Varejo].[dbo].[Itens];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
