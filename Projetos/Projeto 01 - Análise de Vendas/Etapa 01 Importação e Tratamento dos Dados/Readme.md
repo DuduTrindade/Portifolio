@@ -48,7 +48,7 @@ Principais Etapas Realizadas:
 	✔Desenvolvi um modelo relacional alinhado ao negócio <br>
 	✔Defini tipos de dados apropriados para cada campo <br>
 
-2) Método de Importação
+2) Método de Importação<br>
 Utilizei `BULK INSERT` por oferecer:
 	- Alta eficiência com grandes volumes
 	- Controle preciso sobre formatos
