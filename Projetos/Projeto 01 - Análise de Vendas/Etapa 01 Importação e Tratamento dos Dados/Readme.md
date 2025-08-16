@@ -179,12 +179,12 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 </div>
 
 **Informações dos campos da tabela:**
-`Id_Venda`:	Identificador único da venda (ex SO45079)
-`Ordem_Compra`:	Número da ordem de compra
-`Data_Venda`:	Data da venda no formato DD/MM/AAAA
-`SKU`: Código do produto vendido (ex HL45, HL59)
-`ID_Cliente`:	Identificador do cliente
-`Qtd_Vendida`:	Quantidade vendida
+- `Id_Venda`:	Identificador único da venda (ex SO45079)
+- `Ordem_Compra`:	Número da ordem de compra
+- `Data_Venda`:	Data da venda no formato DD/MM/AAAA
+- `SKU`: Código do produto vendido (ex HL45, HL59)
+- `ID_Cliente`:	Identificador do cliente
+- `Qtd_Vendida`:	Quantidade vendida
 
 
 
@@ -194,7 +194,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 - 🆗✅Possíveis valores nulos ou duplicados
 - 🆗✅Formato dos Dados
 
-**Ações Tomadas::**
+**Ações Tomadas:** <br>
 Nenhuma ação necessária, os dados estão tratados e limpos.
 
 
