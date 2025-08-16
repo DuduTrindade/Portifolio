@@ -180,6 +180,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 </div>
 
 <br>
+
 **Informações dos campos da tabela:**
 - `Id_Venda`:	Identificador único da venda (ex SO45079)
 - `Ordem_Compra`:	Número da ordem de compra
@@ -209,6 +210,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 </div>
 
 <br>
+
 **Informações dos campos da tabela:**
 
 - `ID_Localidade`: 	Identificador numérico único
