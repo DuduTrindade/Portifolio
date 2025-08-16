@@ -50,7 +50,7 @@ Principais Etapas Realizadas:
 	✔Defini tipos de dados apropriados para cada campo <br>
 
 - Método de Importação
-Utilizei BULK INSERT por oferecer:
+Utilizei `BULK` INSERT por oferecer:
 	- Alta eficiência com grandes volumes
 	- Controle preciso sobre formatos
 	- Performance superior a métodos alternativos
