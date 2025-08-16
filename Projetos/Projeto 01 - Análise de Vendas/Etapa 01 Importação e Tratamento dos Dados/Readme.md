@@ -144,7 +144,6 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 **Problemas Encontrados:**
 
-- ❌Formato de data padrão americano
 - ❌Valores duplicados
 
 **Ações Tomadas:**
