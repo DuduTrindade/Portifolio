@@ -90,7 +90,8 @@ WHERE Rn > 1;
 
 -- Tabela Devoluções
 
-SELECT TOP (15) [Data_Devolucao]
+SELECT TOP (15) 
+       [Data_Devolucao]
       ,[Id_Loja]
       ,[SKU]
       ,[Qtde_Devolvida]
@@ -99,3 +100,41 @@ SELECT TOP (15) [Data_Devolucao]
 
 
 
+
+--Identificação de valores ausentes (missing data)
+
+SELECT 
+    *
+FROM Devolucoes
+WHERE
+    [Data_Devolucao] IS NULL OR
+    [Id_Loja]IS NULL OR
+    [SKU]IS NULL OR
+    [Qtde_Devolvida]IS NULL OR
+    [Motivo_Devolucao]IS NULL;
+
+
+--Detecteção duplicatas
+
+WITH CTE_Duplicata_Devolucao AS (
+SELECT
+    *,
+    ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja, SKU, Qtde_Devolvida, Motivo_Devolucao 
+                     ORDER BY Data_Devolucao) AS RN
+FROM Devolucoes)
+
+SELECT
+    *
+FROM CTE_Duplicata_Devolucao
+WHERE RN > 1;
+
+
+SELECT
+    *
+FROM Devolucoes
+WHERE
+    Data_Devolucao = '2022-05-05' AND 
+    Id_Loja = 200 AND 
+    SKU = 'HL170' AND 
+    Qtde_Devolvida = 1 AND
+    Motivo_Devolucao = 'Produto com defeito'
