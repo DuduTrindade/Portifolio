@@ -179,6 +179,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_itens.png">
 </div>
 
+<br>
 **Informações dos campos da tabela:**
 - `Id_Venda`:	Identificador único da venda (ex SO45079)
 - `Ordem_Compra`:	Número da ordem de compra
@@ -207,6 +208,7 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_localidades.png">
 </div>
 
+<br>
 **Informações dos campos da tabela:**
 
 - `ID_Localidade`: 	Identificador numérico único
@@ -237,3 +239,12 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 	<img  width="900" src="">
 </div>
 
+📊 Conclusão da Etapa
+
+Todos os dados brutos foram carregados no SQL Server com sucesso utilizando BULK INSERT.
+
+A qualidade dos dados foi avaliada através de EDA (valores nulos, duplicados, inconsistências).
+
+Foram aplicadas ações corretivas pontuais (ex.: exclusão de duplicatas, normalização de nomes, padronização de formatos).
+
+O dataset resultante encontra-se padronizado, limpo e confiável, pronto para a Etapa 02 – Modelagem dos Dados.

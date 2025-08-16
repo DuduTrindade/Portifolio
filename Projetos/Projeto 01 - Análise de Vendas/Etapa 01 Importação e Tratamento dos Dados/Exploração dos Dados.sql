@@ -201,6 +201,48 @@ SELECT TOP (15) [ID_Localidade]
 FROM [Vendas_Nova_Varejo].[dbo].[Localidades]
 
 
+-- ================== Tabela Lojas ================================
+
+SELECT TOP (10) [ID_Loja]
+      ,[Nome_Loja]
+      ,[Quantidade_Colaboradores]
+      ,[Tipo]
+      ,[id_Localidade]
+      ,[Gerente_Loja]
+      ,[Documento_Gerente]
+  FROM [Vendas_Nova_Varejo].[dbo].[Lojas];
+
+
+-- Identificação de valores ausentes (NULL)
+
+SELECT
+    *
+FROM Lojas
+WHERE ID_Loja IS NULL OR
+      Nome_Loja IS NULL OR
+      Quantidade_Colaboradores IS NULL OR
+      Tipo IS NULL OR
+      id_Localidade IS NULL OR
+      Gerente_Loja IS NULL OR
+      Documento_Gerente IS NULL;
+
+--Detecteção duplicatas
+WITH CTE_Duplicado_Lojas AS(
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY ID_Loja, Nome_Loja, Quantidade_Colaboradores, Tipo, id_Localidade,
+                            Gerente_Loja, Documento_Gerente ORDER BY Nome_Loja) AS RN
+    FROM Lojas
+)
+
+SELECT
+    *
+FROM CTE_Duplicado_Lojas
+WHERE RN > 1;
+
+
+
+
 
 
 
