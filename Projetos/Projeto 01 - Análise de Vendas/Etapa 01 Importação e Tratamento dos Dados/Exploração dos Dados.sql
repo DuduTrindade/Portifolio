@@ -165,11 +165,30 @@ SELECT TOP (15)
   FROM [Vendas_Nova_Varejo].[dbo].[Itens];
 
 
+-- Identificação de valores ausentes (NULL)
+SELECT
+    *
+FROM Itens
+WHERE Id_Venda IS NULL OR
+      Ordem_Compra IS NULL OR
+      Data_Venda IS NULL OR
+      SKU IS NULL OR
+      ID_Cliente IS NULL OR
+      Quantidade_Vendida IS NULL;
 
 
-
-
-
+--Detecteção duplicatas
+WITH CTE_Duplicados_Itens AS(
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY Id_Venda,  Ordem_Compra, Data_Venda, SKU, ID_Cliente, Quantidade_Vendida
+                        ORDER BY Id_Venda) AS RN
+    FROM Itens
+)
+SELECT
+    *
+FROM CTE_Duplicados_Itens
+WHERE RN > 1;
 
 
 
