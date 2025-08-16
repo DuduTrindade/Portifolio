@@ -288,3 +288,39 @@ WHERE RN > 1;
 
 
 
+
+
+
+-- ================== Tabela Produtos ================================
+
+SELECT TOP (15) 
+       [Id_Venda]
+      ,[Data_Venda]
+      ,[ID_Cliente]
+      ,[ID_Loja]
+  FROM [Vendas_Nova_Varejo].[dbo].[Vendas]
+
+
+-- Identificação de valores ausentes (NULL)
+SELECT
+    *
+FROM Vendas
+WHERE Id_Venda IS NULL OR
+      Data_Venda IS NULL OR
+      ID_Cliente IS NULL OR
+      ID_Loja IS NULL;
+
+--Detecteção duplicatas
+WITH CTE_Duplicado_Vendas AS(
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY Id_Venda, Data_Venda, ID_Cliente, ID_Loja
+                            ORDER BY Data_Venda) AS RN
+    FROM Vendas
+)
+
+SELECT
+    *
+FROM CTE_Duplicado_Vendas
+WHERE RN > 1;
+
