@@ -41,8 +41,19 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 
 Aqui está o <a href= "https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Importacao%20dos%20Dados.sql"> Link</a> dos scripts da Criação do Banco de Dados juntamente com as tabelas.
 
-- 1 Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio;
-- 2 Para cada tabela, criei a estrutura com os tipos de dados apropriados.
+Principais Etapas Realizadas:
+
+- 1. Estrutura do Banco:
+
+-✔ Criei o banco Vendas_Nova_Varejo no SQL Server
+-✔ Desenvolvi um modelo relacional alinhado ao negócio
+-✔ Defini tipos de dados apropriados para cada campo
+
+- 2. Método de Importação
+Utilizei BULK INSERT por oferecer:
+- Alta eficiência com grandes volumes
+- Controle preciso sobre formatos
+- Performance superior a métodos alternativos
 
 ### 3.1 Método de Importação dos Dados
 Utilizei o comando `BULK INSERT` do SQL Server por ser:
