@@ -101,13 +101,13 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 - ❌Formato de data padrão americano
 - ❌Possíveis valores nulos ou duplicados
 
-**Ações Tomadas::**
+**Ações Tomadas:**
 
 1. Normalização de nomes
 
 
 >Ao analisar a tabela, identifiquei que as colunas *Primeiro_nome e Sobrenome* estão com todos os caracteres em letras maiúsculas, o que não corresponde ao formato padrão desejado.
->Para corrigir esse problema, utilizarei o comando **UPDATE** na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
+>Para corrigir esse problema, utilizarei o comando `UPDATE` na tabela clientes, ajustando os registros para que apenas a primeira letra de cada nome e sobrenome fique em maiúscula, seguindo a convenção adequada.
 
 
 <div align="center" style="display: inline-block;">
@@ -119,7 +119,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 2. Padronização campo data_nascimento
 
 >A coluna *Data_Nascimento* está armazenada no formato padrão *AAAA-MM-DD* (ano-mês-dia), que é o formato nativo do SQL Server para o tipo de dados DATE. Este formato será mantido para permitir operações e cálculos com datas sem conversões.
->Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções **CONVERT ou FORMAT** quando necessário, mantendo o armazenamento original.
+>Para exibição no formato brasileiro *DD-MM-AAAA* (dia-mês-ano), utilizaremos as funções `CONVERT` ou `FORMAT` quando necessário, mantendo o armazenamento original.
 
 
 
@@ -161,7 +161,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 ## **Tabela Devoluções**
 
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
 </div>
 
 **Informações dos campos da tabela:**
