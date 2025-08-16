@@ -200,12 +200,9 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 
 
 
-## **Tabela Localidades**
-<div align="center" style="display: inline-block;">
-	<img  width="900" src="">
-</div>
 
-## **Tabela Lojas**
+
+## **Tabela Localidades**
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_localidades.png">
 </div>
@@ -223,6 +220,10 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 **Ações Tomadas:** <br>
 Nenhuma ação necessária, os dados estão tratados e limpos.
 
+## **Tabela Lojas**
+<div align="center" style="display: inline-block;">
+	<img  width="900" src="">
+</div>
 
 ## **Tabela Produtos**
 <div align="center" style="display: inline-block;">
