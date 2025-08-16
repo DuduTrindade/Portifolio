@@ -132,7 +132,7 @@ SELECT
 FROM CTE_Duplicados_Devolucoes
 WHERE RN > 1;
 
-
+-- Selecionando
 SELECT
     *
 FROM Devolucoes
@@ -142,3 +142,17 @@ WHERE
     SKU = 'HL170' AND 
     Qtde_Devolvida = 1 AND
     Motivo_Devolucao = 'Produto com defeito'
+
+
+
+-- Apagando
+WITH CTE_Duplicados_Devolucoes AS(
+SELECT
+    *,
+    ROW_NUMBER() OVER(PARTITION BY Data_Devolucao, Id_Loja,SKU, Qtde_Devolvida, Motivo_Devolucao
+                      ORDER BY Data_Devolucao) AS RN
+FROM Devolucoes
+)
+
+DELETE FROM CTE_Duplicados_Devolucoes
+WHERE RN > 1;
