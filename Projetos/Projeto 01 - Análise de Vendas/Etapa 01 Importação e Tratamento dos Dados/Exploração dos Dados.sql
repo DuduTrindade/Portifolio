@@ -246,13 +246,45 @@ FROM CTE_Duplicado_Lojas
 WHERE RN > 1;
 
 
+-- ================== Tabela Produtos ================================
+
+SELECT TOP (15) 
+       [SKU]
+      ,[Produto]
+      ,[Marca]
+      ,[Tipo_Produto]
+      ,[Preco_Unitario]
+      ,[Custo_Unitario]
+FROM [Vendas_Nova_Varejo].[dbo].[Produtos];
 
 
 
+-- Identificação de valores ausentes (NULL)
+
+SELECT
+    *
+FROM Produtos
+WHERE SKU IS NULL OR
+      Produto IS NULL OR
+      Marca IS NULL OR
+      Tipo_Produto IS NULL OR
+      Preco_Unitario IS NULL OR
+      Custo_Unitario IS NULL;
 
 
+--Detecteção duplicatas
+WITH CTE_Duplicado_Produtos AS(
+    SELECT
+        *,
+        ROW_NUMBER() OVER(PARTITION BY SKU, Produto, Marca, Tipo_Produto,Preco_Unitario, Custo_Unitario 
+                            ORDER BY Produto) AS RN
+    FROM Produtos
+)
 
-
+SELECT
+    *
+FROM CTE_Duplicado_Produtos
+WHERE RN > 1;
 
 
 
