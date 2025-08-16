@@ -200,32 +200,37 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 
 
 
-
-
-
-
-
-
-
-
-
 ## **Tabela Localidades**
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c4.png">
+	<img  width="900" src="">
 </div>
 
 ## **Tabela Lojas**
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c5.png">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_localidades.png">
 </div>
+
+- `ID_Localidade`: 	Identificador numérico único
+- `Pais`: Nome do país
+- `Continente`:	Continente onde o país está localizado
+
+**Problemas Encontrados:**
+
+- 🆗✅Detecção de campos nulos
+- 🆗✅Possíveis valores nulos ou duplicados
+- 🆗✅Formato dos Dados
+
+**Ações Tomadas:** <br>
+Nenhuma ação necessária, os dados estão tratados e limpos.
+
 
 ## **Tabela Produtos**
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c6.png">
+	<img  width="900" src="">
 </div>
 
 ## **Tabela Vendas**
 <div align="center" style="display: inline-block;">
-	<img  width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/c7.png">
+	<img  width="900" src="">
 </div>
 
