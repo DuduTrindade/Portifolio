@@ -203,7 +203,7 @@ FROM [Vendas_Nova_Varejo].[dbo].[Localidades]
 
 -- ================== Tabela Lojas ================================
 
-SELECT TOP (10) [ID_Loja]
+SELECT TOP (15) [ID_Loja]
       ,[Nome_Loja]
       ,[Quantidade_Colaboradores]
       ,[Tipo]
@@ -211,6 +211,11 @@ SELECT TOP (10) [ID_Loja]
       ,[Gerente_Loja]
       ,[Documento_Gerente]
   FROM [Vendas_Nova_Varejo].[dbo].[Lojas];
+
+
+
+
+
 
 
 -- Identificação de valores ausentes (NULL)
