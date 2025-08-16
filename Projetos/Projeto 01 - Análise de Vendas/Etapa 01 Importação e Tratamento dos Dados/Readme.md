@@ -70,6 +70,8 @@ Técnicas aplicadas:
 
 🚨 Identificação de outliers e inconsistências
 
+Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Explora%C3%A7%C3%A3o%20dos%20Dados.sql">Link</a> para os scripts de Exploração dos dados
+
 
  ## 4.1 Tabela Clientes
 
