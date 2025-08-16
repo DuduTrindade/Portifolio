@@ -36,12 +36,19 @@ COMMIT;
 SELECT TOP 10 * FROM Clientes;
 
 
+
+
+
 -- Conversão campo data de nascimento
+
 SELECT TOP 15
     Data_Nascimento,
     CONVERT(VARCHAR, Data_Nascimento, 105) AS data_convertida,
     FORMAT(Data_Nascimento, 'dd-MM-yyyy') AS data_formatada
 FROM Clientes
+
+
+
 
 
 --Identificação de valores ausentes (missing data)
