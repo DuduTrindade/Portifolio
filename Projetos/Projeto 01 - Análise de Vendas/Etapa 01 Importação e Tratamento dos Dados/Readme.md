@@ -71,28 +71,11 @@ Técnicas aplicadas:
 🚨 Identificação de outliers e inconsistências
 
 
- ## 5.1 Tabela Clientes
-
-~~~sql
--- Verificação da estrutura da tabela
-SELECT TOP (20) 
-	   [ID_Cliente]
-      ,[Primeiro_Nome]
-      ,[Sobrenome]
-      ,[Email]
-      ,[Genero]
-      ,[Data_Nascimento]
-      ,[Estado_Civil]
-      ,[Num_Filhos]
-      ,[Nivel_Escolar]
-      ,[Documento]
-      ,[Id_Localidade]
-  FROM [Vendas_Nova_Varejo].[dbo].[Clientes]
-~~~
+ ## 4.1 Tabela Clientes
 
 
 <div align="center" style="display: inline-block;">
-	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbClientes.png">
+	<img  width="700" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_clientes.png">
 </div>
 
 <br>
