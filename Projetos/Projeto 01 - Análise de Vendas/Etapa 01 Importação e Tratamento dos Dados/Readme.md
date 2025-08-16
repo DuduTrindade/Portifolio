@@ -36,7 +36,13 @@ Os dados utilizados neste projeto foram extraídos do sistema ERP da empresa e f
 |Vendas      | 25164    |Registra as vendas realizadas.
        
 
-## 3. Criação do Banco de Dados
+## 3. Criação do Banco de Dados e das Tabelas
+
+
+Aqui está o link <a href= "https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/Importacao%20dos%20Dados.sql"> dos scripts da Criação do Banco de Dados juntamente com as tabelas.
+
+- Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio:
+- Para cada tabela, criei a estrutura com os tipos de dados apropriados.
 
 ### 3.1 Modelagem Inicial
 Antes da importação, criei a estrutura do banco de dados no SQL Server com o nome `Vendas_Nova_Varejo`, seguindo um modelo relacional que reflete o negócio:
