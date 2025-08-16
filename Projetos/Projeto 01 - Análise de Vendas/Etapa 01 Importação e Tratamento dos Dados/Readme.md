@@ -161,7 +161,7 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 ## **Tabela Devoluções**
 
 <div align="center" style="display: inline-block;">
-	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tbDevolucoes.png">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/tabela_devolucoes.png">
 </div>
 
 **Informações dos campos da tabela:**
@@ -170,6 +170,16 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 - `SKU`: Código do produto devolvido
 - `Qtd_Devolvida`: Quantidade de itens devolvidos (geralmente 1, mas há casos de 2).
 - `Motivo_Devolucao`:  Razão da devolução, como Produto com defeito (mais frequente), Arrependimento (cliente não quis mais o produto), Nao informado (motivo não especificado), Troca Indisponível (quando a troca não pôde ser realizada).
+
+**Problemas Encontrados:**
+
+- ❌Formato de data padrão americano
+- ❌Valores duplicados
+
+**Ações Tomadas:**
+
+1. Verificação de duplicatas
+
 
 
 ## **Tabela Itens**
