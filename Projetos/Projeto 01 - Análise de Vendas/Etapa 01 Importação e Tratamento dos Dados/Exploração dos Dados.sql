@@ -190,8 +190,12 @@ SELECT
 FROM CTE_Duplicados_Itens
 WHERE RN > 1;
 
+-- ================== Tabela Localidades ================================
 
-
+SELECT TOP (35) [ID_Localidade]
+      ,[Pais]
+      ,[Continente]
+  FROM [Vendas_Nova_Varejo].[dbo].[Localidades]
 
 
 
