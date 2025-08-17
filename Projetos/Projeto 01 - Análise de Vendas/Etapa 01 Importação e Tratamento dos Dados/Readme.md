@@ -2,7 +2,7 @@
 
 ## 1. Introdução e Contexto
 
-Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dados que serão utilizados nas análises subsequentes.
+Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dados que serão utilizados nas análises futuras.
 
 **Objetivos principais:**
 - Importar dados de múltiplas fontes CSV
