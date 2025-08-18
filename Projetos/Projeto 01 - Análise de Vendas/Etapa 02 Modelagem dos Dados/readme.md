@@ -27,9 +27,15 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 - **Remover redundâncias da tabela** `Itens` (não precisa repetir cliente e data).
 - **Ligar devoluções às vendas/itens**, não só a produtos e lojas.
 
+#### Remover redundâncias da tabela itens
+
 <div align="center" style="display: inline-block;">
 	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/eliminando_redundancia.png">
 </div>
+
+<br>
+
+
 ### 📖 Dicionário de Dados
 																										
 | Nome_Tabela | Nome_Coluna            | Descrição dos Campos                                                                                                                                               | Tipo_Dado   |
