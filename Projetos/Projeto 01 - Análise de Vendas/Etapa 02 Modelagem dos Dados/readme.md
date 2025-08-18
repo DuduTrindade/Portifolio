@@ -1,6 +1,29 @@
 ## 🧱 Etapa 02 – Modelagem dos Dados
 
 
+### ⚠️ Pontos a revisar/melhorar:
+
+#### 1.Tabela `Itens`
+
+- Contém **ID_Cliente** e **Data_Venda**, que já estão na tabela Vendas.
+🔹 Isso é redundância.
+➝ Melhor deixar apenas `Id_Venda`, `SKU`, `Quantidade_Vendida` e `Ordem_Compra`.
+(Se precisar do cliente ou da data, busca-se via `JOIN` em `Vendas`).
+
+#### 2.Tabela `Devolucoes`
+
+- Está ligada a **Produtos** e **Lojas**, mas não a **Vendas/Itens**.
+🔹 Isso pode gerar inconsistências, pois uma devolução deveria estar ligada a uma venda específica (ou item vendido).
+➝ Sugestão: incluir `Id_Venda` ou `Id_Item` em `Devolucoes`, para rastrear qual venda gerou a devolução.
+
+#### 3.Tabela `Lojas`
+
+- Tem `Gerente_Loja` e `Documento_Gerente`.
+🔹 Se for necessário controlar gerentes como entidades próprias, talvez fosse melhor ter uma tabela **Gerentes**.
+Mas, se não for prioridade, pode ficar assim
+
+
+
 ### 📖 Dicionário de Dados
 																										
 | Nome_Tabela | Nome_Coluna            | Descrição dos Campos                                                                                                                                               | Tipo_Dado   |
