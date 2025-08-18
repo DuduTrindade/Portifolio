@@ -27,6 +27,8 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 - **Remover redundâncias da tabela** `Itens` (não precisa repetir cliente e data).
 - **Ligar devoluções às vendas/itens**, não só a produtos e lojas.
 
+<hr>
+
 #### Remover redundâncias da tabela itens
 
 <div align="center" style="display: inline-block;">
