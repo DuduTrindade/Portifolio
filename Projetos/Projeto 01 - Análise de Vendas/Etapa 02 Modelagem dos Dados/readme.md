@@ -5,9 +5,9 @@
 
 #### 1.Tabela `Itens`
 
-- Contém **ID_Cliente** e **Data_Venda**, que já estão na tabela Vendas.
-🔹 Isso é redundância.
-➝ Melhor deixar apenas `Id_Venda`, `SKU`, `Quantidade_Vendida` e `Ordem_Compra`.
+- Contém **ID_Cliente** e **Data_Venda**, que já estão na tabela Vendas.<br>
+🔹 Isso é redundância.<br>
+➝ Melhor deixar apenas `Id_Venda`, `SKU`, `Quantidade_Vendida` e `Ordem_Compra`.<br>
 (Se precisar do cliente ou da data, busca-se via `JOIN` em `Vendas`).
 
 #### 2.Tabela `Devolucoes`
