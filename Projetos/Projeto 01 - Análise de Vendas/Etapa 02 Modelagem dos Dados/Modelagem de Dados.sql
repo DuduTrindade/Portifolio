@@ -29,6 +29,7 @@ ALTER TABLE ITENS
 -- Relacionamento entre ITENS e PRODUTOS
 ALTER TABLE ITENS
 	ADD CONSTRAINT FK_Itens_Produtos_SKU FOREIGN KEY (SKU) REFERENCES PRODUTOS (SKU)
+
 -- ---------------------------------------------------------	
 
 -- TABELA CLIENTES
@@ -58,6 +59,7 @@ ALTER TABLE DEVOLUCOES
 -- Relacionamento entre Produtos e Devoluções
 ALTER TABLE DEVOLUCOES
 	ADD CONSTRAINT FK_ProdutoSKU_DevolucaoSKU_SKU FOREIGN KEY (SKU) REFERENCES PRODUTOS (SKU)
+
 -- ----------------------------------------------------------
 
 -- TABELA LOCALIDADES
