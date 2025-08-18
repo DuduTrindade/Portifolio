@@ -2,8 +2,7 @@
 
 
 ### 📖 Dicionário de Dados
-
-#### Tabela Clientes																										
+																										
 | Nome_Tabela | Nome_Coluna            | Descrição dos Campos                                                                                                                                               | Tipo_Dado   |
 |-------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
 | Clientes    | ID_Cliente             | Identificador único do cliente                                                                                                                                    | smallint    |
@@ -49,15 +48,7 @@
 | Vendas      | ID_Cliente             | Identificador do cliente                                                                                                                                          | smallint    |
 | Vendas      | ID_Loja                | Identificador da loja                                                                                                                                             | smallint    |
 
-
-
-
-### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
-
-
-
-
-### 🧭 Classificação Dimensão x Fato
+### 🧭 Classificação Tabelas Dimensão x Fato
 
 Tabelas Fato (registram eventos)	
 - Vendas
@@ -69,6 +60,14 @@ Tabelas de 	Dimensão (contexto descritivo)
 - Clientes
 - Localidades
 - Lojas
+
+
+### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
+
+
+
+
+
 	
 
 
