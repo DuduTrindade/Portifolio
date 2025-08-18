@@ -20,6 +20,8 @@ ALTER TABLE VENDAS
 
 -- TABELA ITENS
 
+SELECT * FROM ITENS
+
 -- REMOVENDO REDUNDÂNCIAS
 
 -- Deletando o campo Data_venda
@@ -31,26 +33,21 @@ ALTER TABLE ITENS
 ALTER TABLE ITENS
 	DROP COLUMN ID_CLIENTE;
 
-SELECT * FROM ITENS
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
--- adicionando chave composta
+-- Adicionando o campo Id_item
 ALTER TABLE ITENS
-	ADD CONSTRAINT PK_IdVenda_OrdemCompra PRIMARY KEY (ID_VENDA, ORDEM_COMPRA)
+	ADD Id_item INT IDENTITY(1,1)
+
+-- Adicionando chave PRIMÁRIA
+ALTER TABLE ITENS
+	ADD CONSTRAINT PK_Itens_Id_item PRIMARY KEY (Id_item)
+
+
+
+
+
 
 -- Relacionamento entre ITENS e VENDAS
 ALTER TABLE ITENS
