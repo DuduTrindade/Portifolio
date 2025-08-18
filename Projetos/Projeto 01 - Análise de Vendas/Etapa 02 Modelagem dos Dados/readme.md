@@ -10,9 +10,9 @@
 ### 🧭 Classificação Dimensão x Fato: Documente quais são suas tabelas fato e dimensão:
 
 Tabelas Fato (registram eventos)	
-- 1. Vendas
-- 2. Itens
-- 3. Devoluções
+- 1.Vendas
+- 2.Itens
+- 3.Devoluções
 
 Tabelas de 	Dimensão (contexto descritivo)
 - 1. Produtos
