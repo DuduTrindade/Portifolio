@@ -42,7 +42,7 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 No DER atual, a tabela **Devoluções** está ligada apenas a **Produtos** e **Lojas**, mas **não garante o vínculo com a venda original**. 
 Isso pode gerar problema, pois uma devolução sempre deveria estar associada a um item de venda específico.
 
-###🔧 Como resolver:
+### 🔧 Como resolver:
 
 **Relacionar** `Devolucoes` com `Itens`
 - Adicionar uma nova coluna `Id_Item` (como chave primária da tabela `Itens`) e referencia-la na tabela `Devolucoes`.
