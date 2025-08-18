@@ -2,7 +2,7 @@
 
 
 ### 📖 Dicionário de Dados
-
+|Tabela Clientes
 | Campo            | Descrição do campo                                                                 | Tipo do dado   |
 |------------------|-----------------------------------------------------------------------------------|---------------|
 | ID_Cliente       | Identificador único do cliente                                                    | smallint      |
