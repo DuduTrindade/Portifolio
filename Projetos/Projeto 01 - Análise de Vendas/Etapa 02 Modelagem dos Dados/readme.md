@@ -22,7 +22,10 @@
 🔹 Se for necessário controlar gerentes como entidades próprias, talvez fosse melhor ter uma tabela **Gerentes**.<br>
 Mas, no nosso caso não é prioridade, pode ficar assim.
 
+### Ações Tomadas:
 
+- **Remover redundâncias da tabela** `Itens` (não precisa repetir cliente e data).
+- **Ligar devoluções às vendas/itens**, não só a produtos e lojas.
 
 ### 📖 Dicionário de Dados
 																										
