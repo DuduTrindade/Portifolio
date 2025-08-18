@@ -14,9 +14,12 @@
 | Data_Nascimento  | Data de nascimento no formato AAAA/MM/AA                                          | date          |
 | Estado_Civil     | C (Casado), S (Solteiro)                                                         | nchar         |
 | Num_Filhos       | Número de filhos.                                                                 | tinyint       |
-| Nivel_Escolar    | (Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo). | nvarchar |
+| Nivel_Escolar    | Tipos de Níveis:(Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo). | nvarchar |
 | Documento        | CPF ou RG                                                                         | nvarchar      |
 | Id_Localidade    | Código numérico que pode representar cidade, estado ou região                    | tinyint       |
+
+
+
 
 ### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
 
