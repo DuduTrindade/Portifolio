@@ -1,14 +1,25 @@
 ## 🧱 Etapa 02 – Modelagem dos Dados
-Melhorias para destacar profissionalismo:
 
-###📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
+### 📖 Dicionário de Dados
 
-###🧭 Classificação Dimensão x Fato: Documente quais são suas tabelas fato e dimensão:
+### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
 
-Tabela	Tipo	Descrição
-Vendas	Fato	Registra transações
-Produtos	Dimensão	Detalhes dos produtos
-Clientes	Dimensão	Dados demográficos
-...	...	...
+
+
+
+### 🧭 Classificação Dimensão x Fato: Documente quais são suas tabelas fato e dimensão:
+
+Tabelas Fato (registram eventos)	
+Vendas		|`Fato`	
+Itens		|`Fato`	
+Devoluções	|`Fato`
+Tabelas de Dimensão (contexto descritivo)
+Produtos	|Dimensão	
+Clientes	|Dimensão
+Localidades	|Dimensão
+Lojas		|Dimensão
+	
+
+
 
 ###🔐 Criação de índices nas tabelas fato (ex: Id_Cliente, SKU, Id_Loja) para melhorar performance.
