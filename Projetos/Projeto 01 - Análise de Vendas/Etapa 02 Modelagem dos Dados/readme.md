@@ -12,15 +12,15 @@
 
 #### 2.Tabela `Devolucoes`
 
-- Está ligada a **Produtos** e **Lojas**, mas não a **Vendas/Itens**.
-🔹 Isso pode gerar inconsistências, pois uma devolução deveria estar ligada a uma venda específica (ou item vendido).
+- Está ligada a **Produtos** e **Lojas**, mas não a **Vendas/Itens**.<br>
+🔹 Isso pode gerar inconsistências, pois uma devolução deveria estar ligada a uma venda específica (ou item vendido).<br>
 ➝ Sugestão: incluir `Id_Venda` ou `Id_Item` em `Devolucoes`, para rastrear qual venda gerou a devolução.
 
 #### 3.Tabela `Lojas`
 
-- Tem `Gerente_Loja` e `Documento_Gerente`.
-🔹 Se for necessário controlar gerentes como entidades próprias, talvez fosse melhor ter uma tabela **Gerentes**.
-Mas, se não for prioridade, pode ficar assim
+- Tem `Gerente_Loja` e `Documento_Gerente`.<br>
+🔹 Se for necessário controlar gerentes como entidades próprias, talvez fosse melhor ter uma tabela **Gerentes**.<br>
+Mas, no nosso caso não é prioridade, pode ficar assim.
 
 
 
