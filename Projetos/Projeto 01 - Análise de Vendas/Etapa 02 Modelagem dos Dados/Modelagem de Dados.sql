@@ -16,7 +16,37 @@ ALTER TABLE VENDAS
 	ADD CONSTRAINT FK_Vendas_Lojas_IdLoja FOREIGN KEY (Id_Loja) REFERENCES LOJAS (Id_Loja)
 
 -- ---------------------------------------------------------
+
+
 -- TABELA ITENS
+
+-- REMOVENDO REDUNDÂNCIAS
+
+-- Deletando o campo Data_venda
+ALTER TABLE ITENS
+	DROP COLUMN DATA_VENDA;
+
+
+-- Deletando o campo Id_cliente
+ALTER TABLE ITENS
+	DROP COLUMN ID_CLIENTE;
+
+SELECT * FROM ITENS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- adicionando chave composta
 ALTER TABLE ITENS
