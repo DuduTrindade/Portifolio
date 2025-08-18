@@ -1,5 +1,12 @@
 ## 🧱 Etapa 02 – Modelagem dos Dados
 
+### Diagrama DER do Banco de Dados
+
+<div align="center" style="display: inline-block;">
+	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/diagrama_der.png">
+</div>
+
+<br>
 
 ### ⚠️ Pontos a revisar/melhorar:
 
