@@ -94,6 +94,8 @@ FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 
 - **`Devoluções` → `Itens`**: agora cada devolução só existe se houver um item vendido correspondente.
 
+Aqui esta o <a href="">**Link**</a> dos scripts de relacionamento entre as tabelas.
+
 ### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
 
 <div align="center" style="display: inline-block;">

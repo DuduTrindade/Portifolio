@@ -17,7 +17,6 @@ ALTER TABLE VENDAS
 
 -- ---------------------------------------------------------
 
-
 -- TABELA ITENS
 
 SELECT * FROM ITENS
@@ -33,12 +32,6 @@ ALTER TABLE ITENS
 ALTER TABLE ITENS
 	DROP COLUMN ID_CLIENTE;
 
-
-
-
-
-
-
 -- Adicionando o campo Id_item
 ALTER TABLE ITENS
 	ADD Id_item INT IDENTITY(1,1)
@@ -46,10 +39,6 @@ ALTER TABLE ITENS
 -- Adicionando chave PRIMÁRIA
 ALTER TABLE ITENS
 	ADD CONSTRAINT PK_Itens_Id_item PRIMARY KEY (Id_item)
-
-SELECT * FROM Devolucoes
-
-
 
 
 -- Relacionamento entre ITENS e VENDAS
