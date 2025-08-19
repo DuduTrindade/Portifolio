@@ -106,12 +106,12 @@ Aqui esta o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projet
 
 ### 🧭 Classificação Tabelas Dimensão x Fato
 
-Tabelas Fato (registram eventos)	
+Tabelas `Fato` (registram eventos)	
 - Vendas
 - Itens
 - Devoluções
 
-Tabelas de 	Dimensão (contexto descritivo)
+Tabelas de 	`Dimensão` (contexto descritivo)
 - Produtos
 - Clientes
 - Localidades
@@ -119,7 +119,7 @@ Tabelas de 	Dimensão (contexto descritivo)
 
 
 
-### 🔐 Criação de índices nas tabelas fato e Dimensão para melhorar performance.
+### 🔐 Criação de índices nas tabelas Fato e Dimensão para melhorar performance.
 
 ~~~sql
 
