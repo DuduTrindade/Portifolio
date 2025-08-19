@@ -1,5 +1,11 @@
 ## 🧱 Etapa 02 – Modelagem dos Dados
 
+
+## 🛠️Tecnologias Utilizadas
+
+- SGBD **`SQL Server`**
+- Linguagem **`SQL`** 
+
 ### 📶Diagrama DER do Banco de Dados
 
 <div align="center" style="display: inline-block;">
