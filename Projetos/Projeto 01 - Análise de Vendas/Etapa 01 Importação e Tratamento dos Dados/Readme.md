@@ -305,9 +305,6 @@ Nenhuma ação necessária, os dados estão tratados e limpos.
 ## 📊 5. Conclusão da Etapa
 
 - Todos os dados brutos foram carregados no SQL Server com sucesso utilizando `BULK INSERT`.
-
-- A qualidade dos dados foi avaliada através de `EDA` (valores nulos, duplicados, inconsistências).
-
-- Foram aplicadas ações corretivas pontuais (ex.: exclusão de duplicatas, normalização de nomes, padronização de formatos).
-
-- O dataset resultante encontra-se padronizado, limpo e confiável, pronto para a Etapa 02 – Modelagem dos Dados.
+- A qualidade dos dados foi avaliada através da `EDA` Análise Exploratória dos Dados (`valores nulos`, `duplicados`, `inconsistências`).
+- Foram aplicadas ações corretivas pontuais (`exclusão de duplicatas`, `normalização de nomes`, `padronização de formatos`).
+- O dataset resultante encontra-se `padronizado`, `limpo` e `confiável`, pronto para a Etapa 02 – Modelagem dos Dados.
