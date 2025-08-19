@@ -36,7 +36,7 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 
 <hr>
 
-### Remover redundâncias da tabela itens
+### Remover Redundâncias da Tabela Itens
 
 <div align="center" style="display: inline-block;">
 	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/eliminando_redundancia.png">
@@ -44,7 +44,7 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 
 <br>
 
-### Ligar devoluções às vendas/itens
+### Ligar Tabela Devoluções às Tabelas  de Vendas/Itens
 
 No DER atual, a tabela **Devoluções** está ligada apenas a **Produtos** e **Lojas**, mas **não garante o vínculo com a venda original**. 
 Isso pode gerar problema, pois uma devolução sempre deveria estar associada a um item de venda específico.
