@@ -112,6 +112,20 @@ FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 
 - **`Devoluções` → `Itens`**: agora cada devolução só existe se houver um item vendido correspondente.
 
+### ✅Tabela Devoluções e Itens Após as Melhorias
+
+<div align="center" style="display: inline-block;">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Devolu%C3%A7%C3%A3o_Ajustada.png">
+</div>
+
+<br>
+
+<div align="center" style="display: inline-block;">
+	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Itens_Ajustada.png">
+</div>
+
+<br>
+
 Aqui esta o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/Modelagem%20de%20Dados.sql">**Link**</a> dos scripts de relacionamento entre as tabelas.
 
 ### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
