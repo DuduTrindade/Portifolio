@@ -115,13 +115,13 @@ FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 ### ✅Tabela Devoluções e Itens Após as Melhorias
 
 <div align="center" style="display: inline-block;">
-	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Devolu%C3%A7%C3%A3o_Ajustada.png">
+	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Devolu%C3%A7%C3%A3o_Ajustada.png">
 </div>
 
 <br>
 
 <div align="center" style="display: inline-block;">
-	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Itens_Ajustada.png">
+	<img  width="600" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/Tabela_Itens_Ajustada.png">
 </div>
 
 <br>
