@@ -31,7 +31,7 @@ Mas, no nosso caso não é prioridade, pode ficar assim.
 
 ### Ações Tomadas:
 
-- **Remover redundâncias da tabela** `Itens` (não precisa repetir cliente e data).
+- **Remover redundâncias da tabela** `Itens` (não precisa repetir ID_Clientecliente e Data_Venda).
 - **Ligar devoluções às vendas/itens**, não só a produtos e lojas.
 
 <hr>
