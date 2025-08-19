@@ -90,6 +90,9 @@ ADD CONSTRAINT FK_Devolucoes_Itens
 FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 ~~~
 
+### ✅ O que melhorou
+
+- **`Devoluções` → `Itens`: agora cada devolução só existe se houver um item vendido correspondente**.
 
 ### 📖 Dicionário de Dados
 																										
