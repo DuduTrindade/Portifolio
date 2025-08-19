@@ -104,6 +104,26 @@ Aqui esta o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projet
 
 <br>
 
+### 🧭 Classificação Tabelas Dimensão x Fato
+
+Tabelas Fato (registram eventos)	
+- Vendas
+- Itens
+- Devoluções
+
+Tabelas de 	Dimensão (contexto descritivo)
+- Produtos
+- Clientes
+- Localidades
+- Lojas	
+
+
+
+### 🔐 Criação de índices nas tabelas fato (ex: Id_Cliente, SKU, Id_Loja) para melhorar performance.
+
+
+
+
 ### 📖 Dicionário de Dados
 																										
 | Nome_Tabela | Nome_Coluna            | Descrição dos Campos                                                                                                                                               | Tipo_Dado   |
@@ -151,28 +171,3 @@ Aqui esta o <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projet
 | Vendas      | ID_Cliente             | Identificador do cliente                                                                                                                                          | smallint    |
 | Vendas      | ID_Loja                | Identificador da loja                                                                                                                                             | smallint    |
 
-### 🧭 Classificação Tabelas Dimensão x Fato
-
-Tabelas Fato (registram eventos)	
-- Vendas
-- Itens
-- Devoluções
-
-Tabelas de 	Dimensão (contexto descritivo)
-- Produtos
-- Clientes
-- Localidades
-- Lojas
-
-
-
-
-
-
-
-
-	
-
-
-
-### 🔐 Criação de índices nas tabelas fato (ex: Id_Cliente, SKU, Id_Loja) para melhorar performance.
