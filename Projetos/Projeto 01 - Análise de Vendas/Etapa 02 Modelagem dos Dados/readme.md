@@ -1,6 +1,6 @@
 ## 🧱 Etapa 02 – Modelagem dos Dados
 
-### Diagrama DER do Banco de Dados
+### 📶Diagrama DER do Banco de Dados
 
 <div align="center" style="display: inline-block;">
 	<img  width="900" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/diagrama_der.png">
@@ -51,9 +51,44 @@ Isso pode gerar problema, pois uma devolução sempre deveria estar associada a 
 
 ### 🔧 Como resolver:
 
-**Relacionar** `Devolucoes` com `Itens`
-- Adicionar uma nova coluna `Id_Item` (como chave primária da tabela `Itens`) e referencia-la na tabela `Devolucoes`.
-- Assim, cada devolução se refere diretamente a um item **vendido**.
+
+1. **Criar `Id_Item` na tabela Itens**
+
+~~~sql
+ALTER TABLE Itens
+ADD Id_Item INT IDENTITY(1,1) PRIMARY KEY;
+~~~
+
+2. **Adicionar `Id_Item` em Devoluções**
+
+~~~sql
+ALTER TABLE Devolucoes
+ADD Id_Item INT NULL;
+~~~
+
+3. **Popular `Id_Item`**
+
+~~~sql
+UPDATE d
+SET d.Id_Item = i.Id_Item
+FROM Devolucoes d
+INNER JOIN (
+    SELECT SKU, MIN(Id_Item) AS Id_Item
+    FROM Itens
+    GROUP BY SKU
+) i ON d.SKU = i.SKU;
+~~~
+
+4. **Criar a FOREIGN KEY**
+
+~~~sql
+ALTER TABLE Devolucoes
+ALTER COLUMN Id_Item INT NOT NULL;
+
+ALTER TABLE Devolucoes
+ADD CONSTRAINT FK_Devolucoes_Itens
+FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
+~~~
 
 
 ### 📖 Dicionário de Dados

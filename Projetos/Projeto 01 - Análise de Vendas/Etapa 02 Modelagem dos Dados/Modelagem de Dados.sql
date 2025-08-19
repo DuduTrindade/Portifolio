@@ -36,6 +36,9 @@ ALTER TABLE ITENS
 
 
 
+
+
+
 -- Adicionando o campo Id_item
 ALTER TABLE ITENS
 	ADD Id_item INT IDENTITY(1,1)
@@ -44,7 +47,7 @@ ALTER TABLE ITENS
 ALTER TABLE ITENS
 	ADD CONSTRAINT PK_Itens_Id_item PRIMARY KEY (Id_item)
 
-
+SELECT * FROM Devolucoes
 
 
 
@@ -76,16 +79,40 @@ SELECT * FROM Devolucoes
 ALTER TABLE DEVOLUCOES
 	ADD Id_Devolucao INT IDENTITY(1,1)
 
--- Adiciona uma chave PRIMARY COMPOSTA
+--Adiciona a coluna Id_Item
 ALTER TABLE DEVOLUCOES
-	ADD CONSTRAINT PK_IdLoja_IdDevolucao PRIMARY KEY (Id_Loja, Id_Devolucao)
+	ADD Id_Item INT NULL;
+
+
+--Popular a coluna Id_Item
+UPDATE d
+SET d.Id_Item = i.Id_Item
+FROM Devolucoes d
+INNER JOIN (
+    SELECT SKU, MIN(Id_Item) AS Id_Item
+    FROM Itens
+    GROUP BY SKU
+) i ON d.SKU = i.SKU;
+
+
+-- Criar a FK
+ALTER TABLE Devolucoes
+ALTER COLUMN Id_Item INT NOT NULL;
+
+
+-- Adiciona uma chave PRIMARY 
+ALTER TABLE DEVOLUCOES
+	ADD CONSTRAINT PK_Devolucoes_IdDevolucao PRIMARY KEY(Id_Devolucao);
 
 ALTER TABLE DEVOLUCOES
-	ADD CONSTRAINT FK_IdLoja FOREIGN KEY (Id_Loja) REFERENCES LOJAS (Id_Loja)
+	ADD CONSTRAINT FK_IdLoja FOREIGN KEY (Id_Loja) REFERENCES LOJAS (Id_Loja);
 
 -- Relacionamento entre Produtos e Devoluções
 ALTER TABLE DEVOLUCOES
-	ADD CONSTRAINT FK_ProdutoSKU_DevolucaoSKU_SKU FOREIGN KEY (SKU) REFERENCES PRODUTOS (SKU)
+	ADD CONSTRAINT FK_ProdutoSKU_DevolucaoSKU_SKU FOREIGN KEY (SKU) REFERENCES PRODUTOS (SKU);
+
+-- Relacionamento entre Itens e Devoluções
+ALTER TABLE Devolucoes ADD CONSTRAINT FK_Devolucoes_Itens FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 
 -- ----------------------------------------------------------
 
