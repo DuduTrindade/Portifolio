@@ -92,7 +92,9 @@ FOREIGN KEY (Id_Item) REFERENCES Itens(Id_Item);
 
 ### ✅ O que melhorou
 
-- **`Devoluções` → `Itens`: agora cada devolução só existe se houver um item vendido correspondente**.
+- **`Devoluções` → `Itens`**: agora cada devolução só existe se houver um item vendido correspondente.
+
+### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
 
 ### 📖 Dicionário de Dados
 																										
@@ -155,7 +157,7 @@ Tabelas de 	Dimensão (contexto descritivo)
 - Lojas
 
 
-### 📌 Diagrama ER completo (com chaves primárias, estrangeiras e cardinalidade).
+
 
 
 
