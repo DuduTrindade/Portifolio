@@ -5,11 +5,11 @@ O objetivo é tornar cada projeto acessível, facilitando sua compreensão e rep
 
 
 ## Lista de Projetos:
-
-<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas">
-    Análise de Vendas de E-Commerce
-</a>
-
+<h3>
+	<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas">
+		Análise de Vendas de E-Commerce
+	</a>
+</h3>
 Este projeto tem como objetivo analisar os dados de vendas da empresa Nova Varejo, que atua no seguimento de vendas de produtos
 eletrônicos e vestuário. A análise visa identificar decisões baseadas em insights para entender o comportamento do consumidor,
 desempenho das lojas em diferentes regiões, otimizar estratégias de vendas e reduzir custos. Analisamos a distribuição de 
