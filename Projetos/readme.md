@@ -5,7 +5,7 @@ O objetivo é tornar cada projeto acessível, facilitando sua compreensão e rep
 
 #
 
-##Lista de Projetos:
+## Lista de Projetos:
 
 <h2>
     <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas">
