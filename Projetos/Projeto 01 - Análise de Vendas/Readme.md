@@ -1,3 +1,5 @@
+![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/PROJETOS.png)
+
 # 🔍Analisando Vendas de Produtos Eletrônicos
 
 
