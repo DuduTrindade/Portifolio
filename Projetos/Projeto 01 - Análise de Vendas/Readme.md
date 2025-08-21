@@ -17,6 +17,12 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 - **`SQL`** (SQL Server)
 - **`Power BI`**
 
+<div style="display: inline-block">
+ <img align="center" width='45' height = '45' src="https://github.com/DuduTrindade/DuduTrindade/blob/main/SQL.png"/>&nbsp;
+ <img align="center" width='45' height = '45' src="https://github.com/DuduTrindade/DuduTrindade/blob/main/Excel.png"/>&nbsp
+ <img align="center" width='45' height = '45' src="https://github.com/DuduTrindade/DuduTrindade/blob/main/Power%20BI.png"/>
+</div>
+
 ## 🗂️Etapas do Projeto
 
 Este projeto de análise de vendas é dividido em 5 etapas principais:
