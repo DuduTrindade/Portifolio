@@ -31,7 +31,7 @@ Este projeto de análise de vendas é dividido em 5 etapas principais:
 
 
 
-A **Etapa 01 – Importação e Tratamento dos Dados** envolve a coleta de dados brutos, a verificação de sua qualidade e a aplicação de técnicas para corrigir inconsistências, remover duplicatas e padronizar os formatos. <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados">Link</a>
+A <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados">**Etapa 01 – Importação e Tratamento dos Dados**</a> envolve a coleta de dados brutos, a verificação de sua qualidade e a aplicação de técnicas para corrigir inconsistências, remover duplicatas e padronizar os formatos. 
 
 Na **Etapa 02 – Modelagem dos Dados**, os dados são organizados de forma estruturada, criando tabelas e relacionamentos que facilitam a análise, como tabelas fato e dimensão. <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados">Link</a>
 
