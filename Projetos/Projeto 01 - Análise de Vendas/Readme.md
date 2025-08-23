@@ -13,7 +13,7 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 ## 🛠️Tecnologias Utilizadas
 
 <div style="display: inline-block">
- <img align="center" width='90' height = '90' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/SQL.png"/>&nbsp;
+ <img align="center" width='93' height = '93' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/SQL.png"/>&nbsp;
  <img align="center" width='45' height = '45' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Excel.png"/>&nbsp
  <img align="center" width='60' height = '60' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Power%20BI.png"/>
 </div>
