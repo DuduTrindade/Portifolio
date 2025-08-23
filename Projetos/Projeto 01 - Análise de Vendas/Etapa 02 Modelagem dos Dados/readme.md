@@ -1,4 +1,4 @@
-## 🧱 Etapa 02 – Modelagem dos Dados
+![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados/img/5.png)
 
 
 ## 🛠️Tecnologias Utilizadas

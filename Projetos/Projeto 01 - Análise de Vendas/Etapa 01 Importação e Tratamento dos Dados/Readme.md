@@ -1,4 +1,4 @@
-# 📊 Etapa 01 - Importação e Tratamento de Dados
+![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados/img/4.png)
 
 ## 1. Introdução e Contexto
 
