@@ -13,7 +13,7 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 ## 🛠️Tecnologias Utilizadas
 
 
- <img width="500" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Tecnologias%20usadas.png"/>
+ <img width="250" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Tecnologias%20usadas.png"/>
 
 
 
@@ -21,9 +21,9 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 Este projeto de análise de vendas é dividido em 5 etapas principais:
 
-<div align="center" style="display: inline-block;">
-	<img  width="170" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png">
-</div>
+
+	<img align="center" width="170" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/etapas.png">
+
 
 
 
