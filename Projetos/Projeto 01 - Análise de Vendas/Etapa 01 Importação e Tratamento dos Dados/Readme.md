@@ -13,10 +13,6 @@ Nesta primeira etapa, focamos na **importação, validação e limpeza** dos dad
 - 🛢️ `SQL Server` (SGBDR)
 - 📋 Linguagem `T-SQL` (para scripts de importação e tratamento)
 
-**Escopo do projeto:**
-- 7 tabelas relacionadas ao processo de vendas
-- Dados históricos de 3 anos
-- Processo completo de ETL (Extract, Transform, Load)
 
 ## 2. Fontes de Dados
 
