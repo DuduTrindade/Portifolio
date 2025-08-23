@@ -12,8 +12,8 @@ Recém-contratado como Analista de Dados Júnior na empresa Nova Varejo, fui des
 
 ## 🛠️Tecnologias Utilizadas
 
-<div style="display: inline-block">
- <img align="center" width='500' height = '500' src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Tecnologias%20usadas.png>
+<div align="center" style="display: inline-block;">
+ <img width="170" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Tecnologias%20usadas.png>
 </div>
 
 ## 🗂️Etapas do Projeto
