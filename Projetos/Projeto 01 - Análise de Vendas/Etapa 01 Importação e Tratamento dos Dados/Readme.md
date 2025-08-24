@@ -79,19 +79,6 @@ Aqui está o  <a href="https://github.com/DuduTrindade/Portifolio/blob/main/Proj
 
 <br>
 
-**Informações dos campos da tabela:**
-- `Cliente_ID`: Identificador único do cliente
-- `Primeiro_nome`: Nome do cliente
-- `Sobrenome`: Sobrenome do cliente
-- `Email`:Endereço de e-mail do cliente
-- `Genero`:M(Masculino) ou F(Feminino).
-- `Data_Nascimento`: Data de nascimento no formatoAAAA/MM/AA
-- `Estado_Civil`:C(Casado), S(Solteiro)
-- `Num_Filhos`:Número de filhos.
-- `Nivel_Escolar`:(Ensino Médio Incompleto, Superior Incompleto, Ensino Médio Completo, Pós Graduação e Superior Completo).
-- `Documento`:Possivelmente CPF ou RG
-- `Id_Localidade`:Código numérico que pode representar cidade, estado ou região
-
 
 **Problemas Encontrados:**
 - ❌Nomes e sobrenomes em CAIXA ALTA
