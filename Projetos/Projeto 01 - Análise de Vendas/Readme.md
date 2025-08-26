@@ -33,7 +33,7 @@ A <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto
 
 Na <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados">**Etapa 02 – Modelagem dos Dados**</a>, os dados são organizados de forma estruturada, criando tabelas e relacionamentos que facilitam a análise, como tabelas fato e dimensão. 
 
-A **Etapa 03 – Perguntas de Negócio** traduz os objetivos em perguntas estratégicas que guiarão a análise, como identificar os produtos mais vendidos ou as lojas com melhor desempenho.
+A <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio">**Etapa 03 – Perguntas de Negócio**</a>  traduz os objetivos em perguntas estratégicas que guiarão a análise, como identificar os produtos mais vendidos ou as lojas com melhor desempenho.
 
 Já a **Etapa 04 – Análise Descritiva** utiliza ferramentas estatísticas e visuais para explorar os dados, identificar padrões, tendências e anomalias relevantes.
 
