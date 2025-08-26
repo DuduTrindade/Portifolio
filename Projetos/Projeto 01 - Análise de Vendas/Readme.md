@@ -36,7 +36,7 @@ Nesta etapa, os dados brutos foram importados, validados e tratados para garanti
 <br>
 Os dados foram organizados de forma estruturada, com a criação de tabelas e relacionamentos que facilitam a análise. Foi adotada uma modelagem em formato de tabelas fato e dimensão, permitindo melhor desempenho nas consultas e clareza na análise dos indicadores de negócio.
 
-<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio%20e%20An%C3%A1lises%20Descritivas">**Etapa 03 – Perguntas de Negócio & Análises Descritivas**</a>
+<a href="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio%20e%20An%C3%A1lises%20Descritivas/%F0%9F%94%8E%20Estrutura%20da%20An%C3%A1lise%20Descritiva.pdf">**Etapa 03 – Perguntas de Negócio & Análises Descritivas**</a>
 <br>
 Nesta etapa, os objetivos do projeto foram traduzidos em perguntas estratégicas de negócio, como identificar os produtos mais vendidos, analisar o desempenho das lojas e avaliar os padrões de devoluções. Em seguida, cada pergunta foi respondida por meio de análises descritivas, utilizando estatísticas e visualizações para extrair insights relevantes.
 
