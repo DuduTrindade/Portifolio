@@ -25,15 +25,23 @@ Este projeto de análise de vendas é dividido em 5 etapas principais:
 	<img  width="170" src="https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/Etapas%20do%20Projeto.png">
 </div>
 
+<br>
+
+
+<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados">**Etapa 01 – Importação e Tratamento dos Dados**</a> 
+<br>
+Nesta etapa, os dados brutos foram importados, validados e tratados para garantir consistência e qualidade. Foram aplicadas técnicas de limpeza, remoção de duplicatas, padronização de formatos e análise exploratória (EDA) inicial, com o objetivo de compreender a distribuição das variáveis e identificar possíveis inconsistências.
+
+<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados">**Etapa 02 – Modelagem dos Dados**</a>
+<br>
+Os dados foram organizados de forma estruturada, com a criação de tabelas e relacionamentos que facilitam a análise. Foi adotada uma modelagem em formato de tabelas fato e dimensão, permitindo melhor desempenho nas consultas e clareza na análise dos indicadores de negócio.
+
+<a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio">**Etapa 03 – Perguntas de Negócio & Análises Descritivas**</a>  traduz os objetivos em perguntas estratégicas que guiarão a análise, como identificar os produtos mais vendidos ou as lojas com melhor desempenho.
+<br>
+Nesta etapa, os objetivos do projeto foram traduzidos em perguntas estratégicas de negócio, como identificar os produtos mais vendidos, analisar o desempenho das lojas e avaliar os padrões de devoluções. Em seguida, cada pergunta foi respondida por meio de análises descritivas, utilizando estatísticas e visualizações para extrair insights relevantes.
 
 
 
-
-A <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados">**Etapa 01 – Importação e Tratamento dos Dados**</a> envolve a coleta de dados brutos, a verificação de sua qualidade e a aplicação de técnicas para corrigir inconsistências, remover duplicatas e padronizar os formatos. 
-
-Na <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados">**Etapa 02 – Modelagem dos Dados**</a>, os dados são organizados de forma estruturada, criando tabelas e relacionamentos que facilitam a análise, como tabelas fato e dimensão. 
-
-A <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio">**Etapa 03 – Perguntas de Negócio & Análises Descritivas**</a>  traduz os objetivos em perguntas estratégicas que guiarão a análise, como identificar os produtos mais vendidos ou as lojas com melhor desempenho.
 
 Por fim, a **Etapa 04 – Relatório** apresenta os resultados em formatos claros e objetivos, como dashboards, apresentações ou documentos, permitindo que os tomadores de decisão utilizem os insights obtidos de forma prática.
 
