@@ -29,22 +29,20 @@ Este projeto de análise de vendas é dividido em 4 etapas principais:
 
 
 <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2001%20Importa%C3%A7%C3%A3o%20e%20Tratamento%20dos%20Dados">**Etapa 01 – Importação e Tratamento dos Dados**</a> 
-<br><br>
+<br>
 Nesta etapa, os dados brutos foram importados, validados e tratados para garantir consistência e qualidade. Foram aplicadas técnicas de limpeza, remoção de duplicatas, padronização de formatos e análise exploratória (EDA) inicial, com o objetivo de compreender a distribuição das variáveis e identificar possíveis inconsistências.
 
 <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2002%20Modelagem%20dos%20Dados">**Etapa 02 – Modelagem dos Dados**</a>
-<br><br>
+<br>
 Os dados foram organizados de forma estruturada, com a criação de tabelas e relacionamentos que facilitam a análise. Foi adotada uma modelagem em formato de tabelas fato e dimensão, permitindo melhor desempenho nas consultas e clareza na análise dos indicadores de negócio.
 
 <a href="https://github.com/DuduTrindade/Portifolio/tree/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/Etapa%2003%20Perguntas%20de%20Neg%C3%B3cio">**Etapa 03 – Perguntas de Negócio & Análises Descritivas**</a>
-<br><br>
+<br>
 Nesta etapa, os objetivos do projeto foram traduzidos em perguntas estratégicas de negócio, como identificar os produtos mais vendidos, analisar o desempenho das lojas e avaliar os padrões de devoluções. Em seguida, cada pergunta foi respondida por meio de análises descritivas, utilizando estatísticas e visualizações para extrair insights relevantes.
 
 
-
-
-Por fim, a **Etapa 04 – Relatório** apresenta os resultados em formatos claros e objetivos, como dashboards, apresentações ou documentos, permitindo que os tomadores de decisão utilizem os insights obtidos de forma prática.
-
+Por fim, a **Etapa 04 – Relatório** 
+Os resultados obtidos foram consolidados em dashboards e relatórios visuais, apresentando os principais insights de forma clara e objetiva. Essa etapa permite que gestores e tomadores de decisão utilizem as análises de maneira prática para orientar estratégias e otimizar os resultados da empresa.
 
 
 
