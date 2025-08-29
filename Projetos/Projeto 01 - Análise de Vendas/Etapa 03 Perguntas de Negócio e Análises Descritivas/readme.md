@@ -13,3 +13,11 @@ Comportamento do cliente: ticket médio, perfil de compra.
 
 ✅ Relacionar perguntas às tabelas/modelo dimensional:
 Mostre visualmente (tabela ou gráfico) como cada pergunta se conecta às dimensões/fatos.
+
+
+
+<a href="https://drive.google.com/file/d/1KTiUylBFqWxNelElHKgPfB9B8ujDVH1l/view?usp=drive_link" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Abrir PDF em nova guia
+</a>
