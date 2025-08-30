@@ -3,7 +3,7 @@
 <p style="text-align: justify;">
 Neste espaço, você encontrará uma coleção dos meus projetos, cada um documentado com explicações detalhadas e códigos 
 comentados. O objetivo é tornar cada projeto acessível, facilitando sua compreensão e reprodução. 
-[Página Inicial](https://github.com/DuduTrindade/Portifolio?tab=readme-ov-file)
+<a href = "https://github.com/DuduTrindade/Portifolio?tab=readme-ov-file">Página Inicial</a>
 </p>
 
 ##  ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/pasta.png) Projetos
