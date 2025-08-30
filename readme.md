@@ -24,6 +24,11 @@ operacional da empresa. <br><br>
 	<img width="600" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/dash%201.png>
 </div>
 
+### Tecnologias e Linguagens Usadas
+
+<div align="center">
+	<img width="400" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/Linguagens%20Usadas.png>
+</div>
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
 
 Sinta-se à vontade para entrar em contato comigo a qualquer momento, estarei à disposição para ajudar no que for necessário.
