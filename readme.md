@@ -22,8 +22,6 @@ Analisamos a distribuição de clientes por gênero e faixa etária, distribuiç
 devolução por produtos e lojas, itens mais vendidos e tendências temporais de vendas. Com isso, obtemos insights valiosos 
 que orientam decisões estratégicas e melhoram a eficiência operacional da empresa.
 
-#### 🗂️ [Acessar Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos)
-
 
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
 
