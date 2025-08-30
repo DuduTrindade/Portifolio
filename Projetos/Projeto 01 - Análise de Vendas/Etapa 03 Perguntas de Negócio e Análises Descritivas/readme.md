@@ -21,12 +21,4 @@ Mostre visualmente (tabela ou gráfico) como cada pergunta se conecta às dimens
    rel="noopener noreferrer">
    Abrir PDF em nova guia
 </a>
-<button onclick="abrirPDF()">Abrir Documento PDF</button>
 
-<script>
-function abrirPDF() {
-    const fileId = '1KTiUylBFqWxNelElHKgPfB9B8ujDVH1l';
-    const url = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
-    window.open(url, '_blank');
-}
-</script>
