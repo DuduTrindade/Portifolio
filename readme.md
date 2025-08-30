@@ -12,7 +12,7 @@ projeto traz uma abordagem diferente para resolver problemas reais ou hipotétic
 
 #### 🗂️ [Acessar Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos)
 
-### ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
+## Contatos
 
 Sinta-se à vontade para entrar em contato comigo a qualquer momento, estarei à disposição para ajudar no que for necessário.
 
