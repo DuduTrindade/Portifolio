@@ -25,8 +25,11 @@ que orientam decisões estratégicas e melhoram a eficiência operacional da emp
 
 #### 🗂️ [Acessar Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos)
 
-### ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
+
 #
+
+#### ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
+
 Sinta-se à vontade para entrar em contato comigo a qualquer momento, estarei à disposição para ajudar no que for necessário.
 
 <a href="https://www.linkedin.com/in/eduardo-trindade-5506921b4/">
