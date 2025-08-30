@@ -15,7 +15,7 @@ projeto traz uma abordagem diferente para resolver problemas reais ou hipotétic
 		📈Análise de Vendas de E-Commerce
 	</a>
 </h3>
-Este projeto visa analisar os dados de vendas, devoluções e desempenho da empresa Nova Varejo utilizando SQL, com o intuito 
+Este projeto visa analisar os dados de vendas, devoluções e desempenho da empresa Nova Varejo, com o intuito 
 de gerar insights estratégicos para compreender o comportamento do consumidor, avaliar o desempenho das lojas por região, 
 otimizar as estratégias de vendas e reduzir custos.
 operacional da empresa. <br><br>
