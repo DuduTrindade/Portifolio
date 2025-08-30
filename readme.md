@@ -20,7 +20,7 @@ a análise visa identificar decisões baseadas em insights para entender o compo
 em diferentes regiões, otimizar estratégias de vendas e reduzir custos. Analisamos a distribuição de clientes por gênero e 
 faixa etária, distribuição geográfica, motivos de devolução, taxas de devolução por produtos e lojas, itens mais vendidos e 
 tendências temporais de vendas. Com isso, obtemos insights valiosos que orientam decisões estratégicas e melhoram a eficiência
-operacional da empresa. <br>
+operacional da empresa. <br><br>
 
 <div align="center">
 	<img width="600" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/dash%201.png>
