@@ -1,7 +1,9 @@
 ![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/img/CAPA.png)
 
 <p style="text-align: justify;">
-Neste espaço, você encontrará uma coleção dos meus projetos, cada um documentado com explicações detalhadas e códigos comentados. O objetivo é tornar cada projeto acessível, facilitando sua compreensão, reprodução e oferecendo uma oportunidade enriquecedora de aprendizado
+Neste espaço, você encontrará uma coleção dos meus projetos, cada um documentado com explicações detalhadas e códigos 
+comentados. O objetivo é tornar cada projeto acessível, facilitando sua compreensão e reprodução. 
+[Página Inicial](https://github.com/DuduTrindade/Portifolio?tab=readme-ov-file)
 </p>
 
 ##  ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/pasta.png) Projetos
