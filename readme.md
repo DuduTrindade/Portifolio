@@ -22,6 +22,7 @@ faixa etária, distribuição geográfica, motivos de devolução, taxas de devo
 tendências temporais de vendas. Com isso, obtemos insights valiosos que orientam decisões estratégicas e melhoram a eficiência
 operacional da empresa.
 
+<img width="700" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/dash%201.png>
 
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
 
