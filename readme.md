@@ -24,9 +24,9 @@ operacional da empresa. <br><br>
 	<img width="600" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/dash%201.png>
 </div>
 
-### Tecnologias e Linguagens Usadas
+#### Tecnologias e Linguagens Usadas
 
-<img width="250" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/Linguagens%20Usadas.png>
+<img width="300" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/Linguagens%20Usadas.png>
 
 
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
