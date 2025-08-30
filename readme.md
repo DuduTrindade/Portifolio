@@ -1,4 +1,4 @@
-![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/img/CAPA.png)
+https://github.com/DuduTrindade/Portifolio/blob/main/imagens/CAPA.png
 <p style="text-align: justify;">
 
 Olá, seja bem-vindo(a) ao meu **Portifólio de análises de dados**.
