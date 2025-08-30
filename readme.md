@@ -10,7 +10,7 @@ projeto traz uma abordagem diferente para resolver problemas reais ou hipotétic
 </p>
 
 
- ## 🗂️ [Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos)
+### 🗂️ [Meus Projetos](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos)
 
 ## ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/link.png) Contatos
 
