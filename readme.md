@@ -1,6 +1,7 @@
 ![](https://github.com/DuduTrindade/Portifolio/blob/main/imagens/banner.png)
 
 <p style="text-align: justify;">
+
 Olá, seja bem-vindo(a) ao meu **Portifólio de análises de dados**.
 
 Aqui você encontrará meus principais `projetos` que desenvolvo para mostrar meus conhecimentos e habilidades 
