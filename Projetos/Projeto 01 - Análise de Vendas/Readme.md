@@ -1,4 +1,4 @@
-https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/PROJETOS%20(3).png
+![](https://github.com/DuduTrindade/Portifolio/blob/main/Projetos/Projeto%2001%20-%20An%C3%A1lise%20de%20Vendas/img/PROJETOS%20(3).png)
 
 
 Este projeto tem como foco a análise de dados da empresa Nova Varejo que atua nos segmentos de eletrônicos e vestuário. 
