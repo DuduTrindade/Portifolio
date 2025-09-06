@@ -17,8 +17,7 @@ projeto traz uma abordagem diferente para resolver problemas reais ou hipotétic
 </h3>
 Este projeto visa analisar os dados de vendas, devoluções e desempenho da empresa Nova Varejo, com o intuito 
 de gerar insights estratégicos para compreender o comportamento do consumidor, avaliar o desempenho das lojas por região, 
-otimizar as estratégias de vendas e reduzir custos.
-operacional da empresa. <br><br>
+otimizar as estratégias de vendas e reduzir custos operacionais da empresa. <br><br>
 
 <div align="center">
 	<img width="600" src= https://github.com/DuduTrindade/Portifolio/blob/main/imagens/dash%201.png>
