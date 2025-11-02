@@ -22,3 +22,8 @@ Mostre visualmente (tabela ou gráfico) como cada pergunta se conecta às dimens
    Abrir PDF em nova guia
 </a>
 
+<a href="https://drive.google.com/uc?export=view&id=1KTiUylBFqWxNelElHKgPfB9B8ujDVH1l" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Abrir PDF em nova guia
+</a>
